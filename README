@@ -1,0 +1,45 @@
+# ViMediaManager #
+
+ViMediaManager is my try at building a media manager mainly for Mac, since the Mac platform has been seriously lacking in this department.
+
+**Requirements:**	Mac OS X 10.4 or later & Windows XP or later.
+
+**Feature List:**
+
+  * Manage your movies, TV shows & anime collections.
+  * Download media metadata from [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database") & [AniDB.net](http://anidb.net "Anime Database").
+  * Get Trailers, Posters, Fanart, Banners, ClearArt, Logo's and Thumbnails for your movies and series from [Youtube.com](http://Youtube.com "Youtube"), [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database") & [Fanart.tv](http://fanart.tv "Fanart Television").
+  * Batch search for movies & television shows.
+  * Batch folder renumber to match your movie and series titles.
+  * It looks and runs natively on Mac OS X!
+
+### F.A.Q.? ###
+
+#### Can you fix this bug or add that feature?
+I'll do my best to fix any bugs that are found, and add any features that are relevant and within my ability to make.  
+Let me know what you're still missing, and i'll try and add it!
+
+#### Why doesn't it have this or that basic feature?
+Well, i'm still in the early release stages and haven't even reached version 1.0 yet, so I haven't gotten around to adding everything yet.
+
+#### Your app is not showing this or that movie in the list, what's up with that?
+ViMediaManager actually needs a certain file structure to work with:
+
+* Movies Folder:
+* * Movie Title Folder
+* * * Movie File
+* * Movie Title Folder
+* * * Movie File
+
+But don't worry, ViMediaManager can help you easily organize your movies this way through the Tools menu.
+
+#### How about a Linux version?
+I can make a build for Linux, however I have no way of testing it and thus there'll be limited support for it, if you're still interested let me know and I'll see if i can get a Linux build online.
+
+#### How do I do _this_ or _that_, how does it work?
+Unfortunately I don't have a manual yet, so you'll have to try things out yourself for now.
+
+#### Does your app show studio logo's?
+Yes it does, but you'll have to download them separately from this thread: (or similar threads)  
+[http://forum.xbmc.org/showthread.php?t=100652](http://forum.xbmc.org/showthread.php?t=100652 "XBMC Forum - Colored Studio Logo's")  
+Once you've downloaded the logo's pack, put the pictures inside a folder named "Studios", put this folder in the same location as ViMediaManager.
