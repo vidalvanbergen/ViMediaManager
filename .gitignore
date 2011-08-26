@@ -68,7 +68,6 @@ tmtags
 /cache/*
 */cache/*
 
-*.psd
 *.rtf
 
 Builds*
