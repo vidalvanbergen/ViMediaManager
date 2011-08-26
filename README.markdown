@@ -33,9 +33,6 @@ ViMediaManager actually needs a certain file structure to work with:
 
 But don't worry, ViMediaManager can help you easily organize your movies this way through the Tools menu.
 
-#### How about a Linux version?
-I can make a build for Linux, however I have no way of testing it and thus there'll be limited support for it, if you're still interested let me know and I'll see if i can get a Linux build online.
-
 #### How do I do _this_ or _that_, how does it work?
 Unfortunately I don't have a manual yet, so you'll have to try things out yourself for now.
 
