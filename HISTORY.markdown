@@ -1,5 +1,6 @@
 v0.5b3
 * [Fix] Added a check for when there's no movies found.
+* [Fix] Added some error checking to when updating the item lists.
 
 v0.5b2 - 13/02/2011  
 * [New] Options to use folder.jpg's for file browsing.
