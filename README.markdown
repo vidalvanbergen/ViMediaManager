@@ -8,7 +8,7 @@ ViMediaManager is my try at building a media manager mainly for Mac, since the M
 
   * Manage your movies, TV shows & anime collections.
   * Download media metadata from [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database") & [AniDB.net](http://anidb.net "Anime Database").
-  * Get Trailers, Posters, Fanart, Banners, ClearArt, Logo's and Thumbnails for your movies and series from [Youtube.com](http://Youtube.com "Youtube"), [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database") & [Fanart.tv](http://fanart.tv "Fanart Television").
+  * Get Trailers, Posters, Fanart, Banners, ClearArt, CharacterArt, Logo's and Thumbnails for your movies and series from [Youtube.com](http://Youtube.com "Youtube"), [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database") & [Fanart.tv](http://fanart.tv "Fanart Television").
   * Batch search for movies & television shows.
   * Batch folder renumber to match your movie and series titles.
   * It looks and runs natively on Mac OS X!
