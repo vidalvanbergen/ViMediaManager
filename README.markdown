@@ -2,7 +2,7 @@
 
 ViMediaManager is my try at building a media manager mainly for Mac, since the Mac platform has been seriously lacking in this department.
 
-**Requirements:**	Mac OS X 10.4 or later & Windows XP or later.
+**Requirements:**	Mac OS X 10.4
 
 **Feature List:**
 
