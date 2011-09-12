@@ -2,7 +2,7 @@
 
 ViMediaManager is my try at building a media manager mainly for Mac, since the Mac platform has been seriously lacking in this department.
 
-**Requirements:**	Mac OS X 10.4
+**Requirements:**	Mac OS X 10.4 or later.
 
 **Feature List:**
 
@@ -15,12 +15,12 @@ ViMediaManager is my try at building a media manager mainly for Mac, since the M
 
 ### F.A.Q.? ###
 
-#### Can you fix this bug or add that feature?
-I'll do my best to fix any bugs that are found, and add any features that are relevant and within my ability to make.  
-Let me know what you're still missing, and i'll try and add it!
+#### Can you fix this bug?
+If you find a bug, let me know what you did to make it happens, and i’ll do my best to fix it.
 
 #### Why doesn't it have this or that basic feature?
-Well, i'm still in the early release stages and haven't even reached version 1.0 yet, so I haven't gotten around to adding everything yet.
+Well, i'm still in the early release stages and haven't even reached version 1.0 yet, so I haven't gotten around to adding everything yet.  
+You can let me know what you’re missing, and I’ll see if I can add it in a future version.
 
 #### Your app is not showing this or that movie in the list, what's up with that?
 ViMediaManager actually needs a certain file structure to work with:
@@ -39,4 +39,5 @@ Unfortunately I don't have a manual yet, so you'll have to try things out yourse
 #### Does your app show studio logo's?
 Yes it does, but you'll have to download them separately from this thread: (or similar threads)  
 [http://forum.xbmc.org/showthread.php?t=100652](http://forum.xbmc.org/showthread.php?t=100652 "XBMC Forum - Colored Studio Logo's")  
-Once you've downloaded the logo's pack, put the pictures inside a folder named "Studios", put this folder in the same location as ViMediaManager.
+[http://forum.xbmc.org/showthread.php?t=99554](http://forum.xbmc.org/showthread.php?t=99554 "Film/Movie/Game/Network/Radio Studio Flags Repository (Greyscale & Color)")  
+Once you've downloaded the logo's pack, put the pictures inside a folder named "Studios" in the same location as ViMediaManager or in the following path: '~/Library/Application Support/ViMediaManager/Studios/'.
