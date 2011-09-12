@@ -25,11 +25,11 @@ You can let me know what you’re missing, and I’ll see if I can add it in a f
 #### Your app is not showing this or that movie in the list, what's up with that?
 ViMediaManager actually needs a certain file structure to work with:
 
-* Movies Folder:
-  * Movie Title Folder
-    * Movie File
-  * Movie Title Folder
-    * Movie File
+- Movies Folder:  
+- - Movie Title Folder  
+- - - Movie File  
+- - Movie Title Folder  
+- - - Movie File  
 
 But don't worry, ViMediaManager can help you easily organize your movies this way through the Tools menu.
 
