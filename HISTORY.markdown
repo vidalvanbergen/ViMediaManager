@@ -1,2 +1,5 @@
+v0.5b2 - 13/02/2011
+[New] Options to use folder.jpg's for file browsing.
+
 v0.5b1 - 12/09/2011
 [NEW] Initial release.
