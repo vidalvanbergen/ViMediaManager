@@ -1,2 +1,2 @@
-v0.5b1 - 26/08/2011
+v0.5b1 - 12/09/2011
 [NEW] Initial release.
