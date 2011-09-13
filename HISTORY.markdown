@@ -1,6 +1,8 @@
 v0.5b3
 * [Fix] Added a check for when there's no movies found.
 * [Fix] Added some error checking when updating the item lists.
+* [Fix] Slightly improved adding tv shows to the sidebar.
+* [Fix] Fixed an important bug I introduced in the last beta causing images to not download properly.
 
 v0.5b2 - 13/02/2011  
 * [New] Options to use folder.jpg's for file browsing.
