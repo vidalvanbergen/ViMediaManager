@@ -1,3 +1,6 @@
+v0.5b4
+* [Fix] Important fix! put the entities converter back the way it was since it messes up the urls too much.
+
 v0.5b3
 * [Fix] Added a check for when there's no movies found.
 * [Fix] Added some error checking when updating the item lists.
