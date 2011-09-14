@@ -2,6 +2,7 @@ v0.5b5
 * [New] Added an option to disable reading NFO files when adding folders to the sidebar.
 * [New] Include use of movie file name when searching for posters.
 * [Fix] Slightly improved adding anime's to the sidebar, and maybe movies too.
+* [Fix] NFO files should use either file name or be 'movie.nfo', not folder name.
 
 v0.5b4
 * [Fix] Important fix! put the entities converter back the way it was since it messes up the urls too much.
