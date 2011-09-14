@@ -1,4 +1,8 @@
-v0.5b5 - 14/02/2011
+v0.5b6 - 14/09/2011
+-------------------
+* [New] Removed the option to disable reading NFO when filling the lists, and hopefully made some improvements to adding folders to the sidebars.
+
+v0.5b5 - 14/09/2011
 -------------------
 * [New] Added an option to disable reading NFO files when adding folders to the sidebar.
 * [New] Include use of movie file name when searching for posters.
@@ -6,12 +10,12 @@ v0.5b5 - 14/02/2011
 * [Fix] NFO files should use either file name or be 'movie.nfo', not folder name.
 
 
-v0.5b4 - 13/02/2011
+v0.5b4 - 13/09/2011
 -------------------
 * [Fix] Important fix! put the entities converter back the way it was since it messes up the urls too much.
 
 
-v0.5b3 - 13/02/2011
+v0.5b3 - 13/09/2011
 -------------------
 * [Fix] Added a check for when there's no movies found.
 * [Fix] Added some error checking when updating the item lists.
@@ -19,7 +23,7 @@ v0.5b3 - 13/02/2011
 * [Fix] Fixed an important bug I introduced in the last beta causing images to not download properly.
 
 
-v0.5b2 - 13/02/2011
+v0.5b2 - 13/09/2011
 -------------------
 * [New] Options to use folder.jpg's for file browsing.
 * [New] Use folder name instead of movie file name.
