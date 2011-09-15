@@ -16,6 +16,7 @@ Ideas
 Bugs
 ----
 * There seams to be a problem with non-english titles. Example: Harry Potter A Fénixův Řád (2007)
+* Slow/network drives might be stumbling over itself to keep up with reading data. [Made some improvements that might help, yet to test for beta 6+]
 
 Roadmap:
 --------
