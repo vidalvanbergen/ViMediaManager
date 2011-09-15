@@ -20,12 +20,12 @@ Bugs
 Roadmap:
 --------
 
-#### v0.5 [initial release] ####
+#### v0.5 [initial release]
 
 * Get it running without too many bugs and crashes!
 
-#### v1.0 ####
+#### v1.0
 * Recognize TV/Anime seasons/episodes.
 * TV Guide? ( http://services.tvrage.com/tools/quickinfo.php?show=%s )
 
-#### v2.0 - Future? ####
+#### v2.0 - Future?
