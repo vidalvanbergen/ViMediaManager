@@ -2,6 +2,7 @@ v0.5b7 - 15/09/2011
 -------------------
 * [Fix] Better name filtering for '(720p)', '(1080p)' and '-rip'.
 * [Fix] Filter links from plots to avoid crashing.
+* [New] Added TVRage ID when scraping shows.
 
 
 v0.5b6 - 14/09/2011
