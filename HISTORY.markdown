@@ -1,3 +1,9 @@
+v0.5b7 - 15/09/2011
+-------------------
+* [Fix] Better name filtering for '(720p)', '(1080p)' and '-rip'.
+* [Fix] Filter links from plots to avoid crashing.
+
+
 v0.5b6 - 14/09/2011
 -------------------
 * [New] Removed the option to disable reading NFO when filling the lists, and hopefully made some improvements to adding folders to the sidebars.
