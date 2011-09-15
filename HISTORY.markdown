@@ -2,7 +2,7 @@ v0.5b7 - 15/09/2011
 -------------------
 * [New] Added TVRage ID when scraping shows.
 * [New] Added CharacterArt support in edit metadata windows.
-* [New] Added support for "Hiatus" status, any shows that won't be shows in the next 14 days is classified as in hiatus either when fetching metadata or updateing status.
+* [New] Added support for "Hiatus" status. Any shows that won't be shows in the next 14 days is classified as in hiatus either when fetching metadata or updating status.
 * [Fix] Filter links from plots to avoid crashing.
 * [Fix] Better name filtering for '(720p)', '(1080p)' and '-rip'.
 
