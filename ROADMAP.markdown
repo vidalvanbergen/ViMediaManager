@@ -22,7 +22,6 @@ Roadmap:
 --------
 
 #### v0.5 [initial release]
-
 * Get it running without too many bugs and crashes!
 
 #### v1.0
