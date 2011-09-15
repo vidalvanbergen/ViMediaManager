@@ -7,16 +7,18 @@ Ideas
 * Show full episode list & compare it to downloaded episodes, scan for missing episodes.
 * Could it run in the background and scan media locations periodically and auto download information?
 * ---  TV Timeline/Anime? TV Guide - list & info about new pilots/new anime in the coming month
+* ---  TV Guide? ( http://services.tvrage.com/tools/quickinfo.php?show=%s )
 * TV Timeline (Create XML for next season TV shows based on imdb? followmy.tv list)
 * Anime Timeline (Create XML for next season anime based on neregate anime list)
 * Movie Wish list?
-* Export to TV Guides, Wishlists, existing items to website / website template.
+* Export to TV Guides, Wishlists, existing items to website / website template or text list?
+* --- Maybe a way to print a movies list. A small list with only the title and year, one with poster and title. maybe a complete Posterpage with all movies on and a big list with posters, title and info.
 
 
 Bugs
 ----
-* There seams to be a problem with non-english titles. Example: Harry Potter A Fénixův Řád (2007)
-* Slow/network drives might be stumbling over itself to keep up with reading metadata. [Made some improvements that might help, yet to test for beta 6+]
+* There seams to be a problem with non-english movie titles. Example: Harry Potter A Fénixův Řád (2007)
+* Slow/network drives might be stumbling over itself to keep up with reading metadata. [Made some improvements that might help, yet to hear any feedback on this for beta 6+]
 
 Roadmap:
 --------
@@ -26,6 +28,6 @@ Roadmap:
 
 #### v1.0
 * Recognize TV/Anime seasons/episodes.
-* TV Guide? ( http://services.tvrage.com/tools/quickinfo.php?show=%s )
+* Movie Sets support.
 
 #### v2.0 - Future?
