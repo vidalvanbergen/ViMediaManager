@@ -1,9 +1,12 @@
 ToDo
 ----
 * Get and set "source" flags (DVD, HDTV, Blu-ray, aspect, ratio, audio formats) using filename and through metadata window.
+* Grand/Grid Thumbnail overview when downloading images.
 
 Ideas
 -----
+* Debug mode for users.
+  * Start without reading NFO files to fill up the sidebar lists.
 * Show full episode list & compare it to downloaded episodes, scan for missing episodes.
 * Could it run in the background and scan media locations periodically and auto download information?
 * ---  TV Timeline/Anime? TV Guide - list & info about new pilots/new anime in the coming month

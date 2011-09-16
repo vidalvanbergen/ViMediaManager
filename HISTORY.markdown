@@ -1,3 +1,12 @@
+v0.5b8 - 16/09/2011
+-------------------
+* [New] Added debug mode, hold [ALT] while starting up the app to enter debug mode.
+* [New] Debug mode disables reading NFO files to fill the sidebar lists.
+* [New] Faux DVD cases replaced with more general image overlays.
+* [New] Order lists by title or sort title, show title in the list.
+* [New] Option for auto downloading images on scraping.
+* [Fix] Removed the option Rename Articles Last, since it wasn't actually used anyhow.
+
 v0.5b7 - 15/09/2011
 -------------------
 * [New] Added TVRage ID when scraping shows.
