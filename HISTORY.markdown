@@ -1,3 +1,8 @@
+v0.5b9 - 16/09/2011
+-------------------
+* [New] Select which images you want to auto download.
+* [Fix] Accidentally prevented movie image links to be set in the NFO file.
+
 v0.5b8 - 16/09/2011
 -------------------
 * [New] Added debug mode, hold [ALT] while starting up the app to enter debug mode.
