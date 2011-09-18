@@ -17,11 +17,21 @@ Ideas
 * Export to TV Guides, Wishlists, existing items to website / website template or text list?
 * --- Maybe a way to print a movies list. A small list with only the title and year, one with poster and title. maybe a complete Posterpage with all movies on and a big list with posters, title and info.
 
+PROBLEM FOUND: TVShows folder was not available for some reason. I had to open it up from Synology web interface and it got available in Finder afterwards.
+http://forum.xbmc.org/showpost.php?p=890434&postcount=122
+Please consider: 
+1. starting up app
+2. check for folder availability
+3. folders scan - hash/MD5 check for foldername changes (BTW app will/may crash if it's open and you change movie folder name in Finder) 
+4. processing images
+5. parsing xmls
 
 Bugs
 ----
 * There seams to be a problem with non-english movie titles. Example: Harry Potter A Fénixův Řád (2007)
 * Slow/network drives might be stumbling over itself to keep up with reading metadata. [Made some improvements that might help, yet to hear any feedback on this for beta 6+]
+* Qeue up error messages when scraping. and show them prettier.
+  * If XML is not valid, save it's title in a variable and show it after the mass update is done.
 
 Roadmap:
 --------

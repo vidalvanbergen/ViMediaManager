@@ -1,3 +1,9 @@
+v0.5b10 - 17/09/2011
+--------------------
+* [New] Using a more native OS X toolbar which can be edited.
+* [Fix] When selecting an item, check to see if it actually exists before reading NFO.
+* [Fix] When trying to read set info, it was trying to dig a layer to deep into nonexistence into the XML, this should be fixed now.
+
 v0.5b9 - 16/09/2011
 -------------------
 * [New] Select which images you want to auto download.
