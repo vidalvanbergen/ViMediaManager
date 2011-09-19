@@ -1,7 +1,7 @@
 v0.5b10 - 17/09/2011
 --------------------
 * [New] Using a more native OS X toolbar which can be edited.
-* [Fix] Hopefully fixed the general display area from shiften itself off of the window.
+* [Fix] Hopefully fixed the general display area from shifting itself off of the window.
 * [Fix] When selecting an item, check to see if it actually exists before reading NFO.
 * [Fix] When trying to read set info, it was trying to dig a layer to deep into nonexistence into the XML, this should be fixed now.
 * [Dif] Saved "Future Show" status in NFO file instead of calculating it at startup, this allows to see if shows started showing when doing a mass status update.
