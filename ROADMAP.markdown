@@ -5,8 +5,7 @@ ToDo
 
 Ideas
 -----
-* Debug mode for users.
-  * Start without reading NFO files to fill up the sidebar lists.
+* Make a quick drop-down choice on the main toolbar to quickly switch between sort options.
 * Show full episode list & compare it to downloaded episodes, scan for missing episodes.
 * Could it run in the background and scan media locations periodically and auto download information?
 * ---  TV Timeline/Anime? TV Guide - list & info about new pilots/new anime in the coming month
@@ -16,6 +15,8 @@ Ideas
 * Movie Wish list?
 * Export to TV Guides, Wishlists, existing items to website / website template or text list?
 * --- Maybe a way to print a movies list. A small list with only the title and year, one with poster and title. maybe a complete Posterpage with all movies on and a big list with posters, title and info.
+* Option to name image files as movie file-type.ext:
+  * http://forum.xbmc.org/showpost.php?p=892149&postcount=154
 
 PROBLEM FOUND: TVShows folder was not available for some reason. I had to open it up from Synology web interface and it got available in Finder afterwards.
 http://forum.xbmc.org/showpost.php?p=890434&postcount=122
