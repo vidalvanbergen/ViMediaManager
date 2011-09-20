@@ -1,4 +1,12 @@
-v0.5b10 - 17/09/2011
+v0.5b11 - 20/09/2011
+--------------------
+* [New] Added several naming options for movie images, NFO files & trailers.
+* [New] Single List items can now be updated in stead of having to repopulate the entire list, this will speed things up considerably when editing data.
+* [Dif] Removed a lot of repopulate list actions in favor of speed, though this will use a little more RAM. (Keeping everything in memory for now.)
+  Instead people will have to use the refresh button to update the list manualy more often.
+* [Fix] Animelist was showing the wrong list icons.
+
+v0.5b10 - 19/09/2011
 --------------------
 * [New] Using a more native OS X toolbar which can be edited.
 * [Fix] Hopefully fixed the general display area from shifting itself off of the window.
