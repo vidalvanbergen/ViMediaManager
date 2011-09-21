@@ -42,7 +42,7 @@ Yes it does, but you'll have to download them separately from this thread: (or s
 [http://forum.xbmc.org/showthread.php?t=99554](http://forum.xbmc.org/showthread.php?t=99554 "Film/Movie/Game/Network/Radio Studio Flags Repository (Greyscale & Color)")  
 Once you've downloaded the logo's pack, put the pictures inside a folder named "Studios" in the same location as ViMediaManager or in the following path: '~/Library/Application Support/ViMediaManager/Studios/'.
 
-**Source requirements:**
+**Source requirements:**  
 * Real Studio 2011
 * MonkeyBreadSoftware Plugin 10.5:
   * MBS REALbasic Main Plugin.rbx
