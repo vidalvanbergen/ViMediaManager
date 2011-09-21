@@ -44,10 +44,10 @@ Once you've downloaded the logo's pack, put the pictures inside a folder named "
 
 **Source requirements:**
 
-  * Real Studio 2011
-  * MonkeyBreadSoftware Plugin 10.5:
-    * MBS REALbasic Main Plugin.rbx
-    * MBS REALbasic CocoaBase Plugin.rbx
-    * MBS REALbasic Picture Plugin.rbx
-    * MBS REALbasic Tidy Plugin.rbx
-    * MBS REALbasic Util Plugin.rbx
+  * Real Studio 2011  
+  * MonkeyBreadSoftware Plugin 10.5:  
+    * MBS REALbasic Main Plugin.rbx  
+    * MBS REALbasic CocoaBase Plugin.rbx  
+    * MBS REALbasic Picture Plugin.rbx  
+    * MBS REALbasic Tidy Plugin.rbx  
+    * MBS REALbasic Util Plugin.rbx  
