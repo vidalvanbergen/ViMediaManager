@@ -1,3 +1,9 @@
+v0.5b12 - 21/09/2011
+--------------------
+* [New] More descriptive messages when mass updating or mass fetching items.
+* [Fix] Changed some naming issues for fanart and posters.
+* [Fix] Other minor changes and adjustments.
+
 v0.5b11 - 20/09/2011
 --------------------
 * [New] Added several naming options for movie images, NFO files & trailers.
@@ -75,3 +81,11 @@ v0.5b2 - 13/09/2011
 v0.5b1 - 12/09/2011
 -------------------
 * [NEW] Initial release.
+
+Download stats:
+-------------------
+* 0.5b7     -     39
+* 0.5b8     -     0
+* 0.5b9     -     112
+* 0.5b10    -     45
+* 0.5b11    -     45
