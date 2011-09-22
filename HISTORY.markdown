@@ -1,3 +1,11 @@
+v0.5b13 - 22/09/2011
+--------------------
+* [New] Check to see if previous art already exists and asks to delete it before proceeding to scrape data.
+* [New] Added a sort list button on the mini toolbar below the list, which will re-sort the list without reloading it.
+* [New] Added new toolbar item "Fetch All Metadata", this will fetch metadata for all media in the currently displayed list that doesn't have any metadata yet.
+* [New] Added 'Open' image button to the metadata editors to allow users to select images from their harddrives for use as poster, fanart, banner and extra images.
+* [Fix] Forgot to check weather or not a poster or fanart URL is available when downloading those for movies.
+
 v0.5b12 - 21/09/2011
 --------------------
 * [New] More descriptive messages when mass updating or mass fetching items.
@@ -88,4 +96,5 @@ Download stats:
 * 0.5b8     -     0
 * 0.5b9     -     112
 * 0.5b10    -     45
-* 0.5b11    -     45
+* 0.5b11    -     50
+* 0.5b12    -     52
