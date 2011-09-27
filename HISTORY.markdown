@@ -1,3 +1,12 @@
+v0.5 - 27/09/2011
+-----------------
+* [New] Added cleaning tool which cleans images and NFO files.
+* [New] Now using the genuine Sparkle framework for software updates.
+* [Dif] Use lowercase filenames for compatibility purposes.
+* [Dif] Changed the way folder paths are stored so that I might save this to a database in the future.
+* [Dif] Moved the preferences from XML to the more usual PLIST format using sparkle setdefaults.
+* [Fix] Fixed mass renaming, and probably even optimized it's performance.
+
 v0.5b13 - 22/09/2011
 --------------------
 * [New] Check to see if previous art already exists and asks to delete it before proceeding to scrape data.
@@ -97,4 +106,4 @@ Download stats:
 * 0.5b9     -     112
 * 0.5b10    -     45
 * 0.5b11    -     50
-* 0.5b12    -     52
+* 0.5b12    -     53

@@ -36,6 +36,7 @@ Roadmap:
 
 #### v0.6
 * [Movie SETS support.](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
+* [Clean/Delete NFO files and image files](http://forum.xbmc.org/showpost.php?p=897227&postcount=289 "demosthien")
 
 #### v0.7
 
@@ -49,4 +50,4 @@ Roadmap:
 #### v1.0
 * Recognize TV/Anime seasons/episodes.
 
-#### v2.0 - Future?
+#### v2.0 - Future?  
