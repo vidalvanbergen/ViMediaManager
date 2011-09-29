@@ -13,6 +13,7 @@ Ideas
 
 * Show full episode list & compare it to downloaded episodes, scan for missing episodes.
 * Could it run in the background and scan media locations periodically and auto download information?
+  * [When running in the background, have the ability to show a log file.](http://forum.xbmc.org/showpost.php?p=899757&postcount=321 "Pecinko")
 * [Print movie list](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
 * [Toolbar item to quickly switch between sort options.](http://forum.xbmc.org/showpost.php?p=892114&postcount=150 "i814u2")
 * [Option to name image files as movie file-type.ext](http://forum.xbmc.org/showpost.php?p=892149&postcount=154 "T800")

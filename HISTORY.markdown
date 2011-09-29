@@ -1,3 +1,9 @@
+v0.5.1 29/09/2011
+-----------------
+* [New] Added '.iso' to detectable movie file types.
+* [New] Added support for movie.jpg and movie.tbn as poster names.
+* [Dif] Clean out trailers.
+
 v0.5 - 27/09/2011
 -----------------
 * [New] Added cleaning tool which cleans images and NFO files.
@@ -106,4 +112,7 @@ Download stats:
 * 0.5b9     -     112
 * 0.5b10    -     45
 * 0.5b11    -     50
-* 0.5b12    -     53
+* 0.5b12    -     54
+* 0.5b13    -     150
+* 0.5       -     70
+* 0.5.1     -     0
