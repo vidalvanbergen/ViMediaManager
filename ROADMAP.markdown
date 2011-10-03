@@ -20,12 +20,15 @@ Ideas
 * [Look into using MediaInfo for movie file information](http://forum.xbmc.org/showpost.php?p=890200&postcount=115 "BigDave")
 * [Use alternative fanarts as extrathumbs](http://forum.xbmc.org/showpost.php?p=894152&postcount=229 "Smilenkovski")
 * [Use file names to check weather a title is a match, and use that match in preference to the first match](http://forum.xbmc.org/showpost.php?p=894247&postcount=238 "i814u2")
+* [Choose your own YouTube URL for trailers](http://forum.xbmc.org/showpost.php?p=901399&postcount=336 "steve1977")
+* [Recognize UK ratings, and other international rating systems](http://forum.xbmc.org/showpost.php?p=902311&postcount=341 "Tiny Clanger")
+* [Support DVD structures for TV shows](http://forum.xbmc.org/showpost.php?p=903042&postcount=345 "Linusorg")
 
 Bugs
 ----
 * [There seams to be a problem with non-english movie titles. Example: Harry Potter A Fénixův Řád (2007)](http://forum.xbmc.org/showpost.php?p=887363&postcount=32 "Pecinko")
 * Slow/network drives might be stumbling over itself to keep up with reading metadata.
-* Qeue up error messages when scraping. and show them prettier.
+* Queue up error messages when scraping. and show them prettier.
   * If XML is not valid, save it's title in a variable and show it after the mass update is done.
 * [Crash on startup/Glitch when a path is not available](http://forum.xbmc.org/showpost.php?p=890434&postcount=122 "Pecinko")
 
@@ -37,7 +40,7 @@ Roadmap:
 
 #### v0.6
 * [Movie SETS support.](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
-* [Clean/Delete NFO files and image files](http://forum.xbmc.org/showpost.php?p=897227&postcount=289 "demosthien")
+* Starting on international support by translating the app in both english and dutch, and with the help of others, more languages.
 
 #### v0.7
 

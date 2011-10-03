@@ -1,3 +1,11 @@
+v0.5.2 03/10/2011
+-----------------
+* [New] Set finder label depending on status color.
+* [New] Update single show status by right-clicking the show in the list and choosing 'update status'.
+* [New] Red right-click menu's for the general information area, if you right-click on the poster image it will ask you to download a poster image.
+* [Dif] Hiatus status is now much more accurate.
+* [Fix] Fixed trailer saving without extensions.
+
 v0.5.1 29/09/2011
 -----------------
 * [New] Added '.iso' to detectable movie file types.
