@@ -23,6 +23,9 @@ Ideas
 * [Choose your own YouTube URL for trailers](http://forum.xbmc.org/showpost.php?p=901399&postcount=336 "steve1977")
 * [Recognize UK ratings, and other international rating systems](http://forum.xbmc.org/showpost.php?p=902311&postcount=341 "Tiny Clanger")
 * [Support DVD structures for TV shows](http://forum.xbmc.org/showpost.php?p=903042&postcount=345 "Linusorg")
+* [Add mass art download, same as mass info download](http://forum.xbmc.org/showpost.php?p=904844&postcount=358 "Linusorg")
+* [List of ideas by Linusorg](http://forum.xbmc.org/showpost.php?p=907203&postcount=380 "Linusort")
+  * Sort list by Rating / Studio ?
 
 Bugs
 ----

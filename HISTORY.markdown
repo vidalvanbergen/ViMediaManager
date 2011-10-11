@@ -1,3 +1,8 @@
+v0.5.3 10/10/2011
+-----------------
+* [New] Added the option to sort by rating.
+* [Dif] Added 2 new video filetypes for support in scanning.
+
 v0.5.2 03/10/2011
 -----------------
 * [New] Set finder label depending on status color.
@@ -121,6 +126,8 @@ Download stats:
 * 0.5b10    -     45
 * 0.5b11    -     50
 * 0.5b12    -     54
-* 0.5b13    -     150
-* 0.5       -     70
-* 0.5.1     -     0
+* 0.5b13    -     151
+* 0.5       -     73
+* 0.5.1     -     161
+* 0.5.2     -     245
+* 0.5.3     -     
