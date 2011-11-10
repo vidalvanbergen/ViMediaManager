@@ -1,0 +1,1 @@
+#tag ClassProtected Class AniDBInherits HTTPSocketEnd Class#tag EndClass

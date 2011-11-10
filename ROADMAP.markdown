@@ -17,12 +17,12 @@ Ideas
 * [Print movie list](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
 * [Toolbar item to quickly switch between sort options.](http://forum.xbmc.org/showpost.php?p=892114&postcount=150 "i814u2")
 * [Option to name image files as movie file-type.ext](http://forum.xbmc.org/showpost.php?p=892149&postcount=154 "T800")
-* [Look into using MediaInfo for movie file information](http://forum.xbmc.org/showpost.php?p=890200&postcount=115 "BigDave")
 * [Use alternative fanarts as extrathumbs](http://forum.xbmc.org/showpost.php?p=894152&postcount=229 "Smilenkovski")
 * [Use file names to check weather a title is a match, and use that match in preference to the first match](http://forum.xbmc.org/showpost.php?p=894247&postcount=238 "i814u2")
 * [Choose your own YouTube URL for trailers](http://forum.xbmc.org/showpost.php?p=901399&postcount=336 "steve1977")
 * [Recognize UK ratings, and other international rating systems](http://forum.xbmc.org/showpost.php?p=902311&postcount=341 "Tiny Clanger")
 * [Support DVD structures for TV shows](http://forum.xbmc.org/showpost.php?p=903042&postcount=345 "Linusorg")
+* [When asking to overwrite prior art, reply with 'Yes', 'No' or 'Always'](http://forum.xbmc.org/showpost.php?p=912765&postcount=416 "Pecinko")
 * [Add mass art download, same as mass info download](http://forum.xbmc.org/showpost.php?p=904844&postcount=358 "Linusorg")
 * [List of ideas by Linusorg](http://forum.xbmc.org/showpost.php?p=907203&postcount=380 "Linusort")
   * Sort list by Rating / Studio ?
@@ -43,6 +43,7 @@ Roadmap:
 
 #### v0.6
 * [Movie SETS support.](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
+* [Look into using MediaInfo for movie file information](http://forum.xbmc.org/showpost.php?p=890200&postcount=115 "BigDave")
 * Starting on international support by translating the app in both english and dutch, and with the help of others, more languages.
 
 #### v0.7
