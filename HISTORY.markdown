@@ -1,4 +1,7 @@
-v0.5.4 ##/10/2011
+v0.6 ##/##/2011
+* [New] Complete rebuild from the start for optimalization purposes.
+
+v0.5.4 ##/11/2011
 -----------------
 * [Fix] Forgot to read the "sort list" option when opening the preferences window.
 
@@ -130,8 +133,8 @@ Download stats:
 * 0.5b10    -     45    /   Sep 19, 2011
 * 0.5b11    -     50    /   Sep 20, 2011
 * 0.5b12    -     54    /   Sep 21, 2011
-* 0.5b13    -     153   /   Sep 22, 2011
+* 0.5b13    -     154   /   Sep 22, 2011
 * 0.5       -     73    /   Sep 27, 2011
 * 0.5.1     -     162   /   Sep 29, 2011
-* 0.5.2     -     246   /   Oct 03, 2011
-* 0.5.3     -     406   /   Oct 11, 2011
+* 0.5.2     -     247   /   Oct 03, 2011
+* 0.5.3     -     730   /   Oct 11, 2011
