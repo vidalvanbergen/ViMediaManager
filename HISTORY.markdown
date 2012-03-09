@@ -1,9 +1,10 @@
 v0.6 ##/##/2011
-* [New] Complete rebuild from the start for optimalization purposes.
+* [New] Complete rebuild from the start for optimization purposes.
 
-v0.5.4 ##/11/2011
+v0.5.4 03/09/2012
 -----------------
-* [Fix] Forgot to read the "sort list" option when opening the preferences window.
+* [New] You can now use custom URL's to download trailers.
+* [Fix] Fixed downloading trailers from youtube.
 
 v0.5.3 10/10/2011
 -----------------
