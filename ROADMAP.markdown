@@ -10,7 +10,9 @@ Ideas
 * Movie Wishlist/Watchlist?
 * Export list to webpage.
 * Download subtitles.
+* Applescript Support.
 
+* Add MPAA rating to bulk renaming.
 * Show full episode list & compare it to downloaded episodes, scan for missing episodes.
 * Could it run in the background and scan media locations periodically and auto download information?
   * [When running in the background, have the ability to show a log file.](http://forum.xbmc.org/showpost.php?p=899757&postcount=321 "Pecinko")
