@@ -1,4 +1,4 @@
-v0.6 ##/##/2011
+v0.6α1 13/06/2011
 * [New] Complete rebuild from the start for optimization purposes.
 
 v0.5.4 03/09/2012
@@ -138,4 +138,6 @@ Download stats:
 * 0.5       -     73    /   Sep 27, 2011
 * 0.5.1     -     162   /   Sep 29, 2011
 * 0.5.2     -     266   /   Oct 03, 2011
-* 0.5.3     -     3106  /   Oct 11, 2011
+* 0.5.3     -     3146  /   Oct 11, 2011
+* 0.5.4     -     2119  /   Apr 09, 2012
+* 0.6α1     -     0     /   Jun 13, 2012
