@@ -1,7 +1,18 @@
-v0.6α1 13/06/2011
+v0.6α2 19/06/2012
+-----------------
+* Movie Sets Manager added. (Still experimental)
+* Rename folders & files.
+* Some UI Changes.
+* Some speed improvements trough caching.
+* Lots of bug fixes and improvements.
+
+v0.6α1 13/06/2012
+-----------------
 * [New] Complete rebuild from the start for optimization purposes.
 
-v0.5.4 03/09/2012
+// --------------------------------- //
+
+v0.5.4 09/04/2012
 -----------------
 * [New] You can now use custom URL's to download trailers.
 * [Fix] Fixed downloading trailers from youtube.
@@ -138,6 +149,7 @@ Download stats:
 * 0.5       -     73    /   Sep 27, 2011
 * 0.5.1     -     162   /   Sep 29, 2011
 * 0.5.2     -     266   /   Oct 03, 2011
-* 0.5.3     -     3146  /   Oct 11, 2011
-* 0.5.4     -     2119  /   Apr 09, 2012
-* 0.6α1     -     0     /   Jun 13, 2012
+* 0.5.3     -     3144  /   Oct 11, 2011
+* 0.5.4     -     2572  /   Apr 09, 2012
+* 0.6α1     -     319   /   Jun 13, 2012
+* 0.6α2     -     0     /   Jun 19, 2012
