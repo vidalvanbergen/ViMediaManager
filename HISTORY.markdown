@@ -1,3 +1,22 @@
+v0.6α4 00/00/2012
+
+
+v0.6α3 02/06/2012
+-----------------
+* Finaly support for unicode characters when looking up movies! Movies like Amélie will now pass through successfully.
+* Adding a set now automatically tries to add movies to the set.
+* Added a entirely new search field to the 'manual search' window.
+* Also Added the same search field to the main window so people can filter their movies list.
+* Added some support for .nfo files with only an IMDB URL inside, ViMM will search for information using the IMDB ID from the URL.
+* Improved IMDb Data fetching.
+* If the TMDB does not have a match for your movie, it now will still pass trough the unofficial IMDB API to search for information if you have an IMDB ID.
+* Better support for international information fetching.
+* Support for NL, DE, FR & UK MPAA rating fetching & displaying.
+* Lots of changes and improvements to 'batch renaming' files & folders.
+* Fixed a bug where .nfo files would not be updated with the new poster location after batch renaming, leaving XBMC with nothing but a screenshot to fill in for the thumbnail.
+* Fixed where movie root folders with the same folder name would overwrite each other in the preferences.
+* Lots of other minor bug fixes and changes.
+
 v0.6α2 19/06/2012
 -----------------
 * Movie Sets Manager added. (Still experimental)
@@ -150,6 +169,7 @@ Download stats:
 * 0.5.1     -     162   /   Sep 29, 2011
 * 0.5.2     -     266   /   Oct 03, 2011
 * 0.5.3     -     3144  /   Oct 11, 2011
-* 0.5.4     -     2572  /   Apr 09, 2012
-* 0.6α1     -     319   /   Jun 13, 2012
-* 0.6α2     -     0     /   Jun 19, 2012
+* 0.5.4     -     2826  /   Apr 09, 2012
+* 0.6α1     -     326   /   Jun 13, 2012
+* 0.6α2     -     185   /   Jun 19, 2012
+* 0.6α3     -     000   /   Aug 02, 2012

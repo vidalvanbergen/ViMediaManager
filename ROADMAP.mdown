@@ -74,13 +74,18 @@ __Mainline__: Official release! Start building new and exiting features from the
 
 ----
 
+### Milestone 2.0ƒ ###
+##### Ultima III #####
 
+__Mainline__: Feature requests and other awesomeness!
+
+----
 
 ### Feature Request & Ideas ###
 
 * TV Guide week preview (using [TV Rage](http://services.tvrage.com/tools/quickinfo.php?show=%s "TV Rage")?)
 * Movie Wishlist/Watchlist.
-* Export Movie/Show list to HTML template.
+* Export Movie/Show list to HTML template. (Don't forget: PDF, CVS, XLS and other formats)
 * [Print movie list](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
 * Download matching subtitles.
 * Could it run in the background and scan media locations periodically and auto download information?

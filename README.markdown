@@ -19,17 +19,17 @@ ViMediaManager is my try at building a media manager mainly for Mac, since the M
 If you find a bug, let me know what you did to make it happens, and i’ll do my best to fix it.
 
 #### Why doesn't it have this or that basic feature?
-Well, i'm still in the early release stages and haven't even reached version 1.0 yet, so I haven't gotten around to adding everything yet.  
+Well, i'm still in the early release stages and haven't even reached version 1.0 yet, so I haven't gotten around to adding everything yet.
 You can let me know what you’re missing, and I’ll see if I can add it in a future version.
 
 #### Your app is not showing this or that movie in the list, what's up with that?
 ViMediaManager actually needs a certain file structure to work with:
 
-- Movies Folder:  
-- - Movie Title Folder  
-- - - Movie File  
-- - Movie Title Folder  
-- - - Movie File  
+- Movies Folder:
+- - Movie Title Folder
+- - - Movie File
+- - Movie Title Folder
+- - - Movie File
 
 But don't worry, ViMediaManager can help you easily organize your movies this way through the Tools menu.
 
@@ -37,17 +37,17 @@ But don't worry, ViMediaManager can help you easily organize your movies this wa
 Unfortunately I don't have a manual yet, so you'll have to try things out yourself for now.
 
 #### Does your app show studio logo's?
-Yes it does, but you'll have to download them separately from this thread: (or similar threads)  
-[http://forum.xbmc.org/showthread.php?t=100652](http://forum.xbmc.org/showthread.php?t=100652 "XBMC Forum - Colored Studio Logo's")  
-[http://forum.xbmc.org/showthread.php?t=99554](http://forum.xbmc.org/showthread.php?t=99554 "Film/Movie/Game/Network/Radio Studio Flags Repository (Greyscale & Color)")  
+Yes it does, but you'll have to download them separately from this thread: (or similar threads)
+[http://forum.xbmc.org/showthread.php?t=100652](http://forum.xbmc.org/showthread.php?t=100652 "XBMC Forum - Colored Studio Logo's")
+[http://forum.xbmc.org/showthread.php?t=99554](http://forum.xbmc.org/showthread.php?t=99554 "Film/Movie/Game/Network/Radio Studio Flags Repository (Greyscale & Color)")
 Once you've downloaded the logo's pack, put the pictures inside a folder named "Studios" in the same location as ViMediaManager or in the following path: '~/Library/Application Support/ViMediaManager/Studios/'.
 
 **Source requirements:**
 
-  * Real Studio 2011  
-  * MonkeyBreadSoftware Plugin 10.5:  
-    * MBS REALbasic Main Plugin.rbx  
-    * MBS REALbasic CocoaBase Plugin.rbx  
-    * MBS REALbasic Picture Plugin.rbx  
-    * MBS REALbasic Tidy Plugin.rbx  
-    * MBS REALbasic Util Plugin.rbx  
+  * Real Studio 2011
+  * MonkeyBreadSoftware Plugin 10.5:
+    * MBS REALbasic Main Plugin.rbx
+    * MBS REALbasic CocoaBase Plugin.rbx
+    * MBS REALbasic Picture Plugin.rbx
+    * MBS REALbasic Tidy Plugin.rbx
+    * MBS REALbasic Util Plugin.rbx
