@@ -1,14 +1,15 @@
 ## ViMediaManager ##
 
+<img src="ViMM 0.6/images/ViMMLogo.png" style="float: right; height: 128px; width: 128px;">
 ViMediaManager is a media manager for Mac OS X, allowing you to gather, store and manage the information and extra images for your movie, television & anime collections, and can be used on it’s own, or in combination with [XBMC](http://xbmc.org) & [YAMJ](http://code.google.com/p/moviejukebox/) Media Jukebox software.
 
 ## Requirements ##
 
 To use ViMediaManager, you will need:
 
-* An Apple Mac OS Intel computer
-* Mac OS X 10.5 or greater
-* An active internet connection
+* An Apple Mac OS Intel computer.
+* Mac OS X 10.5 or greater.
+* An active internet connection.
 
 ## Features ##
 
@@ -53,7 +54,7 @@ Once you've downloaded the logo's pack, put the pictures inside a folder named "
 
 ## Source requirements: ##
 
-  * [REALStudio 2012](http://www.realsoftware.com "REALStudio")
+  * [REALStudio](http://www.realsoftware.com "REALStudio") 2012
   * [MonkeyBreadSoftware Plugin](http://www.monkeybreadsoftware.net "MBS Plugin") 10.5:
     * MBS REALbasic Main Plugin.rbx
     * MBS REALbasic CocoaBase Plugin.rbx
