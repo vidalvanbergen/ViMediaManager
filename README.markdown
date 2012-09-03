@@ -1,6 +1,5 @@
 ## ViMediaManager ##
 
-<img src="https://raw.github.com/vidalvanbergen/ViMediaManager/master/ViMM%200.6/Images/ViMMLogo.png" alt="ViMediaManager Logo" title="ViMediaManager Logo" style="float: right; height: 128px; width: 128px;">
 ViMediaManager is a media manager for Mac OS X, allowing you to gather, store and manage the information and extra images for your movie, television & anime collections, and can be used on it’s own, or in combination with [XBMC](http://xbmc.org) & [YAMJ](http://code.google.com/p/moviejukebox/) Media Jukebox software.
 
 ## Requirements ##
