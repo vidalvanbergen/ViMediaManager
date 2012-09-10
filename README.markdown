@@ -61,6 +61,11 @@ Once you've downloaded the logo's pack, put the pictures inside a folder named "
     * MBS REALbasic Tidy Plugin.rbx
     * MBS REALbasic Util Plugin.rbx
 
+#### Included: ####
+
+  * [Mediainfo](http://mediainfo.sourceforge.net)
+  * [Sparkle Framework](http://sparkle.andymatuschak.org)
+  * [Growl Notify](http://growl.info/extras.php)
 
 ## Version History: ##
 
