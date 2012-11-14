@@ -1,23 +1,34 @@
 ## ViMediaManager ##
 
-ViMediaManager is a media manager for Mac OS X, allowing you to gather, store and manage the information and extra images for your movie, television & anime collections, and can be used on it’s own, or in combination with [XBMC](http://xbmc.org) & [YAMJ](http://code.google.com/p/moviejukebox/) Media Jukebox software.
+ViMediaManager is a media manager for Mac OS X, allowing you to gather, store and manage the information and extra images for your movie, television & anime collections, and can be used on it’s own, or in combination with [XBMC](http://xbmc.org) & [YAMJ](http://code.google.com/p/moviejukebox/)
+
+This is my try at building a media manager for Mac OS, since the Mac platform has been seriously lacking any good apps in this department, and I felt like filling that hole, keeping in mind the Mac's passion for ease-of-use while still building a very powerful program with a really clean user interface.
+
 
 ## Requirements ##
 
 To use ViMediaManager, you will need:
 
-* An Apple Mac OS Intel computer.
-* Mac OS X 10.5 or greater.
-* An active internet connection.
+* An Apple Macintosh Intel computer
+* Mac OS X 10.5 or greater
+* An active internet connection
 
 ## Features ##
 
+With ViMediaManager you can:
+
   * Manage your movies, television & anime collections.
-  * Download media metadata from [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database"), [OMDBApi.com](http://OMDBApi.com "The unofficial IMDb Api"), [RottenTomatoes.com](http://RottenTomatoes.com "Movie Reviews") & [AniDB.net](http://anidb.net "Anime Database").
-  * Get Trailers, Posters, Fanart, Banners, ClearArt, CharacterArt, Logo's and Thumbnails for your movies and series from the aforementioned sources, [Youtube.com](http://Youtube.com "Youtube") & [Fanart.tv](http://fanart.tv "Fanart.tv, Making the most of your media collection").
+  * Download media metadata from [TheMovieDB.org](http://TheMovieDB.org "The Movie Database"), [IMDb.com](http://imdb.com "The Internet Movie Database"), [TheTVDB.com](http://TheTVDB.com "The Television Database"), [RottenTomatoes.com](http://RottenTomatoes.com "Movie Reviews") & [AniDB.net](http://anidb.net "Anime Database").
+  * Get trailers, posters, fanart, banners, clearart, character art, disc art, logo’s, thumbnails, extra thumbs & extra fanart for your movies and series from the aforementioned sources, [Youtube.com](http://Youtube.com "Youtube") & [Fanart.tv](http://fanart.tv "Fanart.tv, Making the most of your media collection").
   * Automatically search for metadata & images for all your media.
   * Automatically rename your files & folders.
+  * Help you keep your collections clean and organized.
+  * Update your movie’s ratings and your television series’ airing status.
   * ...and more!
+
+## Support ##
+
+There may be times when you have questions on how to use ViMediaManager, or you might have found a bug, or maybe you just want to tell me that you’d like a certain feature in ViMediaManager. No need to worry, you can get in touch with my be sending me an email at [vimediamanager@gmail.com](mailto:vimediamanager@gmail.com), or by going to the XBMC Forums: [http://forum.xbmc.org/showthread.php?tid=109976](http://forum.xbmc.org/showthread.php?tid=109976)
 
 ## F.A.Q.? ##
 
@@ -72,7 +83,54 @@ Once you've downloaded the logo's pack, put the pictures inside a folder named "
 #### ViMediaManager 0.6α# ####
 ___(The Next Generation)___
 
-###### v0.6α4 00/00/2012
+###### v0.6α7 11/11/2012
+* __[New]__ Dropped the unofficial IMDb and the Top250 API's in favour of a scraper that takes it's information from the IMDb itself.
+* __[New]__ Added an option to show poster images in the list. (Note that this may decrease performance)
+* __[New]__ Instead of completely refreshing the list, it now updates it. meaning it'll only add new movies if it finds them instead of adding every movie every time, and removes items it can no longer find.
+* __[New]__ Added recommendations to the metadata editor, but you'll have to update your movies first.
+* __[New]__ You can now update a single movie by right-clicking it in the list and choosing 'update movie'.
+* __[New]__ You can now get rid some of the visual clutter by disabling one or more of the mini-icons in the list.
+* __[New]__ Changed the layout of the main movie information display, showing more information with less clutter.
+* __[New]__ Updated growlnotify from 1.3 to 2.0.
+* __[New]__ Preliminary Boxee support option, which places database ID's at the bottom of the NFO, and adding full shell path for the local poster image thumb.
+* __[New]__ Added new options to sort the list by movie file size and duration, and added checkmarks to display which options are currently selected.
+* __[New]__ Added 'kijkwijzer' symbols to go with the new MPAA rating information.
+* __[Dif]__ Improved search results by adding a direct IMDb search back-up.
+* __[Dif]__ Introduced some caching to the search results window, and tweaked the layout a bit.
+* __[Dif]__ Made items that are marked as watched a bit more noticeable by marking their background.
+* __[Dif]__ The main & metadata editor's windows have gotten new toolbar icons to match the latest Mac OS X Style. (And are retina ready once there's a stable 'cocoa' build)
+* __[Dif]__ Made the actors list re-orderable.
+* __[Dif]__ Changed the way it searches for valid .nfo files.
+* __[Dif]__ Enabled drag-reordering in the sets manager, but be warned, it's not entirely stable.
+* __[Dif]__ First studio is set as default studio while the rest is placed aside, fixing this XBMC Skin bug: http://forum.xbmc.org/showthread.php?tid=82987
+* __[Fix]__ Fixed a bug where genres where only downloaded in english, now downloads in the correct localisation when available.
+* __[Fix]__ Fixed where it would incorrectly read the subtitle data, leaving it with nothing to write back down to the NFO file on a subsequent save.
+* __[Fix]__ Fixed a bug where it would incorrectly handle VIDEO_TS files and extra images during automatic renaming.
+* __[Fix]__ Re-added missing trailer icon in the metadata editor’s toolbar.
+* __[Fix]__ Fixed where special characters wouldn't show correctly in the search window.
+* __[Fix]__ Lots of bug fixes and changes.
+
+###### v0.6α6 24/09/2012
+* __[New]__ Now getting the actual Top250 IMDb rank from 250.s-anand.net.
+* __[New]__ Added a preference to use Windows OS save names when renaming items.
+* __[New]__ Added more mini icons to the list, to show which files you already have.
+* __[Dif]__ Added an option to batch update movie ratings.
+* __[Dif]__ Moved around some common code blocks for easier maintainability.
+* __[Dif]__ Better managing of the cleaning process.
+* __[Dif]__ Rewrote the ‘put movies into folders’ function, and hoping it’ll stop causing errors.
+* __[Dif]__ Less refreshing in the sets manager, but still in experimental stage.
+* __[Fix]__ Fixed some Nil object errors when trying to find nonexistent, previously existing images.
+* __[Fix]__ The usual minor bug fixes and changes.
+
+
+###### v0.6α5 11/09/2012
+* __[New]__ Added some support for BDMV folder structures.
+* __[Fix]__ Fixed not downloading the original title metadata.
+* __[Fix]__ Sorting by title and sort title shouldn’t crash the app.
+* __[Fix]__ And other bug fixes.
+
+
+###### v0.6α4 10/09/2012
 * __[NEW]__ Updating the TMDB API from v2.1 to v3, which works considerately different and gives a lot of new options such as ‘similar movies’ once I get started on that, so a lot of changes have been made regarding fetching metadata.
 * __[NEW]__ Support for fetching metadata from Rotten Tomatoes. (Mostly ratings.)
 * __[NEW]__ Added support for Fanart.TV’s extra art for movies. ( [HD]ClearArt, [HD]Logo, Thumb, Disc & Banner)
