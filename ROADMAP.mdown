@@ -101,8 +101,6 @@ __Mainline__: Feature requests and other awesomeness!
 	- I do not have the necesairy skills, and XBMC for example has a host of web/apps to manage your library.
 * Mac AppStore listing.
 	- I have yet to look at what all is involved in getting an app into the AppStore, but it's unlikely to happen.
-* Use IMDB for look-ups instead of TMDB.
-	- The unnofficial API that I'm currently using for IMDB is not making this feasible, I need a better IMDB API first!
 
 ----
 
