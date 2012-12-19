@@ -1,0 +1,1 @@
+#tag ClassProtected Class tbMetadataShowsInherits ToolbarEnd Class#tag EndClass
