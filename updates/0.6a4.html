@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <title>What's new in ViMediaManager?</title>
+    <link rel="shortcut icon" href="update.png">
+
+    <meta name="author" href="Vidal van Bergen">
+    <meta name="copyright" content="© 2012 Vidal van Bergen">
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet"        href="styles.css">
+
+    <!-- Date: 2011-09-07 -->
+    <!--
+        Hello, thanks for taking a look at my source code. Feel free to look and learn,
+        but please respect that everything here is copyright (c) 2011 Vidal van Bergen Vidal van Bergen
+    -->
+</head>
+<body>
+
+    <header>
+      <img src="vitalis.png" alt="Vidal van Bergen" title="Vidal van Bergen" class="vitalis">
+      <a href="http://vidalvanbergen.github.com/ViMediaManager/" target="ViMediaManager">
+        <img src="update.png" alt="Update" title="Update" class="button">
+      </a>
+      <span>v0.6α4</span><br/>
+      released on September 10, 2012
+    </header>
+
+    <section>
+      <ul>
+        <li class="new">Updating the TMDB API from v2.1 to v3, which works considerately different and gives a lot of new options such as ‘similar movies’ once I get started on that, so a lot of changes have been made regarding fetching metadata.</li>
+        <li class="new">Support for fetching metadata from Rotten Tomatoes. (Mostly ratings.)</li>
+        <li class="new">Added support for Fanart.TV’s extra art for movies. ( [HD]ClearArt, [HD]Logo, Thumb, Disc &amp; Banner)</li>
+        <li class="new">Added support for extrafanart. (Downloads ALL fanart files from TMDB in the preferences specified sizes for fanart files, much like extra thumbs downloads all fanart files in thumb format)</li>
+        <li class="new">Search window got a complete makeover, and has been rebuild from scratch for the new TMDB API.</li>
+        <li class="new">The metadata editor also got a complete makeover to support the new information, such as new images support, the rotten tomatoes ratings and better file info display.</li>
+        <li class="new">The thumbnail previewer also got a slight overhaul and remake from scratch to make it more accurate, and to move the view if the selection changes to a row above/below the currently viewable thumbnails.</li>
+        <li class="new">Added ‘Keep media folders organized’ option, which will automagically rename your files and/or folders to match the renaming pattern upon fetching new metadata.</li>
+        <li class="new">Added Twitter &amp; Facebook sharing options to the action/contextual menus and the ‘Tools’ menu.</li>
+        <li class="new">Rename a single item trough the action/contextual menus or the ’Tools’ menu.</li>
+        <li class="new">Update just a movie’s IMDB rating trough the action/contextual menus’ ‘Update Rating’ option.</li>
+        <li class="dif">Since I've overhauled the metadata fetching, opting in for IMDb is not really necessary, it’ll download all available information including IMDB’s. In the future I might set a preference for which DB should be preferred, in case someone likes TMDB plots better.</li>
+        <li class="dif">Also since the new metadata fetching provides more MPAA certifications for multi-countries, I've added them all to a certifications tag to better support multi-nationality.</li>
+        <li class="dif">Retooled the way ViMM downloads trailers so that it’ll be easier to make changes, and it’s a bit more efficient.</li>
+        <li class="dif">Shows the progress when you’re reloading the movie list instead of getting temporarily ‘stuck’.</li>
+        <li class="dif">Shows the progress when you’re batch renaming your folders and/or files.</li>
+        <li class="dif">‘Deleting’ items now moves items to the trash when possible instead of vanishing them into thin air.</li>
+        <li class="dif">Put movies into folders should now work better.</li>
+        <li class="fix">Other bug fixes that I found along the way.</li>
+      </ul>
+    </section>
+
+    <p>It took a while, but believe me, the wait was worth it!</p>
+    <p>All the core functionality has been re-build for the enhanced amount of metadata.</p>
+    <p>Enjoy!</p>
+
+</body>
+</html>

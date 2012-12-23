@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <title>What's new in ViMediaManager?</title>
+    <link rel="shortcut icon" href="update.png">
+
+    <meta name="author" href="Vidal van Bergen">
+    <meta name="copyright" content="© 2011-2012 Vidal van Bergen">
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet"        href="styles.css">
+
+    <!-- Date: 2011-09-07 -->
+    <!--
+        Hello, thanks for taking a look at my source code. Feel free to look and learn,
+        but please respect that everything here is copyright (c) 2011 Vidal van Bergen Vidal van Bergen
+    -->
+</head>
+<body>
+
+  <header>
+    <img src="vitalis.png" alt="Vidal van Bergen" title="Vidal van Bergen" class="vitalis">
+    <a href="http://vidalvanbergen.github.com/ViMediaManager/" target="ViMediaManager">
+      <img src="update.png" alt="Update" title="Update" class="button">
+    </a>
+    <h1>v0.6α7</h1>
+    released on November 11, 2012
+  </header>
+
+  <section>
+    <ul>
+      <li class="new">Dropped the unofficial IMDb and the Top250 API's in favour of a scraper that takes it's information from the IMDb itself.</li>
+      <li class="new">Added an option to show poster images in the list. (Note that this may decrease performance)</li>
+      <li class="new">Instead of completely refreshing the list, it now updates it. meaning it'll only add new movies if it finds them instead of adding every movie every time, and removes items it can no longer find.</li>
+      <li class="new">Added recommendations to the metadata editor, but you'll have to update your movies first.</li>
+      <li class="new">You can now update a single movie by right-clicking it in the list and choosing 'update movie'.</li>
+      <li class="new">You can now get rid some of the visual clutter by disabling one or more of the mini-icons in the list.</li>
+      <li class="new">Changed the layout of the main movie information display, showing more information with less clutter.</li>
+      <li class="new">Updated growlnotify from 1.3 to 2.0.</li>
+      <li class="new">Preliminary Boxee support option, which places database ID's at the bottom of the NFO, and adding full shell path for the local poster image thumb.</li>
+      <li class="new">Added new options to sort the list by movie file size and duration, and added checkmarks to display which options are currently selected.</li>
+      <li class="new">Added 'kijkwijzer' symbols to go with the new MPAA rating information.</li>
+      <li class="dif">Improved search results by adding a direct IMDb search back-up.</li>
+      <li class="dif">Introduced some caching to the search results window, and tweaked the layout a bit.</li>
+      <li class="dif">Made items that are marked as watched a bit more noticeable by marking their background.</li>
+      <li class="dif">The main &amp; metadata editor's windows have gotten new toolbar icons to match the latest Mac OS X Style. (And are retina ready once there's a stable 'cocoa' build)</li>
+      <li class="dif">Made the actors list re-orderable.</li>
+      <li class="dif">Changed the way it searches for valid .nfo files.</li>
+      <li class="dif">Enabled drag-reordering in the sets manager, but be warned, it's not entirely stable.</li>
+      <li class="dif">First studio is set as default studio while the rest is placed aside, fixing this XBMC Skin bug: <a href="http://forum.xbmc.org/showthread.php?tid=82987" target="xbmcforums">http://forum.xbmc.org/showthread.php?tid=82987</a></li>
+      <li class="fix">Fixed a bug where genres where only downloaded in english, now downloads in the correct localisation when available.</li>
+      <li class="fix">Fixed where it would incorrectly read the subtitle data, leaving it with nothing to write back down to the NFO file on a subsequent save.</li>
+      <li class="fix">Fixed a bug where it would incorrectly handle VIDEO_TS files and extra images during automatic renaming.</li>
+      <li class="fix">Re-added missing trailer icon in the metadata editor’s toolbar.</li>
+      <li class="fix">Fixed where special characters wouldn't show correctly in the search window.</li>
+      <li class="fix">Lots of bug fixes and changes.</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <p>I've put a lot of work in making sure that this time the release runs smoothly.</p>
+  <p>Here's to hoping that it does!</p>
+  <p>Enjoy!</p>
+
+</body>
+</html>

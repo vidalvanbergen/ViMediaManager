@@ -1,0 +1,58 @@
+/* The humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+    Front-end developer: Vidal van Bergen
+    Contact: vidal.vanbergen [at] gmail.com
+    Twitter: @MariusTh86
+    From: Hoorn, The Netherlands
+
+/* SITE */
+    Last update:  September 10th, 2012
+    Language:     English
+    Standards:    HTML5, CSS3
+    Components:   Modernizr, jQuery
+    IDE:          TextMate, Sublime Text, Photoshop
+
+
+
+                                        _^tCh3UHGHU5Znc=,-
+                                    _?zhZCj*LLL7*vjyJCVSKZ[kL|-
+                                 _LZhy=|,||::==+?x;Lc(nns1yys[hSc,
+                               |z4y\!__!!,|=^\\=?L?=LF(y[zV(11tjzA5j!
+                            -?ahL,_!!____|\||^\:Lt==rVnT(Ko1ynCFycjZPh:
+                           =5Z?|!___!,!._!',|7yx;L+?(VtjyVaycyh4VjjcvFbE^
+                         _Sar,!_!\--_!!-._!,^vZVt<<;v+<jCee(y1SnnC(ymj*z9E!
+                        ^3j|||!|=?,--'^._!!,?jCeZZZo*<+*ynk1JVEoCFoVnJ1c*5&y
+                       {h^|,/:+!-!,-._rv??Lv?^^?T159SzVC1tyzaehXZh3Cy1nnk7s&3-
+                      1C||,__!_--_,_!^yPEGONGZfcjLt4b63F(fCzn(ZeS[ah[zC(nsytOZ
+                     1s||:,---!\!--=zZjrj5RDObwaKCjck9Db3aha56wSCh36aCVFnVCT;Ex
+                    xZ|/,|,!,/^==?n69Ehh4(c77nUOOhVn1k[aEb6RO9bGHE3E5X[ZaaXC=xo-
+                   !G=|/^|:^|!!!,|JCySp964VF1xxm36bEZ[s1mnZ6&O99DNOb3e5EE33Zv|y!
+                   ZC|,,7T</|^;xLhb43Zhh1yVbZnhVnCeP995zCCFK9&8D9R669ObwR25ay,<|
+                  _b+,_-,?/||,|/:oGb&%%#b3XZOD623hXVSUb3hhaa3#D96ROD&OHURUEay!^,
+                  =9C_---|::\|\=<Xb3e9%BN99999OOOwhXkyXw6Ee33b#DDND&8OOOUh3V+-=_
+                  t9bj_  :+=:^^^+je33EN$NODOODb53GeZ[CnaEZa3H9%#8&$$88#O3EeL!-+-
+                 -3R3y|  -:++===xjVEbO$$#64EAE9Hh[K4hXzXVZ5H9D##D9O8#O9bAhj|-_\
+                 CRbz^-   -|=^==xyz39O9Uy?;++XRGheKXheozVShbO666b3Z[5Aaj\___-|-
+               _Z9bo^-  -   _|^=?1Z43K1y*?t71Z(nCz5aXVVzzXabOOw5ZaA4zL!     -|
+             _y6REy,  -!-     .!+TttL=xyvL?+?^TTvhX[[CyT*yhbHh[SR9h*||*s<-  --
+          -=SbPZt\- -|:,    --!,|||+tT*=|__!|L[/,;jtyohhaehVnn596ht7<r=|+!.-
+        _j53Xc=,_-_|:|!-   --!|=?xLj(yt:_-!|7hZv=|7jmFFKE9g#DDDG[c+;?_-!_--
+      -=Xov^|!_!|==:,.-   -.,|=+?7nKZ(=_-!^7Zahhm+7ZoKKkzb#&#gw[t=!,!^aKa-
+     -^;+|!_!,\+7*x=|_----_,|:?*1[VnKSc^|^7Vhae3UHHHUUU54E9NDbKt^_---=jCP^
+    -_!__._,\+xL?^|,,!!_.!,|=vna3aoA63[*=?kSheEw69996GUPRO9befx|_----|=y5j
+    -----!|^<??<<=:i,!!!,|=7nKZ3e[z5b2HV7tCh3G6ODND96RON#&NpJ7=!----|/t5bz
+       -!/^+==^^^^^:||::<cy[5E3KjTnp6265nmVebO8&&&&8#$$$&OECr|-   -|^Te6&O
+      -_|^=^://|/\/\^=xtChhh5VT^:7Z66UGbaVZEO#$$$%%%%%$Dp[T|-    -:oG%%&0Q,
+      -_|^:|||||||/=?*fKhh[(x|-.:1eR9bb9b3E6#$$$%%%%%$95n7=:|_  -!Tnfark80x
+     --_,|,,,,,,||:+7(Zhz1T/-  ,7C46O99OObU68$$$%%%$#9EX1jy*,--_^=_ *#6T=/-
+     --._!__!!!,||^?tnV]y*^_ -|T(Xeb999DDO66D$$$$$N6UeXyr^_   |*v=-  ---
+      ---..___!!,|^?t11jtL^,_,+xTyno4G9ODNDON&$$&923aCx!   |+^+LL|
+       ------___!|^<7vT7L;=i,,|,,:<*1hbR9ON8#&$$#REan?_   _^(C=-
+         ------__,|^+??+==:,!_!_!!,|||7hb9D8#&&OPEazt+\||\! --_
+           -----__!|/::/|||!_---       -\npO8&&OEh[fj*7L7<!
+              ----__!,,!!!!__--           _;Z6ORAKC1{r=/_-
+                 ----._____.----             !LnzJyv;^!-
+                     ----------                -_/==|-
+
