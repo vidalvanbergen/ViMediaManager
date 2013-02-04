@@ -48,8 +48,9 @@ __Mainline__: Build the Movies section.
 
 __Mainline__: Build the TV section.
 
-1. TV Episode support.
-	- Show full episode list & compare it to downloaded episodes, scan for missing episodes.
+1. √ TV Episode support.
+	- √ Show full episode list & compare it to downloaded episodes, scan for missing episodes.
+2. Allow for a 'drop' or 'downloads' folder which ViMediaManager will scan and sort out movies and episodes to the appropriate sections & folders.
 
 ----
 
@@ -83,17 +84,25 @@ __Mainline__: Feature requests and other awesomeness!
 
 ### Feature Request & Ideas ###
 
+* Add movie genre 'folders' to movie list.
 * TV Guide week preview (using [TV Rage](http://services.tvrage.com/tools/quickinfo.php?show=%s "TV Rage")?)
 * Movie Wishlist/Watchlist.
+* Only get 'selected' NFO fields. (Only title, ID, videosource, or whatever) [Walter]
 * Export Movie/Show list to HTML template. (Don't forget: PDF, CVS, XLS and other formats)
 * [Print movie list](http://forum.xbmc.org/showpost.php?p=888980&postcount=82 "Macsorzist")
 * Download matching subtitles.
+* [Download extraposters](http://forum.xbmc.org/showthread.php?tid=109976&pid=1290795#pid1290795 "mfrelink")
 * Could it run in the background and scan media locations periodically and auto download information?
   * [When running in the background, have the ability to show a log file.](http://forum.xbmc.org/showpost.php?p=899757&postcount=321 "Pecinko")
 * [Use file names to check weather a title is a match, and use that match in preference to the first match](http://forum.xbmc.org/showpost.php?p=894247&postcount=238 "i814u2")
 * [Support DVD structures for TV shows](http://forum.xbmc.org/showpost.php?p=903042&postcount=345 "Linusorg")
 * [When asking to overwrite prior art, reply with 'Yes', 'No' or 'Always'](http://forum.xbmc.org/showpost.php?p=912765&postcount=416 "Pecinko")
 	- I'll first need to make a custom messagedialog box with a checkbox for 'always', and then have it remember the always yes or always no.
+
+Yannick Rose:
+* mount the video's folder automatically if they are not mounted. mine are SMB's share on my Popcorn-Hour machine.
+* A YAMJ scanner to update the jukebox. All it needs to begin is a log windows to see the terminal status, and vi need's to issue a terminal command to start the scan. Alternatively we could also configure the My_Library.xml path of the share by fill in some kind of form inside Vi that write it to the xml file.
+* Bigger posters on the list. Radio button on the preferences to select if we want it small or bigger.
 
 ### Not Gonna Happen anytime soon! ###
 
