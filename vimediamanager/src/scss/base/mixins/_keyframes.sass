@@ -1,0 +1,9 @@
+@mixin keyframes($name)
+  @-moz-keyframes #{$name}
+    @content
+  @-webkit-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content

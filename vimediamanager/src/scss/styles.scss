@@ -1,0 +1,264 @@
+/*
+   _    ___     __      __                        ____
+  | |  / (_)___/ /___ _/ /  _   ______ _____     / __ )___  _________ ____  ____
+  | | / / / __  / __ `/ /  | | / / __ `/ __ \   / __  / _ \/ ___/ __ `/ _ \/ __ \
+  | |/ / / /_/ / /_/ / /   | |/ / /_/ / / / /  / /_/ /  __/ /  / /_/ /  __/ / / /
+  |___/_/\__,_/\__,_/_/    |___/\__,_/_/ /_/  /_____/\___/_/   \__, /\___/_/ /_/
+                                                              /____/
+
+  Hello, thanks for taking a look at my source code. Feel free to look and learn,
+  but please respect that everything here is trademarked 2012 by Vidal van Bergen.
+*/
+
+@import "_config";
+@import "ui pattern library/elements";
+
+/* ============================================================================ */
+/* ===== Primary Page styles by Vidal van Bergen ============================== */
+/* ============================================================================ */
+
+// Tip Responsive Design: Just don't declare any non-percentage widths.
+
+@mixin raised-border {
+  @include box-shadow( inset 0px 0px 0px 1px hsla(0, 0%, 100%, .1), 0 1px 2px 2px hsla(0, 0%, 0%, .3) );
+}
+
+/* ==!== Header ======================= */
+header {
+  @include background-size(cover);
+  @include border-radius(15px);
+  @include raised-border;
+  background      : transparent image-url("curtains.jpg") repeat-x center bottom;
+  background-size : 100% auto;
+  border          : 1px solid black;
+  border          : 1px solid hsla(0, 0%, 0%, .7);
+  margin          : .5em auto $line-height auto;
+  overflow        : hidden;
+  padding         : 20px;
+  text-align      : center;
+  @include respond-to("small") {
+    background-size: auto 100%;
+  }
+  // position: relative;
+  // * { @include debug; }
+  .logo {
+    float         : left;
+    // margin-left   : 100px;
+    // display: inline-block;
+    height: 256px; width: 256px;
+    @include respond-to(HD) {
+      background: transparent image-url("vimm@2x.png") no-repeat center center;
+      @include background-size(cover); } }
+  img { @include respond-to(HD) { display: none; } }
+  h1, h2 { margin: 0; text-align: center; @include image-replacement; }
+  h1 {
+    background    : transparent image-url("vimediamanager.png") no-repeat center center;
+    height        : image-height("vimediamanager.png");
+    margin-bottom : 5px;
+    min-width     : image-width("vimediamanager.png");
+    @include respond-to(HD) {
+      background-image: image-url("vimediamanager@2x.png");
+      @include background-size(contain); } }
+  h2 {
+    background    : transparent image-url("slogan.png") no-repeat center center;
+    height        : image-height("slogan.png");
+    min-width     : image-width("slogan.png");
+    @include respond-to(HD) {
+      background-image: image-url("slogan@2x.png");
+      @include background-size(contain); } }
+  hgroup {
+    margin        : $line-height auto .5em 256px;
+    @include respond-to(small) {
+      float       : left;
+      margin-left : 0; } }
+  a {
+      color       : white;
+      text-shadow : 0 1px 2px hsla(0, 0, 0, .6);
+      &:visited { color: white; } }
+  hr { width: 40%; }
+  ul {
+    list-style    : none;
+    margin-left   : 256px;
+    padding       : 0;
+    @include respond-to(small) { float: left; margin: 0; } }
+  li {
+    display       : inline-block;
+    @include respond-to("desktops") { &:first-child { margin-right: 30px; }; }
+    p { font-size: 11px; text-align: center; }
+    a {
+      background : transparent image-url("button.png") no-repeat top center;
+      display    : inline-block;
+      padding    : 9px 0 14px 0;
+      width      : image-width("button.png");
+      @include respond-to(HD) { background-image: image-url("button@2x.png"); @include background-size(cover); };
+      &:hover { text-decoration: none; }
+      &.stable { background-position: center -44px; } }
+      + .balloon { margin-left: -170px; }
+    }
+  .donate {
+    // @include debug;
+    @include respond-to(small) { float: left; margin: 0; width: 100%; text-align: center; top: 10px;}
+    background  : transparent image-url("heart.png") no-repeat top center;
+    padding-top : 36px;
+    position    :relative;
+    top         : 30px;
+    // float: left;
+    // margin: 0;
+    // margin-top: 10px;
+    + .balloon { margin-left: -120px; margin-top: 52px; }
+  }
+}
+
+/* ==!== Navigation =================== */
+nav {
+  text-align: right;
+  height: 24px;
+  ul { padding: 0; margin: 0; }
+  li { display : inline-block; margin-right: 10px; }
+  li:last-of-type { margin-right: 0; }
+  a  {
+    display : inline-block;
+    padding: 2px 8px;
+    @include border-radius(8px);
+    @include transition( all .15s ease-in-out);
+    background: hsla(0, 0%, 0%, 0);
+    &:hover, &.active { background: hsla(0, 0%, 0%, 1); color: hsl(0, 0%, 90%); }
+  }
+}
+
+hr {
+  height        : 1px;
+  border        : 0;
+  width         : 80%;
+  @include background-image( linear-gradient( Left, hsla(0, 0, 100%, 0), hsla(0, 0, 100%, .8), hsla(0, 0, 100%, 0) ) );
+  @include box-shadow( 0 1px 2px hsla(0, 0%, 0%, .3) );
+  section & { margin-bottom: $line-height; }
+  @include respond-to(small) { float: left; width: 100%; } }
+
+a + .balloon {
+  // display  : inline-block;
+  @include background-image( linear-gradient( top, hsla(0, 0%, 100%, .9), hsla(0, 0%, 90%, .7) ) );
+  @include border-radius(10px);
+  @include raised-border;
+  border      : 2px solid white;
+  color       : #333;
+  display     : none;
+  font-size   : 12px;
+  line-height : 1.5em;
+  margin-top  : 30px;
+  padding     : 5px 3px;
+  position    : absolute;
+  text-align  : center;
+  text-shadow : none;
+  width       : 200px;
+  z-index     : 99;
+}
+a:hover + .balloon { display: inline-block; }
+
+/* ==!== Section ====================== */
+section {
+  // min-height: 512px;
+  @include background-image( linear-gradient( top, hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, .1 ) ) );
+  @include border-radius(15px);
+  @include raised-border;
+  border        : 1px solid hsla(0, 0%, 0%, .8);
+  margin-bottom : $line-height;
+  overflow      : hidden;
+  padding       : 10px 20px;
+  // @include background-image( linear-gradient( top, hsla(0, 0%, 100%, .4), hsla(0, 0%, 100%, .0) 30%) );
+  p { }
+  img {
+    @include border-radius(5px);
+    @include raised-border;
+    @include transition( border .15s ease-in-out);
+    border : 5px solid hsla(0, 0%, 100%, .3);
+    &:hover { border: 5px solid hsla(0, 0%, 100%, .5); }
+  }
+  img.right { float: right; margin: 0 0 10px 20px; }
+  img.left  { float: left;  margin: 0 20px 10px 0; }
+  ul { overflow: hidden; }
+}
+
+#about {
+  // &:not(:target) { display: none; }
+}
+
+.visible   { display: block; }
+.invisible { display: none; }
+
+
+/* ==!== Article ====================== */
+
+
+/* ==!== Aside ======================== */
+
+
+/* ==!== Footer ======================= */
+footer p, aside { text-align: center; margin-bottom: $line-height; font-size: 0.85em; }
+
+/* ==!== Misc ========================= */
+
+form.email {
+  // @include debug;
+  @include border-radius(15px);
+  @include box-shadow( inset 0 1px 2px 1px hsla(0, 0%, 0%, .2) );
+  background : hsla(0, 0%, 0%, .15);
+  display    : inline-block;
+  margin     : 0 auto;
+  padding    : 20px;
+  width      : 100%;
+  p { text-align: none; }
+}
+
+
+input, select {
+  @include appearance(none);
+  @include border-radius(0);
+  @include transition( all .15s ease-in-out);
+  background : transparent;
+  border     : 0;
+  color      : hsl(0, 0%, 80%);
+  &:hover { color: hsl(0, 0%, 100%); }
+}
+input[type='email'] { width: 250px; }
+input  { border-bottom: 2px solid hsl(0, 0%, 80%); }
+select { cursor: pointer; border-bottom: 2px solid hsl(0, 0%, 80%); @include border-radius(0); }
+textarea {
+  // @include background-image( linear-gradient( top, transparent, transparent, white 10px ) );
+  // background-size: 15px;
+  @include border-radius( 5px );
+  @include box-shadow ( 0px 1px 0px hsla( 0, 100%, 100%, .3), inset 0px 0px 5px 3px hsla( 0, 0%, 0%, .4) );
+  background : hsla( 0, 0%, 0%, .3);
+  border     : 0 none;
+  color      : white;
+  padding    : 5px;
+}
+
+button {
+  @include background-image ( linear-gradient(top, hsl(0, 0%, 30%), hsl(0, 0%, 10%) ) );
+  @include border-radius(5px);
+  @include box-shadow( inset 0 1px 0 hsla(0, 0%, 100%, .2), 0 1px 0 hsla(0, 0%, 100%, .2) );
+  border      : 1px solid black;
+  color       : white;
+  cursor      : pointer;
+  padding     : 5px 15px;
+  text-shadow : 0 1px 2px black;
+  &:hover  { @include background-image( linear-gradient(top, hsl(0, 0%, 40%), hsl(0, 0%, 20%) ) ); }
+  &:active { @include background-image( linear-gradient(top, hsl(0, 0%, 20%), hsl(0, 0%, 00%) ) ); }
+}
+
+::-webkit-input-placeholder { color: hsl(0, 0%, 80%); }
+:-moz-placeholder { color: hsl(0, 0%, 80%); }
+
+.twitter-follow-button, .FlattrButton { vertical-align: top; }
+
+#BetaEasyInvokeButton > #BeataEasyInvokeButtonBody { top: 50px !important; }
+
+// Some media queries down here.
+// @import "base/mobile";
+@media only screen and ( max-width: 960px  ) { body { width: 100%; } } // Less than 960 pixels
+
+/* ===== Print styles ========================================================= */
+
+@media screen { .print-only { display: none !important; } }
+@media print  { @import "base/print" }

@@ -1,0 +1,113 @@
+
+// HTML Example
+//
+//    <p class="notification-error">
+//        <img src="img/stop.png" alt="error image">
+//        <strong>Error!</strong> message with a <a href="#">link</a>.
+//    </p>
+//
+//    <p class="notification-warning">
+//        <img src="img/warning.png" alt="warning image">
+//        <strong>Warning!</strong> message with a <a href="#">link</a>.
+//    </p>
+//
+//    <p class="notification-success">
+//        <img src="img/tick.png" alt="success image">
+//        <strong>Success!</strong> message with a <a href="#">link</a>.
+//    </p>
+//
+//    <p class="notification-information">
+//        <img src="img/info.png" alt="information image">
+//        <strong>Information:</strong> message with a <a href="#">link</a>.
+//    </p>
+
+// ===== General Styles ======================================================= //
+
+.notification-error,
+.notification-warning,
+.notification-success,
+.notification-information {
+  padding:        0.8em;
+  margin-bottom:  1.5em;
+  border:         2px solid hsl(0, 0%, 87%);
+  @include transition( all 0.2s ease-in-out );
+  @include border-radius(5px);
+  a {
+    background:   none;
+    padding:      0;
+    margin:       0; }
+  img {
+    margin:       0 3px -3px 0 !important;
+    padding:      0;
+    border:       none;
+    width:        16px;
+    height:       16px;
+    float:        none; } }
+
+// ===== Poppy Style ========================================================== //
+
+@mixin poppyerror {
+  background:   hsl(0, 100%, 85%);
+  color:        hsl(0, 100%, 50%);
+  border-color: hsl(0, 100%, 55%);
+  a { color:    hsl(0, 100%, 35%); } }
+
+@mixin poppywarning {
+  background:   hsl(45, 100%, 85%);
+  color:        hsl(30, 100%, 50%);
+  border-color: hsl(45, 100%, 55%);
+  a { color:    hsl(30, 100%, 35%); } }
+
+@mixin poppysuccess {
+  background:   hsl( 75, 100%, 85%);
+  color:        hsl(120, 100%, 30%);
+  border-color: hsl( 75, 100%, 40%);
+  a { color:    hsl(120, 100%, 20%); } }
+
+@mixin poppyinformation {
+  background:   hsl(200, 100%, 95%);
+  color:        hsl(210, 100%, 50%);
+  border-color: hsl(200,  60%, 85%);
+  a { color:    hsl(210, 100%, 20%); } }
+
+// ===== Default Style ======================================================== //
+
+.notification-error {
+  background:   hsl(  0,  75%, 95%);
+  color:        hsl(  0, 100%, 50%);
+  border-color: hsl(  0,  85%, 85%);
+  a { color:    hsl(  0,  75%, 35%); }
+  &:hover {
+    @include box-shadow( hsl(0, 85%, 85%) 0 0 5px 2px ); }
+    //@include poppyerror
+}
+
+.notification-warning {
+  background:   hsl( 50, 100%, 85%);
+  color:        hsl( 30, 100%, 50%);
+  border-color: hsl( 50, 100%, 60%);
+  a { color:    hsl( 30,  75%, 35%); }
+  &:hover {
+    @include box-shadow( hsl(50, 100%, 60%) 0 0 5px 2px ); }
+    //@include poppywarning
+}
+
+.notification-success {
+  background:   hsl( 70,  60%, 85%);
+  color:        hsl(120, 100%, 30%);
+  border-color: hsl( 70,  50%, 70%);
+  a { color:    hsl(120,  75%, 20%); }
+  &:hover {
+    @include box-shadow( hsl(70, 50%, 70%) 0 0 5px 2px ); }
+    //@include poppysuccess
+}
+
+.notification-information {
+  background:   hsl(200, 100%, 95%);
+  color:        hsl(210,  50%, 40%);
+  border-color: hsl(200,  70%, 85%);
+  a { color:    hsl(210,  50%, 20%); }
+  &:hover {
+    @include box-shadow( hsl(200, 70%, 85%) 0 0 5px 2px ); }
+    //@include poppyinformation
+}

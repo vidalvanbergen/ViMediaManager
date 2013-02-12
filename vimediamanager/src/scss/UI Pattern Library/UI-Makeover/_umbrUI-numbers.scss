@@ -1,0 +1,82 @@
+
+
+// umbrUI number input by @simurai
+
+// <input type="number" min="1" max="99" value="78">
+
+@import url(http://fonts.googleapis.com/css?family=VT323);
+
+
+// ===== Number =============================================================== //
+
+input[type="number"] {
+  @include appearance( none );
+  outline          : none;
+  position         : relative;
+  z-index          : 1;
+
+  width            : 120px;
+  height           : 60px;
+  border-radius    : 40px / 60px;
+
+  font-family      : 'VT323', cursive;
+  font-size        : 36px;
+  line-height      : 40px;
+  text-align       : center;
+  @include experimental( font-smoothing, none );
+  color            : hsl(200,100%,50%);
+  text-shadow      : 0 -1px  0px hsl( 200, 100%,  70%),
+                     0  1px  0px hsla(  0,   0%,   0%, .8),
+                     0  0px 13px hsl( 200, 100%,  50%);
+  border           : 0;
+
+  background-color : hsl(200,10%,12%);
+  background-size  : 4px 4px;
+  background-image :   -webkit-linear-gradient( 0deg, hsla(0,0%,0%,0) 75%, hsla(0,0%,0%,.4) 75% ),
+                      -webkit-linear-gradient( 90deg, hsla(0,0%,0%,0) 75%, hsla(0,0%,0%,.4) 75% );
+
+  @include box-shadow( inset 0 0px  0px 4px hsla(0, 0%,   0%,  1),
+                       inset 0 0px 20px 5px hsla(0, 0%,   0%, .5),
+                             0 0px  0px 1px hsla(0, 0%,   0%, .4),
+                             0 1px  0px     hsla(0, 0%, 100%, .25) );
+
+  -webkit-box-reflect: below -13px -webkit-radial-gradient( 50% 70%, 50% 25%, hsla(0,0%,0%,.05) 0%, hsla(0,0%,0%,0) 95% );
+
+
+// Outer spin only works in Safari, so lets hide it //
+&::-webkit-outer-spin-button { @include appearance( none ); margin: 0; }
+
+
+// Spin button //
+  &::-webkit-inner-spin-button {
+    @include appearance( none );
+    width         : 32px;
+    border-radius : 40px / 60px;
+    border        : 4px solid #000;
+    cursor        : ns-resize;
+
+    @include box-shadow( inset 0px  0px 3px  1px hsla(0, 0%,   0%, .6 ),
+                         inset 0px  6px 1px -2px hsla(0, 0%, 100%, .30),
+                         inset 0px -7px 1px -1px hsla(0, 0%,   0%, .5 ) );
+    background-color: hsl(0,0%,20%);
+    background-image:
+                    -webkit-radial-gradient( 50%  5%, contain,  hsla(0, 0%, 100%, .2)  0%, hsla(0, 0%, 0%, 0) 70% ),
+                    -webkit-radial-gradient( 50% 86%, contain,  hsla(0, 0%, 100%, .05) 0%, hsla(0, 0%, 0%, 0) 80% ),
+                    -webkit-linear-gradient( -90deg,  hsl(0, 0%, 15%) 0%,
+                                                      hsl(0, 0%, 18%) 48%,
+                                                      hsl(0, 0%, 10%) 48%,
+                                                      hsl(0, 0%, 27%) 52%,
+                                                      hsl(0, 0%, 20%) 52%,
+                                                      hsl(0, 0%, 34%) 100% );
+    @include transition( border-color .2s ease-in-out );
+  }
+
+// :active //
+  &:active::-webkit-inner-spin-button {
+    border-color: hsla(200,100%,50%,1);
+    @include box-shadow( inset 0px  0px 3px  1px hsla(200, 100%, 20%, .6),
+                         inset 0px  6px 1px -2px hsla(200, 100%, 70%, .4),
+                         inset 0px -7px 1px -1px hsla(200, 100%, 10%, .5),
+                               0px  0px 4px  3px hsla(200, 100%, 50%, .3) );
+    @include transition( none ); }
+}

@@ -1,0 +1,41 @@
+// Aqua button -----------------------------------------------------------
+
+@mixin aquabutton {
+  width          : 155px;
+  height         : 35px;
+  background     : hsl(210, 50%, 87%);
+  border         : hsl(  0,  0%, 80%) 2px solid;
+  border-color   : hsl(215, 30%, 65%)
+                   hsl(207, 45%, 55%)
+                   hsl(207, 55%, 55%)
+                   hsl(207, 20%, 55%);
+  font           : {
+    weight       : 600;
+    size         : 16px;
+    line-height  : 1em;
+    family       : $font-family; };
+  color          : hsl(0, 0%, 100%);
+  vertical-align : middle;
+  text-align     : center;
+  text-overflow  : ellipsis;
+  text-shadow    : 1px 2px 2px hsla(0, 0, 4%, 0.5);
+  @include nowrap;
+  overflow       : hidden;
+  @include border-radius( 16px );
+  @include box-shadow(
+                        0 10px  16px       hsla(214,  85%, 60%, 0.5),
+                  inset 0 -8px  12px   0px hsl( 207, 100%, 70%),
+                  inset 0 -8px   0px   8px hsl( 210,  57%, 53%),
+                  inset 0 -35px 15px -10px hsl( 210,  60%, 67%) );
+  &:hover {
+    text-shadow  : 0px 0px 5px hsl(0, 0%, 100%); }
+  &:active {
+    position     : relative;
+    top          : 3px;
+    @include box-shadow(
+                          0   5px  8px       hsla(214,  85%, 60%, 0.5),
+                    inset 0  -8px 12px   0px hsl( 207, 100%, 70%),
+                    inset 0  -8px  0px   8px hsl( 210,  57%, 53%),
+                    inset 0 -35px 15px -10px hsl( 210,  60%, 67%) );
+  }
+}

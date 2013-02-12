@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ViMediaManager</title>
+        <link>http://mariusth.channelwood.org/vimediamanager/</link>
+        <description>ViMediaManager is a media manager for Mac OS X, allowing you to gather, store, and manage information, extra art, trailers and television tunes for your movie, television and anime collections, and can be used on it’s own, or in combination with XBMC, YAMJ or Boxee.</description>
+        <generator>Feeder 2.3.7(1701); Mac OS X Version 10.8.2 (Build 12C3012) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <pubDate>Tue, 12 Feb 2013 22:57:53 +0100</pubDate>
+        <lastBuildDate>Tue, 12 Feb 2013 22:57:53 +0100</lastBuildDate>
+        <atom:link href="http://mariusth.channelwood.org/vimediamanager/appcast-cocoa.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>ViMediaManager-0.7α1</title>
+            <pubDate>Tue, 12 Feb 2013 22:52:20 +0100</pubDate>
+            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/cocoa_latest.php" length="18046565" type="application/octet-stream" sparkle:version="0.7.0.1.1" sparkle:shortVersionString="v0.7α1" sparkle:dsaSignature="MCwCFC5p/ZkvaMRH56IjTlLaQotpXmJrAhQW8pE9bDtvOIAQAkHeHcyzFrmEIw=="/>
+            <guid isPermaLink="false">B56FCDB4-73BB-4BA3-8064-5E9D733950DE</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a1.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
+            <title>ViMediaManager-0.6α7</title>
+            <pubDate>Sun, 11 Nov 2012 00:27:40 +0100</pubDate>
+            <enclosure url="https://github.com/downloads/vidalvanbergen/ViMediaManager/vimediamanager-0.6%CE%B17.dmg" length="9071552" type="application/octet-stream" sparkle:version="0.6.0.1.7" sparkle:shortVersionString="v0.6α7" sparkle:dsaSignature="MCwCFDB3MDWj+icl4xZT0XFq/Pp5AkQ8AhQnVx6xppP886ANtA4cAbJurEOzJQ=="/>
+            <guid isPermaLink="false">E3262D81-87BE-4BAB-A8EC-EB53A58EAD5A</guid>
+            <sparkle:releaseNotesLink>http://vidalvanbergen.github.com/ViMediaManager/updates/0.6a7.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
+            <title>ViMediaManager-0.6α6</title>
+            <pubDate>Fri, 19 Oct 2012 18:31:25 +0200</pubDate>
+            <enclosure url="https://github.com/downloads/vidalvanbergen/ViMediaManager/vimediamanager-0.6%CE%B16.dmg" length="8092863" type="application/octet-stream" sparkle:version="0.6.0.1.6" sparkle:shortVersionString="v0.6α6" sparkle:dsaSignature="MC0CFFWdJ1VH1DOzgjj4Z4xvbcUcXdfOAhUAhrP2W27EtGYpoAEXqsWlBQHHe6k="/>
+            <guid isPermaLink="false">1F771438-011D-4427-914C-BB521DC1494B</guid>
+            <sparkle:releaseNotesLink>http://vidalvanbergen.github.com/ViMediaManager/updates/0.6a6.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
+            <title>ViMediaManager-0.6α5</title>
+            <pubDate>Fri, 19 Oct 2012 18:29:44 +0200</pubDate>
+            <enclosure url="https://github.com/downloads/vidalvanbergen/ViMediaManager/vimediamanager-0.6%CE%B15.dmg" length="8040459" type="application/octet-stream" sparkle:version="0.6.0.1.5" sparkle:shortVersionString="v0.6α5" sparkle:dsaSignature="MCwCFGGXIFugXsG4Sod21yw026hBwymLAhR9NlCazWAXKJ8oisDdZGr6AfE7rw=="/>
+            <guid isPermaLink="false">FCE408A3-B0FF-4713-A594-3218C09D650D</guid>
+            <sparkle:releaseNotesLink>http://vidalvanbergen.github.com/ViMediaManager/updates/0.6a5.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
+            <title>ViMediaManager-0.6α4</title>
+            <pubDate>Fri, 19 Oct 2012 18:29:53 +0200</pubDate>
+            <enclosure url="https://github.com/downloads/vidalvanbergen/ViMediaManager/vimediamanager-0.6%CE%B14.dmg" length="8015649" type="application/octet-stream" sparkle:version="0.6.0.1.4" sparkle:shortVersionString="v6α4" sparkle:dsaSignature="MCwCFCYcio0Sg1SLyHJuX3OwBqIkYtB3AhRzytTkGlRlPhmNaUKyMZ4L9gMwFg=="/>
+            <guid isPermaLink="false">FF1B8502-8207-4C6B-BE1D-7E4D8B29B207</guid>
+            <sparkle:releaseNotesLink>http://vidalvanbergen.github.com/ViMediaManager/updates/0.6a4.html</sparkle:releaseNotesLink>
+        </item>
+    </channel>
+</rss>

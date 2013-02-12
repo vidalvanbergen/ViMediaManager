@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <title>ViMediaManager Updates</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <meta name="author" href="Vidal van Bergen">
+    <meta name="copyright" content="© 2011 Vidal van Bergen">
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <style type="text/css" media="screen">
+      * { -webkit-box-sizing: border-box; }
+      html, body {
+        padding: 0; margin: 0;
+        /* width: 436px; */
+        min-height: 100%;
+        width: 100%;
+        font-size: 13px;
+        font-family: Arial, sans-erif;
+      }
+      header {
+        /*height: 42px;*/
+        height: 20%;
+        width: 100%;
+        padding: 5px;
+        background: white -webkit-linear-gradient( top, hsl(0, 0%, 90%), hsl(0, 0%, 70%) );
+        border-bottom: 1px solid hsl(0, 0%, 65%);
+        -webkit-box-shadow: inset 0 -1px 0px hsla(0, 0%, 100%, .7);
+        text-shadow: 0 1px 0px white;
+        font-size: 11px;
+        color: #444;
+      }
+      header span { font-weight: bold; font-size: 16px; letter-spacing: 1px; line-height: 18px; }
+      header img.button {
+        float: left;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #7e7e7e;
+        background: -webkit-linear-gradient( top, hsla(0, 0%, 100%, .8), hsla(0, 0%, 100%, .1) );
+        box-shadow: 0 1px 0 hsla(0, 0%, 100%, .6);
+      }
+      header img.vitalis {
+        float: right;
+        margin: 6px;
+      }
+      section {
+        /*min-height: 222px;*/
+        min-height: 100%;
+        width: 100%;
+        /*background: white url('aboutbg.jpg') repeat center center;*/
+        /*background: hsla(0, 0%, 0%, .3);*/
+        padding: 10px;
+        text-align: justify;
+      }
+
+      ul { padding: 0; margin: 0; }
+      ul li { list-style: none; }
+      p { margin: 10px 30px; font-style: italic; }
+
+      .new:before, .fix:before, .mod:before {
+        font-weight: bold;
+        font-size: 10px;
+        text-transform: uppercase;
+        width: 50px;
+        letter-spacing: 0px;
+        padding: 2px 10px;
+        margin: 2px 5px;
+        display: inline-block;
+        text-align: right;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-shadow: 0 1px 0px white;
+      }
+      .new:before { content: "New";
+        background: -webkit-linear-gradient( left, rgba(255, 255, 255, 0.9), rgba(125, 255, 125, 0.6) ); }
+      .fix:before { content: "Fix";
+        background: -webkit-linear-gradient( left, rgba(255, 255, 255, 0.9), rgba(255, 125, 125, 0.6) ); }
+      .mod:before { content: "Changed";
+        background: -webkit-linear-gradient( left, rgba(255, 255, 255, 0.9), rgba(125, 125, 255, 0.6) ); }
+    </style>
+
+    <!-- Date: 2011-09-07 -->
+    <!--
+        Hello, thanks for taking a look at my source code. Feel free to look and learn,
+        but please respect that everything here is copyright (c) 2011 Vidal van Bergen Vidal van Bergen
+    -->
+</head>
+<body>
+
+    <header>
+      <img src="vitalis.png" alt="Vidal van Bergen" title="Vidal van Bergen" class="vitalis">
+      <img src="update.png" alt="Update" title="Update" class="button">
+      <span>0.6α3</span><br/>
+      released on August 2, 2012
+    </header>
+
+    <section>
+      <ul>
+        <li class="new">Finaly support for unicode characters when looking up movies! Movies like Amélie will now pass through successfully.</li>
+        <li class="new">Adding a set now automatically tries to add movies to the set.</li>
+        <li class="new">Added a entirely new search field to the 'manual search' window.</li>
+        <li class="nwe">Also Added the same search field to the main window so people can filter their movies list.</li>
+        <li class="new">Added some support for .nfo files with only an IMDB URL inside, ViMM will search for information using the IMDB ID from the URL.</li>
+        <li class="mod">Improved IMDb Data fetching.</li>
+        <li class="mod">If the TMDB does not have a match for your movie, it now will still pass trough the unofficial IMDB API to search for information if you have an IMDB ID.</li>
+        <li class="mod">Better support for international information fetching.</li>
+        <li class="mod">Support for NL, DE, FR &amp; UK MPAA rating fetching &amp; displaying.</li>
+        <li class="mod">Lots of changes and improvements to 'batch renaming' files &amp; folders.</li>
+        <li class="fix">Fixed a bug where .nfo files would not be updated with the new poster location after batch renaming, leaving XBMC with nothing but a screenshot to fill in for the thumbnail.</li>
+        <li class="fix">Fixed where movie root folders with the same folder name would overwrite each other in the preferences.</li>
+        <li class="fix">Lots of other minor bug fixes and changes.</li>
+      </ul>
+    </section>
+
+    <p>With a lot of thanks to my special alpha tester, Rob!</p>
+    <p>Enjoy!</p>
+</body>
+</html>

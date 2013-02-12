@@ -1,0 +1,18 @@
+// ===== Form Validation ====================================================== //
+
+input {
+  &:valid {
+    background-color: hsl(72, 58%, 85%);
+    border-color:     hsl(72, 53%, 67%);
+    color:            hsl(90, 76%, 33%); }
+  &:invalid {
+    background-color: hsl(357, 75%, 94%);
+    border-color:     hsl(358, 88%, 87%);
+    color:            hsl(7, 79%, 46%); }
+  + span {
+    color:            red;
+    display:          none;
+    margin-left:      12em; }
+  &:invalid {
+    &:required + span,
+    + span { display: block; } } }

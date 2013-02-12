@@ -1,0 +1,227 @@
+
+/* ===== Normalize.css @ http://necolas.github.com/normalize.css/ ============= */
+
+/* ===== HTML5 display definitions ============================================ */
+
+// Corrects block display not defined in IE6/7/8/9 & FF3
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  @if $support-for-ie or $support-for-moz { display: block; }
+}
+
+// Corrects inline-block display not defined in IE6/7/8/9 & FF3
+audio[controls], canvas, video { @if $support-for-moz or $support-for-ie { display: inline-block; }
+  @if $legacy-support-for-ie { .lt-ie8 & { display: inline; zoom: 1; } }
+}
+
+// Prevents modern browsers from displaying 'audio' without controls
+// Removes excess height in iOS5 devices
+audio:not([controls]) { display: none; height: 0; }
+
+// Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+// Known issue: no IE6 support
+[hidden] { display: none; }
+
+
+/* ===== Base ================================================================= */
+
+// 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+// 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+html {
+  @if $legacy-support-for-ie { &.lt-ie8 { font-size: 100%; } } // 1
+  @if $support-for-mobile {
+    -webkit-text-size-adjust: 100%; // 2
+    -ms-text-size-adjust: 100%; } } // 2
+
+// Addresses font-family inconsistency between 'textarea' and other form elements.
+html, button, input, select, textarea { font-family: inherit; font-size: inherit; }
+
+// Addresses margins handled incorrectly in IE6/7
+//body { margin: 0; }
+
+
+/* ===== Typography =========================================================== */
+
+// Addresses styling not present in IE7/8/9, S5, Chrome
+@if $support-for-definitions { abbr[title] { border-bottom: 1px dotted; } }
+
+// Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+b, strong { font-weight: bold; }
+
+@if $support-for-adv-typography { blockquote { margin: 1em 40px; } }
+
+// Addresses styling not present in S5, Chrome
+@if $support-for-adv-typography and $support-for-webkit { dfn { font-style: italic; } }
+
+// Addresses styling not present in IE6/7/8/9
+@if $support-for-adv-typography and $support-for-ie { mark { background: #ff0; color: #000; } }
+
+// Addresses margins set differently in IE6/7
+@if $support-for-adv-typography and $legacy-support-for-ie { p, pre { margin: 1em 0; } }
+
+// Corrects font family set oddly in IE6, S4/5, Chrome
+@if $support-for-adv-typography {
+  pre, code, kbd, samp {
+    font-size: 1em;
+    font-family: $fixed-font;
+    // @if $support-for-webkit { font-family: monospace, serif; }
+    @if $legacy-support-for-ie { font-family: 'courier new', monospace; } }
+
+// Improves readability of pre-formatted text in all browsers
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+}
+
+// Addresses CSS quotes not supported in IE6/7
+@if $support-for-adv-typography and $legacy-support-for-ie { q { quotes: none; } }
+// Addresses quote property not supported in S4
+@if $support-for-adv-typography and $support-for-webkit { q:before, q:after { content: ''; content: none; } }
+
+small { font-size:  .75em; }
+big   { font-size: 1.25em; }
+
+// Prevents sub and sup affecting line-height in all browsers
+@if $support-for-adv-typography {
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline; }
+  sup { top: -0.5em; }
+  sub { bottom: -0.25em; }
+}
+
+
+/* ===== Lists ================================================================ */
+
+// Addresses margins set differently in IE6/7
+dl, menu, ol, ul { margin: 1em 0; }
+dd { margin: 0 0 0 40px; }
+
+// Addresses paddings set differently in IE6/7
+menu, ol, ul { padding: 0 0 0 40px; }
+
+// Corrects list images handled incorrectly in IE7
+nav { ul, ol { list-style: none; list-style-image: none; margin: 0; padding: 0; } }
+
+
+// ===== Embedded content ===================================================== */
+
+// 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+// 2. Improves image quality when scaled in IE7
+img { vertical-align: middle;
+  @if $support-for-ie or $support-for-moz { border: 0; } // 1
+  @if $legacy-support-for-ie { -msinterpolation-mode: bicubix; } } // 2
+
+// Corrects overflow displayed oddly in IE9
+@if $support-for-ie { svg:not(:root) { overflow: hidden; } }
+
+
+// ===== Figures ============================================================== */
+
+// Addresses margin not present in IE6/7/8/9, S5, O11
+figure { margin: 0; }
+
+
+// ===== Forms ================================================================ */
+
+@if $support-for-forms {
+
+  // Corrects margin displayed oddly in IE6/7
+  @if $legacy-support-for-ie { form { margin: 0; } }
+
+  // Define consistent border, margin, and padding
+  fieldset {
+    border  : 1px solid hsl(0, 0%, 75%);
+    margin  : 0 2px;
+    padding : 0.35em 0.625em 0.75em; }
+
+  // 1. Corrects color not being inherited in IE6/7/8/9
+  // 2. Corrects text not wrapping in FF3
+  // 3. Corrects alignment displayed oddly in IE6/7
+  legend {
+    @if $support-for-ie { border: 0; } // 1
+    padding: 0;
+    @if $support-for-moz { white-space: normal; } // 2
+    @if $legacy-support-for-ie { margin-left: -7px; } } // 3
+
+  // 1. Corrects font size not being inherited in all browsers
+  // 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+  // 3. Improves appearance and consistency in all browsers
+  button, input, select, textarea {
+    font-size: 100%; // 1
+    margin: 0; // 2
+    vertical-align: baseline; // 3
+    font-family: $font-family;
+    @if $legacy-support-for-ie { vertical-align: middle; } } // 3
+
+  // Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+  @if $support-for-moz { button, input { line-height: normal; } } // 1
+
+  // 1. Improves usability and consistency of cursor style between image-type 'input' and others
+  // 2. Corrects inability to style clickable 'input' types in iOS
+  // 3. Removes inner spacing in IE7 without affecting normal text inputs
+  //    Known issue: inner spacing remains in IE6
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    cursor: pointer; // 1
+    @if $support-for-mobile { -webkit-appearance: button; } // 2
+    @if $legacy-support-for-ie { overflow: visible; } } // 3
+
+  // Re-set default cursor for disabled elements
+  button[disabled], input[disabled] { cursor: default; }
+
+  // 1. Addresses box sizing set to content-box in IE8/9
+  // 2. Removes excess padding in IE8/9
+  // 3. Removes excess padding in IE7
+  //    Known issue: excess padding remains in IE6
+  @if $support-for-ie {
+    input[type="checkbox"],
+    input[type="radio"] {
+      box-sizing: border-box; // 1
+      padding: 0; // 2
+      @if $legacy-support-for-ie {
+        height: 13px; // 3
+        width: 13px; // 3
+  } } }
+
+  // 1. Addresses appearance set to searchfield in S5, Chrome
+  // 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+  input[type="search"] {
+    -webkit-appearance: textfield; // 1
+    @include box-sizing( border-box ); } // 2
+
+  // Removes inner padding and search cancel button in S5, Chrome on OS X
+  @if $support-for-webkit {
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; } }
+
+  // Removes inner padding and border in FF3+
+  @if $support-for-moz {
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+      border: 0; padding: 0; } }
+
+  // 1. Removes default vertical scrollbar in IE6/7/8/9
+  // 2. Improves readability and alignment in all browsers
+  // 3. Allow only vertical resizing
+  textarea { resize: vertical; // 3
+    vertical-align: top;  // 2
+    @if $support-for-ie { overflow: auto; } } // 1
+
+} // @END support-for-forms
+
+
+// ===== Tables =============================================================== */
+
+@if $support-for-tables {
+
+// Remove most spacing between table cells
+//table {
+//  border-collapse: collapse;
+//  border-spacing: 0; }
+
+}

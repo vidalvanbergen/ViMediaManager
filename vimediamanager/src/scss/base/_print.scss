@@ -1,0 +1,109 @@
+
+// ===== Normalize ============================================================ //
+
+* {
+  // Ban all unruley properties that make printing a hell
+  @include box-shadow ( none !important );
+  text-shadow    : none !important;
+  background     : transparent !important;
+  color          : black !important;
+  filter         : none !important;
+  -ms-filter     : none !important;
+
+  // Watch out for the following properties:;
+  float          : none;
+  height         : auto;
+  width          : auto;
+  position       : static; }
+
+html, body, section, article {
+  font           : normal normal 12pt/1.25em $print-font;
+  letter-spacing : 0.2pt;
+  word-spacing   : 1.1pt;
+  width          : 100% !important; }
+
+
+/* ===== No Print Elements ==================================================== */
+
+body > header, body > footer, nav, aside, // Hide general elements for readability effect
+button, .button, input[type="button"], input[type="submit"], input[type="reset"], // Buttons
+.no-print { display: none !important; visibility: hidden; }
+
+
+/* ===== Links ================================================================ */
+
+// Targeting only links inside paragraphs should prevent
+// catching image replacement techniques, navigation and link buttons.
+
+p a {
+  &, &:link, &:visited {
+    background      : transparent;
+    color           : hsl(240, 100%, 50%);
+    font-weight     : bold;
+    text-decoration : none; }
+  &[href]:after {
+    content         : " (" attr(href) ") ";
+    color           : black;
+    font-size       : 0.85em;
+    font-weight     : normal;
+    text-decoration : none; }
+
+  &[href^="/"]:after { content: " (http://www.yourdomain.com" attr(href) ") "; }
+  &[href^="javascript:"], &[href^="#"] { color: black; &:after { content: none; } }
+}
+
+
+/* ===== Definitions ========================================================== */
+
+@if $support-for-definitions {
+  acronym[title], abbr[title], dfn[title] { &:after {
+    content: " (" attr(title) ") ";
+    border-bottom: 0 none;
+    font-size: .85em;
+    font-weight: normal;
+    text-transform: capitalize; } }
+}
+
+
+/* ===== Tables =============================================================== */
+
+@if $support-for-tables {
+  caption {
+    background: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+    text-align: left; }
+  table {
+    margin: 1px;
+    page-break-inside: avoid;
+    text-align: left; }
+  thead { display: table-header-group; }
+  th { border-bottom: 2px solid #333; font-weight: bold; }
+  tr { page-break-inside: avoid; }
+  td { border-bottom: 1px solid #333; }
+  th, td { padding: 4px 10px 4px 0; }
+  tfoot { display: table-footer-group; font-style: italic; }
+}
+
+
+/* ===== Others =============================================================== */
+
+// blockquote, q, img, fieldset, tr,
+// pre, code, kbd, samp, tt, var { page-break-inside: avoid; }
+
+// pre, blockquote { border: 1px solid hsl(0, 0%, 60%); page-break-inside: avoid; }
+img { max-width: 100% !important; page-break-inside: avoid; }
+// thead { display: table-header-group; }
+
+// Defines the minimum number of lines that must be left at the top & bottom of a page
+p, h2, h3 { orphans: 3; widows: 3; }
+h1, h2, h3 { page-break-after: avoid; }
+
+//@page { margin: 0.5cm; }
+@page :left { margin: 15mm 20mm 15mm 10mm; }
+@page :right { margin: 15mm 10mm 15mm 20mm; }
+
+/* ==== Customize ============================================================= */
+
+
+
+

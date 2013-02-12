@@ -1,0 +1,17 @@
+@mixin dropcap {
+  p:first-of-type::first-letter {
+    display:          inline-block;
+    float:            left;
+    margin-right:     5px;
+    padding:          0 3px;
+    width:            1em;
+    border:           1px solid silver;
+    background-color: hsl(0, 0%, 80%);
+    color:            hsl(0, 0%, 100%);
+    font-size:        4 * $font-size;
+    font-family:      $fancy-font;
+    line-height:      1em;
+    text-align:       center;
+    // CSS 3 Enhancement //
+    text-shadow:      0px 0px 2px hsla(0, 0, 0, 0.4);
+    @include border-top-radius(15px); } }

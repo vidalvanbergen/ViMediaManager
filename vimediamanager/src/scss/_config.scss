@@ -1,0 +1,257 @@
+//   ========================================================================== //
+//
+//    THEME NAME: JohnSmith
+//     THEME URI: http://www.johnsmith.com
+//       VERSION: v1.0
+//          DATE: ddate
+//           URL: http://www.johnsmith.com
+//   DESCRIPTION: What kind of webpage will this be? What will it be used for?
+//
+//   ========================================================================== //
+//
+//        CLIENT: John Smith
+//                john@smith.com
+//                http://www.johnsmith.com
+//           TEL: 0229-123456
+//                06-123456
+//
+//   ========================================================================== //
+//
+//        AUTHOR: Vidal van Bergen
+//   AUTHOR MAIL: vidal.vanbergen@gmail.com
+//    AUTHOR URI: http://cv.mariusth.heliohost.org
+//       TWITTER: @MariusTh86
+//
+//   ========================================================================== //
+
+// ===== Browser support ====================================================== //
+
+// You can configure the compass default browser support matrix by setting these variables as needed.
+$support-for-ie         : true;
+$legacy-support-for-ie  : false;
+$legacy-support-for-ie6 : false;
+$legacy-support-for-ie7 : false;
+$legacy-support-for-ie8 : false;
+$legacy-support-for-ie9 : false;
+
+$experimental-support-for-microsoft : false;
+$experimental-support-for-mozilla   : true;
+$experimental-support-for-webkit    : true;
+$experimental-support-for-opera     : false;
+$experimental-support-for-khtml     : false;
+
+$support-for-webkit : true;
+$support-for-mobile : false;
+$support-for-moz    : true;
+
+$experimental-support-for-original-webkit-gradients : false;
+$experimental-support-for-svg : false;
+$experimental-support-for-pie : false;
+
+// =====
+
+$support-for-definitions    : false;
+$support-for-forms          : false;
+$support-for-tables         : true;
+$support-for-adv-typography : false;
+
+@if not $support-for-ie { $legacy-support-for-ie : false; }
+
+
+// ===== Font Stacks ========================================================== //
+
+$font-family : "Lucida Grande", Lucida, Tahoma, Verdana, Helvetica, Arial, sans-serif !default;
+$Helvetica   : "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$fixed-font  : Consolas, "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", Monaco, Courier, "Courier New", monospace, serif !default;
+$fancy-font  : Baskerville, "Goudy Old style", "Palatino", "Book Antiqua", Georgia, serif !default;
+$print-font  : Georgia, Times, "Times New Roman", serif;
+
+
+// ===== Base settings ======================================================== //
+
+// $page-width      : 960px;
+$page-width      : 90%; // Better for responsive design
+
+$font-size       : 14px;
+$line-height     : 1.5em;
+$font-color      : hsl(0, 0%, 80%);
+
+$selection-bg    : hsl(333, 100%, 67%);
+$selection-color : white;
+
+
+// ===== Imports ============================================================== //
+
+// Frameworks
+@import "compass";
+@import "blueprint";
+
+@import "base/mixins";
+@import "base/utilities";
+@import "base/normalize";
+
+
+/* ===== Base styles ========================================================== */
+
+* { @include box-sizing( border-box ); } // apply a natural box layout model to all elements
+
+html {
+  // height      : 100%;
+  background  : white;
+  // @include background-size(cover); // Use for full screen background-images
+  font-family : $font-family;
+  font-size   : $font-size;
+  color       : $font-color;
+  overflow-y  : scroll;
+  background  : image-url("bgpattern.png") repeat top left;
+  @include background-image( linear-gradient( top, hsla(0, 0%, 10%, .7) 0%, hsla(0, 0%, 30%, .1) 150px, hsla(0, 0%, 0%, .6) 600px ), image-url("bgpattern.png") );
+  min-height  : 100%;
+}
+
+body {
+  line-height : $line-height;
+  margin      : 0 auto;
+  padding     : 20px 12px;
+  // min-height  : 100%;
+  max-width: 1224px;
+  width       : $page-width; }
+
+// Remove text-shadow in selection highlight
+::-moz-selection    { background : $selection-bg; color : $selection-color; text-shadow : none !important; }
+::selection         { background : $selection-bg; color : $selection-color; text-shadow : none !important; }
+img::-moz-selection { background : transparent; }
+img::selection      { background : transparent; }
+
+a {
+  $link-color         : hsl(  0,  0%, 60%); // #36C
+  $link-visited-color : hsl(  0,  0%, 60%); // #85A
+  $link-hover-color   : hsl(  0,  0%, 90%); // #C33
+  $link-active-color  : saturate($link-hover-color, 100%);
+  $link-focus-color   : $link-hover-color;
+  -webkit-tap-highlight-color : $link-active-color;
+
+  color               : $link-color;
+  text-decoration     : none;
+  &:visited { color   : $link-visited-color; }
+  &:focus   { outline : thin dotted; } // Addresses outline displayed oddly in Chrome
+  &:hover   { color   : $link-hover-color; } // text-decoration : underline; }
+  &:active  { color   : $link-active-color; }
+  &:hover,
+  &:active  { outline  : 0; } }   // Improves readability when focused and also mouse hovered in all browsers
+
+img { max-width: 100%; }
+
+h1, h2, h3,
+h4, h5, h6     { word-spacing : -0.125em; }
+h1, h2         { font-weight  : normal; line-height: 1.2em; }
+h3, h4, h5, h6 { font-weight  : bold; }
+h1             { letter-spacing: -1px; }
+//h1 + hr { margin-top    : -$line-height / 2; }
+//h4, h5, h6 { margin-bottom: 0; + p { margin-top: 0px; } }
+
+// Addresses font sizes and margins set differently in IE6/7
+// Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+h1 { font-size: 2em;     margin: 0.67em 0; }
+h2 { font-size: 1.5em;   margin: 0.83em 0; }
+h3 { font-size: 1.17em;  margin: 1.00em 0; }
+h4 { font-size: 1em;     margin: 1.33em 0; }
+h5 { font-size: 0.83em;  margin: 1.67em 0; }
+h6 { font-size: 0.75em;  margin: 2.33em 0; }
+
+p {
+  hyphenate-character : "\2010";
+  hyphenate-lines     : 3;
+  hyphenate           : auto;
+  margin-bottom       : $line-height;
+  margin-top          : 0;
+  text-align          : justify;
+  word-spacing        : 0.125em;
+  &:first-child { margin-top: 0; }
+  // &:last-child  { margin-bottom: 0; }
+
+  // Indent every paragraph starting with the second
+  //+ p { text-indent: $line-height; }
+  //&:first-child { text-indent: 0; }
+  //&:first-of-type::first-letter { font-weight: bold; font-size: 1.2em; }
+}
+
+@if $support-for-forms {
+  button, select, .pointer, label[for],
+  input[type='checkbox'], input[type='radio'],
+  input[type='button'],  input[type='submit'], input[type='reset'],
+  input[type='file'],    input[type='range'], input[type='image']
+  { cursor : pointer }
+}
+
+@if $support-for-tables {
+  table {
+    margin-bottom   : $line-height;
+    border-collapse : collapse;
+    border-spacing   : 0;
+    font-size       : $font-size;
+    td               { vertical-align : top; }
+    thead, tfoot {
+      th { padding: 0.55em 10px; } }
+    tbody {
+      td, th         { padding    : 0.35em 10px; }
+      td.right       { text-align : right; } }
+    tfoot td         { padding : 0.25em 10px; }
+    th, tfoot td     { font-weight : bold; text-align : left; }
+    caption {
+      font-size     : $font-size * 1.2;
+      font-weight   : bold;
+      padding       : 0.75em;
+      text-align     : center; } } }
+
+// Fancify "&" sign
+//.amp { font-family : $fancy-font; font-style  : italic; font-weight : normal; }
+
+@if $support-for-adv-typography {
+  mark, del, ins {
+    @include border-radius( .4em );
+    padding: { left  : .4em; right: .4em; } }
+  mark { // Addresses styling not present in IE6/7/8/9
+    background-color : hsl( 60, 100%, 73%  );
+    color           : hsl(  0,   0%, 6.66% );
+    font-weight     : bold; }
+  ins {
+    background-color : hsl(105, 90%, 80%);
+    color           : hsl(120, 100%, 30%);
+    text-decoration : none; }
+  del {
+    background-color : hsl( 9, 100%, 80%);
+    color           : hsl( 10, 100%, 50%); }
+
+  pre, code, kbd, samp, tt, var {
+    color           : hsl(  0,   0%, 40%);
+    font-family     : $fixed-font;
+    white-space     : pre;
+    white-space     : pre-wrap;
+    word-wrap       : break-word; }
+  pre {
+    background-color : hsl( 0,  0%, 92%);
+    padding         : .5em 1em; }
+  kbd {
+    @include border-radius( 4px );
+    background       : hsl(0, 0%, 93%);
+    border: {
+      color         : hsl(0, 0%, 80%) hsl(0, 0%, 67%) hsl(0, 0%, 53%) hsl(0, 0%, 73%);
+      style         : solid;
+      width         : 1px 3px 4px 2px; }
+    color           : black;
+    font-size       : 11px;
+    font-weight     : bold;
+    line-height     : 1em;
+    margin           : 0 2px;
+    padding         : 5px;
+    white-space     : nowrap; }
+
+  acronym[title], abbr[title], dfn[title] {
+    @include nowrap;
+    border-bottom   : 1px dotted; // Addresses styling not present in IE7/8/9, S5, Chrome
+    cursor           : help; }
+  acronym[title], abbr[title] {
+    font-size       : $font-size * .85;
+    letter-spacing   : 0.1em;
+    text-transform   : uppercase; }
+}

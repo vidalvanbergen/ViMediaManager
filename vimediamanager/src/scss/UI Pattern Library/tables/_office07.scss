@@ -1,0 +1,65 @@
+// ===== MS Office 2007 Fancy Tables ========================================== //
+
+$select_color:                hsl(220, 65%, 55%);
+
+table {
+  border: 1px solid hsl(0, 0%, 80%); }
+
+thead {
+  background-color: hsl(0, 0%, 80%);
+  font-weight: bold;
+  th {
+    border: {
+      right: 1px solid hsl(0, 0%, 80%);
+      bottom: 1px solid hsl(0, 0%, 73%); };
+    padding: 0.55em 10px;
+    text-align: center; } }
+
+tbody {
+  tr:nth-child(even),
+  tr.even {
+    background-color: $row-color-even; }
+  tr:hover {
+    background-color: $select_color;
+    color: hsl(0, 0%, 100%); } }
+
+td, th {
+  border: {
+    right: 1px solid hsl(0, 0%, 80%);
+    bottom: 1px solid hsl(0, 0%, 93%); };
+  padding: 0.35em 10px;
+  text-align: left; }
+
+tr:last-child td,
+tr:last-child th {
+  border-bottom: 1px solid hsl(0, 0%, 80%); }
+
+tfoot {
+  background: hsl(0, 0%, 80%) scroll;
+  font-weight: bold;
+  td {
+    border: {
+      right: 1px solid hsl(0, 0%, 80%);
+      top: 1px solid hsl(0, 0%, 0%); };
+    padding: 0.25em 10px; } }
+
+thead, tfoot {
+  background-color: hsl(0, 0%, 80%); }
+
+thead, tfoot, th {
+  text-shadow: 0 1px 0 hsl(0, 0%, 100%); }
+
+
+// ===== MS Office 2007 ======================================================= //
+
+th, tfoot td {
+  color: hsl(217, 74%, 31%);
+  // @include linear-gradient(color-stops(hsl(214, 100%, 95%), hsl(214, 100%, 88%) 40%, hsl(214, 100%, 84%) 40%, hsl(214, 74%, 88%)));
+  @include background-image( linear-gradient( hsl(214, 100%, 95%), hsl(214, 100%, 88%) 40%, hsl(214, 100%, 84%) 40%, hsl(214, 74%, 88%) ) ); }
+
+tbody {
+  td:hover {
+    background: hsl(217, 88%, 29%); }
+  tr:hover th {
+    //@include linear-gradient(color-stops(hsl(33, 100%, 83%), hsl(33, 100%, 72%) 40%, hsl(33, 100%, 62%) 40%, hsl(47, 100%, 74%)));
+    @include background-image( linear-gradient( hsl(33, 100%, 83%), hsl(33, 100%, 72%) 40%, hsl(33, 100%, 62%) 40%, hsl(47, 100%, 74%) ) ); } }

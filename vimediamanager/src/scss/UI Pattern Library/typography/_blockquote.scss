@@ -1,0 +1,63 @@
+blockquote {
+  background-color : hsl(0, 0%, 95%);
+  color            : hsl(0, 0%, 40%);
+  font-style       : italic;
+  padding          : 0.5em 1em;
+  display          : inline-block;
+  border-left      : 10px solid hsl(0, 0%, 80%);
+  // quotes           : "“" "”" "‘" "’"
+}
+
+blockquote {
+  margin           : 0 $line-height $line-height;
+  p { display      : inline; }
+  &:last-child {
+    margin         : 0 $line-height $line-height; }
+  &:before, &:after {
+    color          : hsl(0, 0%, 80%);
+    font-size      : $font-size * 2.5;
+    font-style     : normal;
+    line-height    : 0.1em; }
+  &:before {
+    content        : "“";
+    margin-right   : 0.15em;
+    vertical-align : -0.4em; }
+  &:after {
+    content        : "”";
+    margin-left    : 0.15em;
+    vertical-align : -0.6em; } }
+
+q {
+  &:before { content: "“"; }
+  &:after  { content: "”"; }
+  q {
+    &:before { content: "‘"; }
+    &:after  { content: "’"; }
+} }
+
+// ===== CSS-Tricks pretty quote
+
+//blockquote {
+//  background       : hsl(0, 0%, 95%);
+//  border-left      : 10px solid hsl(0, 0%, 80%);
+//  margin           : 1.5em 10px;
+//  padding          : .5em 10px;
+//  quotes           : "\201C""\201D""\2018""\2019";
+//  &:before {
+//    color          : #ccc;
+//    content        : open-quote;
+//    font-size      : 4em;
+//    line-height    : .1em;
+//    margin-right   : .25em;
+//    vertical-align : -.4em; }
+//  p { display      : inline; } }
+
+
+// Quote Marks:
+// " " double
+// ' ' single
+// “ ” smart double
+// ‘ ’ smart single
+// < > single angle
+// « » double angle
+// „   smart double low

@@ -1,0 +1,23 @@
+// A reflection is a replica of the original object with its own specific transform and mask. The box-reflect property can be used to specify the specialized transform and mask that should be used for the replica.
+
+// -webkit-box-reflect: <direction> <offset> <mask-box-image>
+
+// <direction> can be one of above, below, left or right.
+// <offset> is a length or percentage that specifies the distance of the reflection from the edge of the original border box (using the direction specified). It can be omitted, in which case it defaults to 0.
+// <mask-box-image> is a mask-box-image that can be used to overlay the reflection. If omitted, the reflection has no mask.
+
+// +reflect(below, 0, 0.5) will create a shadow directly below the original, and half the original's height
+@mixin reflect(
+  $direction : below,
+  $offset    : 0,
+  $size      : 0.5
+) {
+  -webkit-box-reflect: $direction $offset -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from( transparent ),
+    color-stop( 1 - $size, transparent ),
+    to( hsl(0, 0%, 100%) )
+  );
+}

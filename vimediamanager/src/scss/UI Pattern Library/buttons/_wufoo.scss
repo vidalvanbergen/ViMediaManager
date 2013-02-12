@@ -1,0 +1,187 @@
+/* @group Wufoo Buttons */
+
+//  HTML Example
+//
+//    <button type="submit" class="button positive">
+//      <img src="css/blueprint/plugins/buttons/icons/tick.png" alt=""/> Save
+//    </button>
+//
+//    <a class="button" href="/password/reset/">
+//      <img src="css/blueprint/plugins/buttons/icons/key.png" alt=""/> Change Password
+//    </a>
+//
+//    <a href="#" class="button negative">
+//      <img src="css/blueprint/plugins/buttons/icons/cross.png" alt=""/> Cancel
+//    </a>
+
+// Button General --------------------------------------------------------
+
+// Normal base colors
+$button-color: hsl(210, 50%, 40%);
+$button-background: hsl(200, 100%, 95%);
+
+// Positive base colors
+$positive-color: hsl(90, 76%, 33%);
+$positive-background: hsl(72, 58%, 85%);
+
+// Negative base colors
+$negative-color: hsl(0, 80%, 45%);
+$negative-background: hsl(0, 75%, 95%);
+
+button, .button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  display: inline-block;
+  // float:                   left
+  // margin:                  0 0.583em 0.667em 0
+  margin           : 0.7em 0.5em 0.7em 0;
+  padding          : 4px 10px 4px 7px;
+  border           : 1px solid hsl(0, 0%, 87%) {
+    top-color        : hsl(0, 0%, 93%);
+    left-color       : hsl(0, 0%, 93%); };
+  color            : hsl(0, 0%, 35%);
+  background-color : hsl(0, 0%, 95%);
+  font-size        : 100%;
+  font             : inherit;
+  line-height      : inherit;
+  vertical-align   : middle;
+  cursor           : pointer;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $button-color;
+    background-color: $button-background;
+    border: 1px solid desaturate(darken($button-background, 10%), 40%);
+  }
+  &:active {
+    background-color: $button-color;
+    border: 1px solid $button-color;
+    color: hsl(0, 0%, 100%);
+  }
+  &:before {
+    font: 1.2em / 0 "Pictos", sans-serif;
+    content: attr(data-icon);
+    margin-right: 0.4em;
+  }
+}
+
+button, .button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  width: auto;
+  overflow: visible;
+  // IE6
+  padding: 4px 10px 3px 7px;
+}
+
+button[type] {
+  // Firefox
+  padding: 4px 10px 4px 7px;
+  // Safari
+  line-height: 17px;
+}
+
+*:first-child + html button[type] {
+  // IE7
+  padding: 4px 10px 3px 7px;
+}
+
+button img, .button img {
+  margin: 0 3px -3px 0;
+  padding: 0;
+  border: none;
+  float: none;
+  width: 16px;
+  height: 16px;
+}
+
+// Positive Buttons ------------------------------------------------------
+
+.positive {
+  color: $positive-color;
+  &:hover, &:focus {
+    background-color: $positive-background;
+    border-color: darken($positive-background, 20%);
+    color: $positive-color;
+  }
+  &:active {
+    background-color: $positive-color;
+    border-color: $positive-color;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+// Negative Buttons ------------------------------------------------------
+
+.negative {
+  color: $negative-color;
+  &:hover,
+  &:focus {
+    background-color: $negative-background;
+    border-color: darken($negative-background, 10%);
+    color: $negative-color;
+  }
+  &:active {
+    background-color: $negative-color;
+    border-color: $negative-color;
+    color: hsl(0, 0%, 100%);
+  }
+}
+
+// Disabled --------------------------------------------------------------
+
+button, .button,
+.negative,
+.positive,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  &[disabled] {
+    opacity: 0.5;
+    color: hsl(0, 0%, 35%);
+    &:hover, &:active {
+      cursor: default;
+      background-color: hsl(0, 0%, 95%);
+      border: 1px solid hsl(0, 0%, 87%);
+      border-color: hsl(0, 0%, 93%)
+                    hsl(0, 0%, 87%)
+                    hsl(0, 0%, 87%)
+                    hsl(0, 0%, 93%);
+    }
+  }
+}
+
+// CSS3 Enhancements -----------------------------------------------------
+
+button, .button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  @include border-radius(5px);
+  @include transition(all 0.25s ease); }
+
+// Animation -------------------------------------------------------------
+
+input[type=submit],
+button[type=submit],
+.button.default {
+  @include animation(pulse, 1s, alternate, ease-in-out, 0, infinite);
+  &[disabled] { @include animation(none); }
+}
+
+@-webkit-keyframes pulse {
+    0% { @include box-shadow(0 0 3px 3px hsl(210, 100%, 85%)); }
+  100% { @include box-shadow(0 0 3px 0 transparent); } }
+
+@-moz-keyframes pulse {
+    0% { @include box-shadow(0 0 3px 3px hsl(210, 100%, 85%)); }
+  100% { @include box-shadow(0 0 3px 0 transparent); } }
+
+@keyframes pulse {
+    0% { @include box-shadow(0 0 3px 3px hsl(210, 100%, 85%)); }
+  100% { @include box-shadow(0 0 3px 0 transparent); } }
+
+
+/* @end Wufoo Buttons */

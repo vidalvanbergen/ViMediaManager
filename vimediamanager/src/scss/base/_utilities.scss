@@ -1,0 +1,236 @@
+
+// ===== Utility Box ========================================================== */
+
+// ===== Debug ================================================================ */
+
+@mixin debug( $color: red ) { outline    : 1px solid $color !important; }
+@mixin debug-border         { border     : 1px solid red !important; }
+@mixin debug-bg             { background : hsla(0, 100%, 50%, 0.2) !important; }
+@mixin hidden               { display    : none !important; visibility: hidden; }
+@mixin invisible            { visibility : hidden; }
+@mixin vidually-hidden {
+  border      : 0;
+  clip        : rect(0 0 0 0);
+  height      : 1px;
+  margin      : -1px;
+  overflow    : hidden;
+  padding     : 0;
+  position    : absolute;
+  width       : 1px;
+  &.focusable:active,
+  &.focusable:focus {
+    clip      : auto;
+    height    : auto;
+    margin    : 0;
+    overflow  : visible;
+    position  : static;
+    width     : auto; } }
+
+@mixin block { display : block; }
+@mixin clear { clear   : both; }
+@mixin transparent { opacity: 0; }
+@mixin opaque      { opacity: 1; }
+
+
+// ===== Float ================================================================ */
+
+@mixin float-left  { float : left; }
+@mixin float-right { float : right; }
+@mixin float-none  { float : none; }
+
+@mixin left  { float: left;  margin: 0 $line-height $line-height 0; }
+@mixin right { float: right; margin: 0 0 $line-height $line-height; }
+
+// ===== Text ================================================================= */
+
+@mixin text-left    { text-align         : left; }
+@mixin text-right   { text-align         : right; }
+@mixin text-center  { text-align         : center; }
+@mixin text-justify { text-align         : justify; }
+
+@mixin text-overline   { text-decoration : overline; }
+@mixin text-linetrough { text-decoration : line-through; }
+@mixin text-underline  { text-decoration : underline; }
+
+@mixin uppercase  { text-transform       : uppercase; }
+@mixin lowercase  { text-transform       : lowercase; }
+@mixin capitalise { text-transform       : capitalize; }
+
+@mixin bold      { font-weight           : bold; }
+@mixin italic    { font-style            : italic; }
+@mixin underline { border-bottom         : 1px solid; }
+@mixin highlight { background            : hsl(60, 100%, 80%); color : black; }
+
+@mixin ellipsis { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+
+
+// ===== Resets =============================================================== */
+
+@mixin no-padding    { padding     : 0; }
+@mixin no-margin     { margin      : 0; }
+@mixin no-whitespace { margin      : 0; padding : 0; border : 0; }
+@mixin no-indent     { margin-left : 0; padding-left : 0; text-indent : 0; }
+@mixin no-bullet     { list-style  : none; list-style-image : none; }
+
+
+// ===== Image Replacement ==================================================== */
+
+@mixin image-replacement-old {
+  background-color  : transparent;
+  background-repeat : no-repeat;
+  border            : none;
+  direction         : ltr;
+  display           : block;
+  overflow          : hidden;
+  text-align        : left;
+  text-indent       : -999em;
+  br { display      : none; } }
+
+@mixin image-replacement {
+  border           : 0;
+  font             : 0/0 a;
+  text-shadow      : none;
+  color            : transparent;
+  background-color : transparent; }
+
+
+// ===== Other ================================================================ */
+
+// Flip
+@mixin flip-horizontal { @include apply-transform( matrix(-1, 0, 0,  1, 0, 0) ); }
+@mixin flip-vertical   { @include apply-transform( matrix( 1, 0, 0, -1, 0, 0) ); }
+@mixin flip-both       { @include apply-transform( matrix(-1, 0, 0, -1, 0, 0) ); }
+@mixin flip-text       ( $default-rotate: 180deg ) { @include rotateY($default-rotate); }
+
+// Center
+@mixin center-horizontal( $width ) {
+  position    : absolute;
+  left        : 50%;
+  margin-left : $width / 2; }
+ @mixin center-vertical ( $height ) {
+  position   : absolute;
+  top        : 50%;
+  margin-top : $height / 2; }
+@mixin center-both ( $height, $width ) {
+  position    : absolute;
+  top         : 50%; left: 50%;
+  margin-top  : $height / 2;
+  margin-left : $width / 2; }
+@mixin block-center { display: block; margin-left: auto; margin-right: auto; }
+
+// Size
+@mixin size( $height: 5px, $width: 5px ) {
+  height      : $height;
+  width       : $width; }
+
+// Filters
+// .class {
+//    -webkit-filter:
+//      blur(5px)
+//      contrast(200%)
+//      opacity(50%)
+//      brightness(200%)
+//      grayscale(100%)
+//      sepia(100%)
+//      saturate(150%)
+//      invert(100%)
+//      hue-rotate(50deg)
+//      drop-shadow(inset 0 0 2em blue); }
+
+@mixin resizable( $direction: both ) { resize: $direction; overflow: auto; }
+
+// Select
+@mixin non-selectable { @include experimental( user-select, none, -moz, -webkit, -o, -ms, -khtml, official ); }
+
+// ClearFix
+@mixin clearfix {
+  zoom : 1;
+  &:after, &:before { content : ""; display : table; }
+  &:after { clear : both; } }
+
+// 3D Sidebar idea
+  //   <div class="yui-b" id="outer">
+  //   <div id="inner">
+  //     ...
+  //   </div>
+  // </div>
+@mixin ThreeDSidebar {
+  #outer {
+    position: relative;
+    @include perspective(800px); }
+  #inner {
+    @include transform( rotateY(-15deg) );
+    @include experimental-prop-value( transition, transform 1s);
+    &:hover { @include transform( rotateY(0deg) ); }
+  }
+}
+
+// convert px to em in sass.
+// $target-px:  the value you want to convert
+// $context:    the current pixel value of 1em
+
+// If you wanted to add the equivalent of a 12px left padding to an h2 set at a font-size of 32px you could use it like this:
+// h2 { padding-left: ce(12px, 32px); }
+@function ce($target-px, $context) {
+  @return ($target-px / $context) * 1em; }
+
+// Calculate Percent
+@function cp($target, $container) {
+  @return calc-percent($target, $container); }
+
+// Keyframes
+@mixin keyframes {
+  @-webkit-keyframes { @content; }
+  @-moz-keyframes    { @content; }
+  @keyframes         { @content; } }
+
+// Respond to Media Queries
+@mixin respond-to($media) {
+  $media: quote($media);
+  @if $media == "handhelds" {
+    @media only screen and (max-width: 479px) { @content; } }
+  @else if $media == "wide-handhelds" {
+    @media only screen and (min-width: 480px) and (max-width: 767px) { @content; } }
+  @else if $media == "small" {
+    @media only screen and (max-width: 767px) { @content; } }
+  @else if $media == "tablets" {
+    @media only screen and (min-width: 768px) and (max-width: 959px) { @content; } }
+  @else if $media == "desktops" {
+    @media only screen and (min-width: 992px) { @content; } }
+  @else if $media == "HD" {
+    @media only screen and ( -webkit-min-device-pixel-ratio: 2 ) { @content; } }
+  @else if $media == "SD" {
+    @media only screen and ( -webkit-max-device-pixel-ratio: 1.5 ) { @content; } }
+
+  // ===== iPad HD =====
+  @else if $media == "iPadHD" {
+    @media only screen and ( min-device-width: 1536px ) and ( max-device-width: 2048px ) and ( -webkit-min-device-pixel-ratio: 2 ) { @content; } }
+  @else if $media == "iPadHD-portrait" {
+    @media only screen and ( min-device-width: 1536px ) and ( max-device-width: 2048px ) and ( orientation: portrait ) { @content; } }
+  @else if $media == "iPadHD-landscape" {
+    @media only screen and ( min-device-width: 1536px ) and ( max-device-width: 2048px ) and ( orientation: landscape) { @content; } }
+
+  // ===== iPad SD =====
+  @else if $media == "iPadSD" {
+    @media only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px ) { @content; } }
+  @else if $media == "iPadSD-portrait" {
+    @media only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px ) and ( orientation: portrait ) { @content; } }
+  @else if $media == "iPadSD-landscape" {
+    @media only screen and ( min-device-width: 768px ) and ( max-device-width: 1024px ) and ( orientation: landscape) { @content; } }
+
+  // ===== iPod Touch HD / iPhone HD =====
+  @else if $media == "iTouchHD" {
+    @media only screen and ( min-device-width: 640px ) and ( max-device-width: 960px ) and ( -webkit-min-device-pixel-ratio: 2 ) { @content; } }
+  @else if $media == "iTouchHD-portrait" {
+    @media only screen and ( min-device-width: 640px ) and ( max-device-width: 960px ) and ( orientation: portrait ) { @content; } }
+  @else if $media == "iTouchHD-landscape" {
+    @media only screen and ( min-device-width: 640px ) and ( max-device-width: 960px ) and ( orientation: landscape) { @content; } }
+
+  // ===== iPod Touch SD / iPhone SD =====
+  @else if $media == "iTouchSD" {
+    @media only screen and ( min-device-width: 320px ) and ( max-device-width: 480px ) { @content; } }
+  @else if $media == "iTouchSD-portrait" {
+    @media only screen and ( min-device-width: 320px ) and ( max-device-width: 480px ) and ( orientation: portrait ) { @content; } }
+  @else if $media == "iTouchSD-landscape" {
+    @media only screen and ( min-device-width: 320px ) and ( max-device-width: 480px ) and ( orientation: landscape) { @content; } }
+}

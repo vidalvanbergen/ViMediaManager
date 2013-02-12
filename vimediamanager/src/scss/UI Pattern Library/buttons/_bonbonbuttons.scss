@@ -1,0 +1,337 @@
+// ===== BonBon Button ======================================================== //
+
+// BonBon Buttons 1.0 by simurai.com
+// Converted to a Mixin' by Vidal van Bergen
+//
+// Usage:
+//
+//    Default button:         +bonbonbutton
+//    More fancy with icon:   +bonbonbutton(true, blue, glass, shield, medium, "sans-serif")
+//                                         (Icon-only?, color, material, shape, font-size, "font-style")
+//
+// Following additional options are supported:
+//
+//    Icon only:          true, false
+//    Color:              default, orange, pink, blue, green, transparent, custom (purple/#FF00FF/hsla(300, 100%, 50%, 0.3)/etc..))
+//    Material:           default, glossy, glass
+//    Size:               small, normal, large, custom (##px)
+//    Shape:              default, round, oval, brackets, skew, back, knife, shield, drop, morph
+//    Font:               serif, sans-serif, custom ("Apple Chancery")
+
+@import url("http://fonts.googleapis.com/css?family=Lobster");
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+
+@mixin bonbonbutton($icon: false, $color: default, $material: default, $shape: default, $fsize: large, $fstyle: "serif") {
+  $fstyle: unquote($fstyle);
+
+  $lucida-bright-font-stack : "Lucida Bright", Georgia, serif !default;
+  $lucida-sans-font-stack   : "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif !default;
+
+// ===== Text ================================================================= //
+  // Sizes: Small, Normal, Lage & Custom
+  @if $fsize      == small  { font-size: 16px; }
+  @else if $fsize == medium { font-size: 24px; }
+  @else if $fsize == large  { font-size: 32px; }
+  @else                     { font-size: $fsize; }
+
+  // Font styles: serif & sans-serif
+  @if $fstyle      == serif      { font-family: "Lobster",    $lucida-bright-font-stack; }
+  @else if $fstyle == sans-serif { font-family: "Droid Sans", $lucida-sans-font-stack; }
+  @else                          { font-family: $fstyle; }
+  @include experimental( user-select, none);
+  text-decoration:  none;
+  line-height:      1;
+  font-weight:      bold;
+  text-shadow:      hsla(0, 0%, 100%, 0.5) 0 1px 0;
+  vertical-align:   baseline;
+
+// ===== Layout =============================================================== //
+  padding:          0.5em 0.6em 0.4em 0.6em;
+  margin:           0.5em;
+  display:          inline-block;
+  position:         relative;
+  border:           1px solid;
+  border: { //-color:     hsla(0, 0%, 100%, 0.8) none hsla(0, 0%, 0%, 0.1) none;
+    top-color:                hsla(0, 0%, 100%, 0.8);
+    bottom-color:             hsla(0, 0%,   0%, 0.1);
+    left:                     none;
+    right:                    none; };
+  @include border-radius( 8px );
+
+// ===== Effects ============================================================== //
+  // In case of non-button / non-link elements
+  cursor: pointer;
+  //background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, 0.7))), image-url("noise.png");
+  //background-image: -moz-radial-gradient(top, ellipse cover, hsla(0, 0%, 100%, 0.7) 0%, hsla(0, 0%, 100%, 0) 100%), image-url("noise.png");
+  @include background-image( radial-gradient( top, ellipse cover, hsla(0, 0%, 100%, 0.7) 0%, hsla(0, 0%, 100%, 0) 100%), image-url("noise.png") );
+  // +radial-gradient(           color-stops( hsla(0, 100%, 100%, 0.7), hsla(0, 100%, 100%, 0) 50%), top center, image-url("noise.png"), ellipse cover )
+  @include box-shadow( inset hsla(0, 0%, 100%, 0.6)  0  0.3em .3em,
+                       inset hsla(0, 0%,   0%, 0.15) 0 -0.1em .3em,
+                              hsl(0, 0%,  60%)       0  0.1em  3px,
+                              hsl(0, 0%,  45%)       0  0.3em  1px,
+                             hsla(0, 0%,   0%, 0.2)  0  0.5em  5px);
+  @include transition( background 0.2s ease-in-out );
+  &:not(:disabled):hover { text-decoration: none; } // Link protection
+  &:active {
+    // Active ============================== //
+    background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, 0))), image-url("noise.png");
+    background-image: -moz-gradient(radial, 50% 0, 100, 50% 0, 0, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, 0))), image-url("noise.png");
+    // inner shadow, color border, drop shadow
+    @include translate(0, 0.2em);
+    @include box-shadow( inset hsla(0, 0%, 100%, 0.6) 0  0.3em .3em,
+                         inset hsla(0, 0%,   0%, 0.2) 0 -0.1em .3em,
+                               hsla(0, 0%,   0%, 0.4) 0  0.1em  1px,
+                               hsla(0, 0%,   0%, 0.2) 0  0.2em  6px); }
+  &[disabled], &.disabled {
+    // Disabled ============================ //
+    opacity:            0.5;
+    cursor:             default;
+    color:              hsla(0, 0%, 0%, 0.2) !important;
+    text-shadow:        none !important;
+    background-color:   hsla(0, 0%, 0%, 0.05);
+    background-image:   none;
+    border-top:         none;
+    @include box-shadow(inset hsla(0, 0%, 100%, 0.4) 0  0.3em .3em,
+                        inset hsla(0, 0%,   0%, 0.1) 0 -0.1em .3em,
+                              hsla(0, 0%,   0%, 0.3) 0   .1em  1px,
+                              hsla(0, 0%,   0%, 0.2) 0   .2em  6px);
+    @include translate(0, 5px); }
+
+// ===== Colors =============================================================== //
+  // Default/Gray, orange, blue, red, green, pink, transparent, custom
+
+  // Default Gray ===================== //
+  @if $color == default or $color == gray {
+    color:            hsl(0, 0%, 40%) !important;
+    background-color: hsl(0, 0%, 75%);
+    &:not(:disabled):hover { background-color: hsl(0, 0%, 83%); } }
+
+  // Orange =========================== //
+  @else if $color == 'orange' {
+    color:            hsl(39, 100%, 30%) !important;
+    background-color: hsl(39, 100%, 50%);
+    @include box-shadow( inset hsla( 0,   0%, 100%, 0.6)  0  0.3em .3em,
+                         inset hsla( 0,   0%,   0%, 0.15) 0 -0.1em .3em,
+                                hsl(39, 100%,  40%)       0   .1em  3px,
+                                hsl(39, 100%,  30%)       0   .3em  1px,
+                               hsla( 0,   0%,   0%, 0.2)  0   .5em  5px);
+    &:not(:disabled):hover { background-color: hsl(39, 100%, 65%); } }
+
+  // Blue ============================= //
+  @else if $color == blue {
+    color:            hsl(208, 50%, 40%) !important;
+    background-color: hsl(208, 100%, 75%);
+    @include box-shadow( inset hsla(0, 0%, 100%, 0.6) 0 0.3em .3em,
+                         inset hsla(0, 0%, 0%, 0.15) 0 -0.1em .3em,
+                                hsl(208, 50%, 55%) 0 .1em 3px,
+                                hsl(208, 50%, 40%) 0 .3em 1px,
+                               hsla(0, 0%, 0%, 0.2) 0 .5em 5px);
+    &:not(:disabled):hover { background-color: hsl(208, 100%, 83%); } }
+
+  // Red ============================== //
+  @else if $color == red {
+    color:            hsl(0, 50%, 50%) !important;
+    background-color: hsl(0, 100%, 65%);
+    @include box-shadow( inset hsla(0,  0%, 100%, 0.6 ) 0  0.3em .3em,
+                         inset hsla(0,  0%,   0%, 0.15) 0 -0.1em .3em,
+                                hsl(0, 50%,  55%)       0  0.1em  3px,
+                                hsl(0, 50%,  40%)       0  0.3em  1px,
+                               hsla(0,  0%,   0%, 0.2)  0  0.5em  5px);
+    &:not(:disabled):hover { background-color: hsl(0, 100%, 75%); } }
+
+  // Green ============================ //
+  @else if $color == green {
+    color:            hsl(88, 70%, 30%) !important;
+    background-color: hsl(88, 70%, 60%);
+    @include box-shadow( inset hsla( 0,  0%, 100%, 0.6 ) 0  0.3em .3em,
+                         inset hsla( 0,  0%,   0%, 0.15) 0 -0.1em .3em,
+                                hsl(88, 70%,  40%)       0  0.1em  3px,
+                                hsl(88, 70%,  30%)       0  0.3em  1px,
+                               hsla( 0,  0%,   0%, 0.2)  0  0.5em  5px);
+    &:not(:disabled):hover { background-color: hsl(88, 70%, 75%); } }
+
+  // Pink ============================= //
+  @else if $color == pink {
+    color:            hsl(340, 100%, 30%) !important;
+    background-color: hsl(340, 100%, 75%);
+    @include box-shadow( inset hsla(  0,  0%, 100%, 0.6 ) 0  0.3em .3em,
+                         inset hsla(  0,  0%,   0%, 0.15) 0 -0.1em .3em,
+                                hsl(340, 70%,  50%)       0  0.1em  3px,
+                                hsl(340, 80%,  40%)       0  0.3em  1px,
+                               hsla(  0,  0%,   0%, 0.2 ) 0  0.5em  5px);
+    &:not(:disabled):hover { background-color: hsl(340, 100%, 83%); } }
+
+  // Transparent ====================== //
+  @else if $color == transparent {
+    color:            hsla(0, 0%, 0%, 0.5) !important;
+    @include box-shadow( inset hsla(0, 0%, 100%, 0.4) 0  0.3em .3em,
+                         inset hsla(0, 0%,   0%, 0.1) 0 -0.1em .3em,
+                               hsla(0, 0%,   0%, 0.3) 0  0.1em  1px,
+                               hsla(0, 0%,   0%, 0.2) 0  0.2em  6px);
+    &, &:not(:disabled):hover, &:active {
+      background-color: transparent;
+      background-image: none;
+      @include translate(0, 0); }
+    &:not(:disabled):hover { background-color: hsla(0, 0%, 100%, 0.5); }
+    &:active { background-color: hsla(0, 0%, 100%, 0.3); } }
+
+  // Custom =========================== //
+  @else {
+    color:            $color !important;
+    background-color: lighten($color, 15%);
+    @include box-shadow( inset hsla(0, 0%, 100%, 0.6 ) 0  0.3em .3em,
+                         inset hsla(0, 0%,   0%, 0.15) 0 -0.1em .3em,
+                               lighten($color, 10%)    0  0.1em  3px,
+                               $color                  0 .3em 1px,
+                                hsla(0, 0%, 0%, 0.2)   0 .5em 5px);
+    &:not(:disabled):hover { background-color: lighten($color, 25%); }
+    &[disabled], &[disabled]:hover { color: transparentize($color, 0.6) !important; } }
+
+// ===== Materials ============================================================ //
+  // default, glossy, glass
+
+  // Glassy or Glossy ================= //
+  @if $material == glass or $material == glossy {
+    &:after {
+      content:       "";
+      position:      absolute;
+      width:         90%;
+      height:        60%;
+      top:           0;
+      left:          5%;
+      @include border-radius(0.5em 0.5em 1em 1em, 0.5em 0.5em 2em 2em);
+      @include background-image( linear-gradient( left, hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0.5) ) );
+    &:active:after, &[disabled]:after, &.disabled:after { opacity: 0.6; } }
+
+  // Glass ============================ //
+  @if $material == glass {
+    text-shadow:   hsla(0, 0%, 100%, 0.5 ) 0   -1px 0,
+                   hsla(0, 0%,   0%, 0.18) 0 0.18em 0.15em;
+    &:active {
+      text-shadow: hsla(0, 0%, 100%, 0.3 ) 0    1px 0,
+                   hsla(0, 0%,   0%, 0.15) 0 0.18em 0.15em; } }
+
+// ===== Shapes =============================================================== //
+  // Round, Oval, Brackets, Skew, Back, Knife, Shield, Drop, Morph
+
+  // Round ============================ //
+  @if $shape == round {
+    &, &:after { border-top: none; @include border-radius(1em); } }
+
+  // Oval ============================= //
+  @if $shape == oval {
+    @if $icon {
+      padding-left: 0.8em;
+      padding-right: 0.8em;
+      @include border-radius(1.5em, 1em);
+      @if $material == glass or $material == glossy {
+        &:after { @include border-radius(1.5em, 1em); } } }
+    @else {
+      border-top: none;
+      padding-left: 0.8em;
+      padding-right: 0.8em;
+      @include border-radius(5em, 2em);
+      @if $material == glass or $material == glossy {
+        &:after { top: 5%; @include border-radius(5em, 2em 2em 1em 1em); } } } }
+
+  // Brackets ========================= //
+  @if $shape == brackets {
+    border-top: none;
+    @include border-radius(0.5em, 1em);
+    @if $material == glass or $material == glossy {
+      &:after {
+        border-top: none;
+        @include border-radius(0.5em, 1em); } } }
+
+  // Skew ============================= //
+  @if $shape == skew {
+    border-top: none;
+    @if $icon {
+      padding-right: 0.9em;
+      padding-left: 0.8em; }
+    @else {
+      padding-right: 1.2em;
+      padding-left: 0.8em; }
+    @include border-radius(5em 1em, 5em 1em);
+    @if $material == glass or $material == glossy {
+      &:after { left: 10%; @include border-radius(7em 1em, 5em 1em); } } }
+
+  // Back ============================= //
+  @if $shape == back {
+    border-top-color: hsla(0, 0%, 100%, 0);
+    @include border-radius(1.6em 1.6em 1em 1em, 4em 4em 1em 1em);
+    @if $material == glass or $material == glossy {
+      &:after {
+        border-top-color: hsla(0, 0%, 100%, 0.5);
+        @include border-radius(1.6em 1.6em 1em 1em, 4em 4em 1em 1em);
+        left: 6%;
+        width: 88%; } } }
+
+  // Knife ============================ //
+  @if $shape == knife {
+    padding-left: 1.5em;
+    @include border-radius(0.2em 0.5em 0.5em 8em, 0.2em 0.5em 0.5em 5em);
+    @if $material == glass or $material == glossy {
+      &:after {
+        @if $icon {
+          left: 5%;
+          width: 95%;
+          @include border-radius(0.5em 0.5em 1em 6em, 0.5em 0.5em 1em 4em); }
+        @else {
+          left: 3%;
+          width: 97%;
+          @include border-radius(0.1em 0.5em 0.5em 8em, 0.1em 0.5em 0.5em 2em); } } } }
+
+  // Shield =========================== //
+  @if $shape == shield {
+    @if $icon {
+      padding-left: 0.6em;
+      padding-right: 0.6em; }
+    @else {
+      padding-left: 0.8em;
+      padding-right: 0.8em; }
+    @include border-radius(0.4em 0.4em 2em 2em, 0.4em 0.4em 3em 3em);
+    @if $material == glass or $material == glossy {
+      &:after { @include border-radius(0.4em 0.4em 2em 2em, 0.4em 0.4em 3em 3em); } } }
+
+  // Drop ============================= //
+  @if $shape == drop {
+    border-top: none;
+    @include border-radius(2em 5em 2em 0.6em, 2em 4em 2em 0.6em);
+    @if $material == glass or $material == glossy {
+      &:after { left: 4%; @include border-radius(2em 6em 2em 1em, 2em 4em 2em 2em); } }
+    @if $icon { padding-right: 0.6em; } }
+
+  // Morph ============================ //
+  @if $shape == morph {
+    border-top: none;
+    @include border-radius(5em, 2em);
+    //-webkit-transition: -webkit-border-radius 0.3s ease-in-out;
+    //-moz-transition: -moz-border-radius 0.3s ease-in-out;
+    //transition: border-radius 0.3s ease-in-out;
+    @include transition( border-radius 0.3s ease-in-out );
+    @include experimental-prop-value( transition, border-radius 0.3s ease-in-out );
+    &:not(:disabled):hover { @include border-radius(0.4em 0.4em 2em 2em, 0.4em 0.4em 3em 3em); }
+    &:active { @include border-radius(0.3em); }
+    &:after { display: none; } }
+
+// ===== Pictos Icon ========================================================== //
+  &:before {
+    font: 1.2em / 0 "Pictos", sans-serif;
+    // gets the icon value from the custom data attribute and puts it infront of the button label
+    content: attr(data-icon);
+    margin-right: 0.4em; }
+  // Icon Mode ======================== //
+  @if $icon {
+    font-weight: normal;
+    font-style: normal;
+    text-indent: -999em;
+    @if $material == glass or $material == glossy { height: 75%; }
+    &:before {
+      margin-right: 0;
+      display: block;
+      height: 0;
+      text-indent: 0px;
+      // It appears that the Pictos Font resets the line-height of the icon.. so if you are using them, don't use the line below.
+      line-height: .7em;
+    } } } }

@@ -1,0 +1,31 @@
+textarea {
+  @include box-shadow(inset hsla(0, 100%, 100%, 1) 0 1px 0, hsla(0, 0%, 0%, .1) 0 0 4px);
+  @include background-image( linear-gradient( hsl(0, 0%, 95%), white 25px ) );
+  //@include linear-gradient(color-stops(hsl(0, 0%, 95%), white 25px));
+  border: 1px solid hsl(0, 0%, 90%);
+  outline: 0;
+  padding: 2px 5px;
+  &:focus {
+    @include box-shadow( hsla(0, 0%, 0%, 0.15) 0px 0px 4px );
+    border-color: hsl(0, 0%, 80%);
+    outline: 0; } }
+
+// Input -----------------------------------------------------------------
+
+input {
+  &[type='text'],     &[type='password'],   &[type='search'],
+  &[type='email'],    &[type='url'],        &[type='tel'],
+  &[type='number'],   &[type='color'],      &[type='keygen'],
+  &[type='date'],     &[type='month'],      &[type='week'],  &[type='time'],
+  &[type='datetime'], &[type='datetime-local'] {
+    @include box-shadow(inset hsla(0, 100%, 100%, 1) 0 1px 0, hsla(0, 0%, 0%, .1) 0 0 4px);
+    @include background-image( linear-gradient( hsl(0, 0%, 95%), white 25px ) );
+    //@include linear-gradient(color-stops(hsl(0, 0%, 95%), white 25px));
+    border: 1px solid hsl(0, 0%, 90%);
+    outline: 0;
+    padding: 2px 5px;
+    // padding:                  3px 6px
+    // width:                    $input-width - 1px
+    &:focus {
+      @include box-shadow( hsla(0, 0%, 0%, 0.15) 0px 0px 4px );
+      border-color: hsl(0, 0%, 80%); } } }

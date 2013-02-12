@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Easing Plug-in</title>
+
+    <style media="all">
+      html { background: white; height: 100%; width: 100%; }
+      body {
+        height : 660px;
+        width  : 960px;
+        border: 1px solid gray;
+        margin : 50px auto;
+        box-shadow: hsla(0, 0%, 0%, .2) 0px 5px 5px;
+      }
+
+      #block {
+        background-color   : #DDD;
+        background         : -webkit-linear-gradient(top, #EEE 0%, #BBB 100%);
+        background         : -moz-linear-gradient(center top, #EEE 0%, #BBB 100%);
+        border             : 2px solid #ccc;
+        height             : 100px;
+        margin             : 30px auto;
+        overflow           : hidden;
+        padding            : 10px;
+        position           : relative;
+        width              : 600px;
+        box-shadow         : inset 0 -1px  0px hsla(0, 0%, 100%, .8),
+                                   0  5px 10px hsla(0, 0%,   0%, .5);
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="block">
+      <span id="controls">&nbsp;</span>
+      <button class="toggle">Height Toggle</button>
+      <button class="toggle2">Width Toggle</button>
+      <button class="toggle3">Top Toggle</button>
+      <p><a href="#block" id="toggle" class="toggle" name="toggle">Pellentesque</a> habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+
+    <script>
+      jQuery.easing.def = 'jswing';
+
+      // Create controls
+      var sel1 = $("<select>").appendTo('#controls');
+      for ( x in jQuery.easing ) {
+        if ( x != 'linear' && x != 'swing' )
+          sel1.append($('<option>').attr('value', x).text(x));
+      }
+      sel2 = sel1.clone().appendTo('#controls');
+      sel1.val('easeInOutCirc');
+      sel2.val('easeOutBounce');
+      // @END controls
+
+      // Animate when clicking on control button.
+      $(".toggle").click(function(e){
+        e.preventDefault();
+        this.blur();
+        var method1 = sel1.val();
+        var method2 = sel2.val();
+        $('#block').animate({height:300}, {duration: 1000, easing: method1}).animate({height:100}, {duration: 1000, easing: method2});
+      });
+
+      $(".toggle2").click(function(e){
+        e.preventDefault();
+        this.blur();
+        var method1 = sel1.val();
+        var method2 = sel2.val();
+        $('#block').animate({width:200}, {duration: 1000, easing: method1}).animate({width:600}, {duration: 1000, easing: method2});
+      });
+
+      $(".toggle3").click(function(e){
+        e.preventDefault();
+        this.blur();
+        var method1 = sel1.val();
+        var method2 = sel2.val();
+        $('#block').animate({top:300}, {duration:1000, easing: method1}).animate({top:0}, {duration: 1000, easing: method2} );
+      });
+    </script>
+
+  </body>
+</html>
