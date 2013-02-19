@@ -23,6 +23,33 @@ http://feeds.feedburner.com/ViMediaManager
 
 ## In Progress ##
 
+<!-- Takin' a lil break. --> // so much for a little break, huh?
+
+<ul>
+  <li>Storing dvd order and absolute order data, but not sure how to handle it yet.</li>
+  <li>IMDb changed it's layout slightly, so I updated the IMDb scraper slightly.</li>
+  <li>Fixed an issue where it would not write actor data to episode .nfo files.</li>
+  <li>Fixed a bug where it wouldn't show which episodes are localy available in the non-retina version.</li>
+  <li>Fixed a bug where 'canceled' shows showed up under 'To be announced'.</li>
+  <li>Fixed a bug in updating tv ratings.</li>
+  <li>Worked around a little refreshing issue in the movies metadata editor.</li>
+  <li>Fixed another bug in updating movie ratings.</li>
+  <li>French translation corrections by Yannick Rose.</li>
+  <li>German translation corrections by Nicolas Dörig.</li>
+</ul>
+
+## Latest update - 2013.02.16 T 01.10 GMT+1 ##
+
+<ul>
+  <li>Building a set of options to enable users to choose which trailer source and quality to download from by default.</li>
+  <li>XBMC looks by default into the tvshow folder, not season folders for season art, so that's where ViMM'll download them to.</li>
+  <li>Some of the current toolbar buttons now have 'alt'ernative functions when holding the 'alt' key.</li>
+</ul>
+
+-------------------------------------------
+
+## Official release v0.7a1 ##
+
 <ul>
   <li>Made multi-episode support mine and conquered the media-world with it.</li>
   <li>Tweaked the image picker scrolling settings to be less jumpy and react more predictably.</li>
