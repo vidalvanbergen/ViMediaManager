@@ -23,7 +23,29 @@ http://feeds.feedburner.com/ViMediaManager
 
 ## In Progress ##
 
-<!-- Takin' a lil break. --> // so much for a little break, huh?
+<ul>
+  <li>Episodes manager now shows more clearly which files are locally available.</li>
+  <li>Added local episode files count sorting. (Refresh the list)</li>
+  <li>Added a new option to update episode files in the File menu, which will go through the list to see which shows have local files and updates those.</li>
+  <li>Archive (rar/zip/multi-rar) files are recognized as episode files in the tv list.</li>
+  <li>Hopefully made the progress/wait dialog a bit less crashy when pushing the 'cancel' button.</li>
+  <li>Better episode sorting when sorted by next aired. (Refresh the list)</li>
+  <li>Added .3DSBS and .3DTAB file types to the supported video file formats.</li>
+  <li>Updated 'mediainfo' to v0.7.61.</li>
+</ul>
+
+-------------------------------------------
+
+## Official release v0.7a3 ##
+
+<ul>
+  <li class="new">Added an option to disable episode file management.</li>
+  <li class="fix">Fixed a serious bug where episodes with dvd order would cause ViMM to crash.</li>
+</ul>
+
+-------------------------------------------
+
+## Official release v0.7a2 ##
 
 <ul>
   <li>Storing dvd order and absolute order data, but not sure how to handle it yet.</li>
