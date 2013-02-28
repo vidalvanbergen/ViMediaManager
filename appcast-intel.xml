@@ -7,14 +7,23 @@
         <generator>Feeder 2.3.7(1701); Mac OS X Version 10.8.2 (Build 12C3012) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Tue, 19 Feb 2013 17:16:29 +0100</pubDate>
-        <lastBuildDate>Tue, 19 Feb 2013 17:16:29 +0100</lastBuildDate>
+        <pubDate>Thu, 28 Feb 2013 23:46:32 +0100</pubDate>
+        <lastBuildDate>Thu, 28 Feb 2013 23:46:32 +0100</lastBuildDate>
         <atom:link href="http://mariusth.channelwood.org/vimediamanager/appcast-intel.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>ViMediaManager-0.7α4</title>
+            <author>vidal.vanbergen@gmail.com</author>
+            <pubDate>Thu, 28 Feb 2013 23:45:55 +0100</pubDate>
+            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="17510353" type="application/octet-stream" sparkle:version="0.7.0.1.4" sparkle:shortVersionString="v0.7α4" sparkle:dsaSignature="MC0CFQDMAFM3jYmL6DAXGEhdmCuUb8j6eAIUJHrlJy4tXXm4OaRdTpt43O3QHZc=" sparkle:md5sum="cfb263c2264878952dd831448c633adc"/>
+            <guid isPermaLink="false">049159E1-49EF-4E4C-9C63-921AA984E4F1</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a4.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>ViMediaManager-0.7α3</title>
             <author>vidal.vanbergen@gmail.com</author>
             <pubDate>Tue, 19 Feb 2013 17:16:29 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/cocoa_latest.php" length="18210920" type="application/octet-stream" sparkle:version="0.7.0.1.3" sparkle:shortVersionString="v0.7α3" sparkle:dsaSignature="MC0CFQC8csPNXmKPt0NYdSMuhnDypltXFgIUWvHzmY/0xHw2nd18qX2vuJ2Gk8E=" sparkle:md5sum="c9b71c69d96c9f097e191170d387b42a"/>
+            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/cocoa_latest.php" length="18210920" type="application/octet-stream" sparkle:version="0.7.0.1.3" sparkle:shortVersionString="v0.7α3" sparkle:dsaSignature="MC0CFQC8csPNXmKPt0NYdSMuhnDypltXFgIUWvHzmY/0xHw2nd18qX2vuJ2Gk8E="/>
             <guid isPermaLink="false">E91A9290-7E3B-4015-B2ED-DDA3316AB076</guid>
             <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a3.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
