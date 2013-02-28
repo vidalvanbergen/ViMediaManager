@@ -20,18 +20,41 @@ http://www.mediafire.com/vimediamanager
 ### Subscribe to RSS Feed to always stay up to date: ###
 http://feeds.feedburner.com/ViMediaManager
 
+<a href="">Download Intel</a>
+<a href="">Download Cocoa</a>
+
 
 ## In Progress ##
 
+
 <ul>
-  <li>Episodes manager now shows more clearly which files are locally available.</li>
+  <li>Fixed a bug where it would make ViMM super-slow if you dragged an image over a preview area.</li>
+</ul>
+
+## Latest update - 2013.02.27 T 13.10 GMT+1 ##
+
+<ul>
+  <li>Better audio codec naming.</li>
+  <li>Changed the way I stored paths from 'absolute' to 'shell' allthroughout the app.</li>
+  <li>Updating episode files now correctly leaves episodes in place if you choose to only auto-manage folders.</li>
+  <li>Added a trash button to the episodes manager, and you can now press cmd+delete to remove a selected episode.</li>
+  <li>No more beeping when typing in the list to find items.</li>
+  <li>Got a speed boost when you have 'posters in list' turned on by loading the images into the list at start at only a slight memory use bump.</li>
+</ul>
+
+## Latest update - 2013.02.26 T 12.10 GMT+1 ##
+
+<ul>
   <li>Added local episode files count sorting. (Refresh the list)</li>
   <li>Added a new option to update episode files in the File menu, which will go through the list to see which shows have local files and updates those.</li>
   <li>Archive (rar/zip/multi-rar) files are recognized as episode files in the tv list.</li>
+  <li>Added .3DSBS and .3DTAB file types to the supported video file formats.</li>
+  <li>Episodes manager now shows more clearly which files are locally available.</li>
   <li>Hopefully made the progress/wait dialog a bit less crashy when pushing the 'cancel' button.</li>
   <li>Better episode sorting when sorted by next aired. (Refresh the list)</li>
-  <li>Added .3DSBS and .3DTAB file types to the supported video file formats.</li>
+  <li>Some protection added while writing text to disk.</li>
   <li>Updated 'mediainfo' to v0.7.61.</li>
+  <li>Forgot re-add the 'watched' status when updating a movie.</li>
 </ul>
 
 -------------------------------------------
