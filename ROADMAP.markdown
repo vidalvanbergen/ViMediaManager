@@ -80,6 +80,8 @@ __Mainline__: Official release! Start building new and exiting features from the
 
 __Mainline__: Feature requests and other awesomeness!
 
+1. Support for ATV [FireCore](http://support.firecore.com/entries/20557283-metadata-and-cover-art)
+
 ----
 
 ### Feature Request & Ideas ###

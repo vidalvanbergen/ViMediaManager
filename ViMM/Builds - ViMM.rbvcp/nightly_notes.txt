@@ -9,23 +9,49 @@ Thanks in advance!
 HELP WANTED!
 If there are any web designers out there that read this, and are willing to help me out with a special ViMM project, please contact me at vimediamanager@gmail.com.
 
-
-# Moved downloads to media fire: #
-Cocoa: http://www.mediafire.com/download.php?iqydp6b09cm9ybh
-Intel: http://www.mediafire.com/download.php?e8nh0g3c443xzky
-
 ### Bookmark this folder for the latest nightly updates: ###
 http://www.mediafire.com/vimediamanager
 
 ### Subscribe to RSS Feed to always stay up to date: ###
 http://feeds.feedburner.com/ViMediaManager
 
-<a href="">Download Intel</a>
-<a href="">Download Cocoa</a>
-
+<style>.download-links a { display: inline-block; min-width: 110px; }</style>
+<p class="download-links">
+  <a href="">Download Intel</a> <small>(Slightly more stable)</small><br/>
+  <a href="">Download Cocoa</a> <small>(Faster & Retina support)</small>
+</p>
 
 ## In Progress ##
 
+<ul class="update">
+  <li class="new">Added a dialog to the 'reload list' function in case a user has movies directly in their source folder.</li>
+  <li class="new">Added a more user-friendly bug reporting system.</li>
+  <li class="new">Added an option to name the movie poster as &lt;movie&gt;-poster.jpg/tbn.</li>
+  <li class="new">Did a complete overhaul of the 'Extras' preferences tab.</li>
+  <li class="new">Included Mountain Lion Notification Center support.</li>
+  <li class="new">Now making use of update/fetch metadata buttons and menus with clearer named sub-menu items.</li>
+  <li class="new">Added a 'Cancel' button to the 'Delete previous images' dialog.</li>
+  <li class="dif">Added cinematography/camera people tag</li>
+  <li class="dif">Boxee doesn't need the 'Rating' text in the MPAA tag.</li>
+  <li class="dif">Changed the way missing images are downloaded, again.</li>
+  <li class="dif">Changed to using video width/height to calculate aspect instead of using the actual '16:9' aspect label.</li>
+  <li class="dif">Improved some inner workings that would convert xml to json for easier data retrieval.</li>
+  <li class="dif">Now checking SD clearart for correct language first if HD clearart fails before falling back on foreign language.</li>
+  <li class="dif">Now moving files to the trash using applescript, fixing an issue that would transfer files to your local drive's trash folder.</li>
+  <li class="dif">Now prefering TMDB titles over IMDb ones, since IMDb's localization can mess things up.</li>
+  <li class="dif">Renamed 'Batch Renamer' to 'Rename All' in order to match up with other similarly named menus.</li>
+  <li class="dif">Some updates to the folder/file name filter.</li>
+  <li class="fix">Fixed an issue that affected updating rows.</li>
+  <li class="fix">Fixed some changes to YouTube breaking trailer downloads.</li>
+  <li class="fix">Forgot to write the code for editing tags in the movie metadata editor.</li>
+  <li class="fix">Now using the correct duration when there are multiple movie files.</li>
+  <li class="fix">Other miscaleaneous bug fixes and changes.</li>
+  <li class="fix">Putting movies into folders would incorrectly translate '.', '_' and '-' to nothing instead of a space.</li>
+</ul>
+
+-------------------------------------------
+
+## Official release v0.7a5 ##
 
 <ul>
   <li>Fixed a bug where it would make ViMM super-slow if you dragged an image over a preview area.</li>
