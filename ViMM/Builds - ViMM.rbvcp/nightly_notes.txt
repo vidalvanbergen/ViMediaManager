@@ -23,7 +23,9 @@ http://feeds.feedburner.com/ViMediaManager
 
 ## In Progress ##
 
-<ul>
+<ul class="update">
+  <li class="new">Added an option to disable 'recommendations' fetching.</li>
+  <li class="fix">Fixed some of the most horrible crashes.</li>
 </ul>
 
 <ul class="update">
