@@ -20,6 +20,7 @@ To use ViMediaManager, you will need:
   * [MonkeyBreadSoftware Plugin](http://www.monkeybreadsoftware.net "MBS Plugin") 12.5:
     * MBS Real Studio CocoaBase Plugin.rbx
     * MBS Real Studio Main Plugin.rbx    * MBS Real Studio Picture Plugin.rbx    * MBS Real Studio Util Plugin.rbx
+    * MBS Real Studio MountainLion Plugin.rbx
 
 
 #### Included: ####
