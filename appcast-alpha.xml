@@ -7,9 +7,18 @@
         <generator>Feeder 2.3.7(1701); Mac OS X Version 10.8.3 (Build 12D78) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Sun, 31 Mar 2013 16:05:20 +0200</pubDate>
-        <lastBuildDate>Sun, 31 Mar 2013 16:05:20 +0200</lastBuildDate>
+        <pubDate>Sun, 31 Mar 2013 23:46:01 +0200</pubDate>
+        <lastBuildDate>Sun, 31 Mar 2013 23:46:01 +0200</lastBuildDate>
         <atom:link href="http://mariusth.channelwood.org/vimediamanager/appcast-intel.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>ViMediaManager-0.7α7</title>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Sun, 31 Mar 2013 23:46:01 +0200</pubDate>
+            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="21783551" type="application/octet-stream" sparkle:version="0.7.0.1.7" sparkle:shortVersionString="v0.7α7" sparkle:dsaSignature="MC0CFQCAcO59cL+tjoCfJ5jVV7WOnsswJAIUdt1tJBOSdhUzaMECpqJxScbpmWQ="/>
+            <guid isPermaLink="false">BDE92F48-9B70-473D-AF3F-CE5169A78E98</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a7.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>ViMediaManager-0.7α6</title>
             <author>vimediamanager@gmail.com</author>
