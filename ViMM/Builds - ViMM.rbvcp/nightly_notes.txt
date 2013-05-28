@@ -17,11 +17,57 @@ http://feeds.feedburner.com/ViMediaManager
 
 <style>.download-links a { display: inline-block; min-width: 110px; }</style>
 <p class="download-links">
+  <a href="">Download Cocoa</a> <small>(Faster & Retina support)</small><br/>
   <a href="">Download Intel</a> <small>(Slightly more stable)</small><br/>
-  <a href="">Download Cocoa</a> <small>(Faster & Retina support)</small>
+  <a href="http://www.mediafire.com/vimediamanager">Most up-to-date releases</a>
 </p>
 
 ## In Progress ##
+
+
+
+<ul class="update">
+  
+</ul>
+
+----
+
+<ul class="update">
+  <li class="new"><span class="hot">HOT</span>You can now select a 'completed downloads' folder for TV Shows, who's video files will be moved to the matching tv show folder upon scanning for new episodes.</li>
+  <li class="new">Added flags icons to the language selector. (Cocoa only)</li>
+  <li class="new">Added option to limit amount of TMDB recommendation pages will be downloaded.</li>
+  <li class="new">Adding a new 'services' section in the preferences window to add some flexibility, and with any luck, without adding too much complexity.</li>
+  <li class="new">Adding some support for Trakt.tv. (Recommendations and Mark movies as seen)</li>
+  <li class="new">Mark tv shows as 'locked' to prevent mass-updates to change some of your shows. (Handy for (ended) foreign shows you downloaded information for in it's native language)</li>
+  <li class="new">New icon</li>
+  <li class="new">Show trailer video in metadata editor if format is supported by quicktime.</li>
+  <li class="new">Showing a list of results for movies that had more then one possibilities when mass-downloading missing metadata for easier fixing.</li>
+  <li class="new">Shows a path bar at the bottom of the display like the one used in finder windows. (Cocoa only)</li>
+  <li class="dif">A little speed improvement during the downloading of episode information by skipping episoe files with pre-existing .nfo and thumbnail files.</li>
+  <li class="dif">Added 'Pilot rejected' status.</li>
+  <li class="dif">Now searching the TVDB through all languages rather than just the selected one.</li>
+  <li class="dif">Rewrote the movie .nfo reader since it gave some users troubles.</li>
+  <li class="dif">Saving the tv episode guide inside the tv show folder for easier locating.</li>
+  <li class="dif">Stops ruling movies without database IDs as movies with missing metadata files when fetching metadata for items with missing metadata.</li>
+  <li class="fix">Fixed a stupid mistake at fetching recommendations from TMDB.</li>
+  <li class="fix">Fixed an issue where the metadata editor wouldn't add poster/fanart/banner images unless there was already an existing image.</li>
+  <li class="fix">Fixed YAMJ poster/fanart/banner file names.</li>
+  <li class="fix">Fixed youtube support, now it's better then ever!</li>
+  <li class="fix">Might have finally fixed the cocoa but that would stall downloads if the computer was inactive, feedback needed.</li>
+  <li class="fix">Now deletes images on network volumes rather then moving them to the trash.</li>
+  <li class="fix">So many bug reports! so many fixes!</li>
+  <li class="fix">The sets manager will no longer get all wonky over time, since i'm no longer using the 'splitter' location when the window opens.</li>
+  <li class="fix">Updated some filenaming processes to support XBMC Frodo.</li>
+</ul>
+
+<ul class="update">
+  <li class="fix">Prefering localized movie logo's over high quality logos.</li>
+  <li class="fix">So many bug reports! so many fixes!</li>
+</ul>
+
+
+-----
+
 
 <ul class="update">
   <li class="new">Added an option to disable 'recommendations' fetching.</li>
