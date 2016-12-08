@@ -1,125 +1,144 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ViMediaManager</title>
-        <link>http://mariusth.channelwood.org/vimediamanager/</link>
+        <link>http://vitalis.hostfree.pw/vimediamanager/</link>
         <description>ViMediaManager is a media manager for Mac OS X, allowing you to gather, store, and manage information, extra art, trailers and television tunes for your movie, television and anime collections, and can be used on it’s own, or in combination with XBMC, YAMJ or Boxee.</description>
-        <generator>Feeder 2.3.7(1701); Mac OS X Version 10.9.1 (Build 13B42) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 3 3.3.1(2836); Mac OS X Version 10.12.1 (Build 16B2657) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Thu, 09 Jan 2014 11:49:49 +0100</pubDate>
-        <lastBuildDate>Thu, 09 Jan 2014 11:49:49 +0100</lastBuildDate>
-        <atom:link href="http://mariusth.heliohost.org/vimediamanager/appcast-intel.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 09 Dec 2016 00:20:37 +0100</pubDate>
+        <lastBuildDate>Fri, 09 Dec 2016 00:20:37 +0100</lastBuildDate>
+        <item>
+            <title>ViMediaManager-0.7α14</title>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a14i.dmg</link>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Mon, 14 Sep 2015 00:17:40 +0200</pubDate>
+            <enclosure url="https://github.com/vidalvanbergen/ViMediaManager/releases/download/v7a14/vimediamanager_v0.7a14i.dmg" length="24718964" type="application/octet-stream" sparkle:version="0.7.0.1.14" sparkle:shortVersionString="v0.7α14" sparkle:dsaSignature="MC0CFQCHTs3incra5wL3pNGQF6zHhp3xzAIUFMxxw+NEmbUOSeIEGcaFmiQ70j0="/>
+            <guid isPermaLink="false">05C7B327-AA15-4FC0-8A63-6BE90EF6423A</guid>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a14.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>ViMediaManager-0.7α13</title>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a13i.dmg</link>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Fri, 09 Jan 2015 12:39:09 +0100</pubDate>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a13i.dmg" length="23358139" type="application/octet-stream" sparkle:version="0.7.0.1.13" sparkle:shortVersionString="v0.7α13" sparkle:dsaSignature="MCsCEz3teUvEHTAxC4fky/R1KFc12HYCFBW+T+kcmdJdCY7Waka578ASyqC+"/>
+            <guid isPermaLink="false">682521D6-8BE8-4139-94CF-F83B1ACF1395</guid>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a13.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>ViMediaManager-0.7α12</title>
-            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a12i.dmg</link>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a12i.dmg</link>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Thu, 09 Jan 2014 11:41:50 +0100</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a12i.dmg" length="23655415" type="application/octet-stream" sparkle:version="0.7.0.1.12" sparkle:shortVersionString="v0.7α12" sparkle:dsaSignature="MC0CFBiO0JwjHmSrRVq/tKV9iSkQc4k8AhUAviighuAZw5pJbfZW9edxVRB6qXs=" sparkle:md5sum="ba9ec59a756ff4c2b0eccb9854ab6dab"/>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a12i.dmg" length="23655415" type="application/octet-stream" sparkle:version="0.7.0.1.12" sparkle:shortVersionString="v0.7α12" sparkle:dsaSignature="MC0CFBiO0JwjHmSrRVq/tKV9iSkQc4k8AhUAviighuAZw5pJbfZW9edxVRB6qXs="/>
             <guid isPermaLink="false">1EBF3959-C19E-47B3-81A7-B10CB1BD4ABC</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a12.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a12.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α11</title>
-            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a11i.dmg</link>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a11i.dmg</link>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Wed, 31 Jul 2013 17:39:00 +0200</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a11i.dmg" length="23748561" type="application/octet-stream" sparkle:version="0.7.0.1.11" sparkle:shortVersionString="v0.7α11" sparkle:dsaSignature="MC0CFQCdjqS1bro10bJ0o9tz3NALf3WZCAIUX5zcE0SX3RhDoa9U2uV5Z9rbp1M="/>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a11i.dmg" length="23748561" type="application/octet-stream" sparkle:version="0.7.0.1.11" sparkle:shortVersionString="v0.7α11" sparkle:dsaSignature="MC0CFQCdjqS1bro10bJ0o9tz3NALf3WZCAIUX5zcE0SX3RhDoa9U2uV5Z9rbp1M="/>
             <guid isPermaLink="false">BF9BCCDD-AC02-4EC3-BF49-70447BC31FFD</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a11.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a11.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α10</title>
-            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a10i.dmg</link>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a10i.dmg</link>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Thu, 30 May 2013 16:52:55 +0200</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a10i.dmg" length="23422431" type="application/octet-stream" sparkle:version="0.7.0.1.10" sparkle:shortVersionString="v0.7α10" sparkle:dsaSignature="MCwCFCELdYzAe7smZjYPW6WWlN9PpKtqAhQ6sx4c5Npad3/J/LmTQOBavLll0w=="/>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a10i.dmg" length="23422431" type="application/octet-stream" sparkle:version="0.7.0.1.10" sparkle:shortVersionString="v0.7α10" sparkle:dsaSignature="MCwCFCELdYzAe7smZjYPW6WWlN9PpKtqAhQ6sx4c5Npad3/J/LmTQOBavLll0w=="/>
             <guid isPermaLink="false">6B17925B-7474-4B2B-9094-04844E9BD280</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a10.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a10.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α9</title>
-            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a9i.dmg</link>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a9i.dmg</link>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Tue, 28 May 2013 22:53:54 +0200</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a9i.dmg" length="23421095" type="application/octet-stream" sparkle:version="0.7.0.1.9" sparkle:shortVersionString="v0.7α9" sparkle:dsaSignature="MCwCFDwjytPnBWurcl5oZEwiErWrgxTEAhQoWVKnzMP2Jn5DPvRBppXCUENiwg=="/>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a9i.dmg" length="23421095" type="application/octet-stream" sparkle:version="0.7.0.1.9" sparkle:shortVersionString="v0.7α9" sparkle:dsaSignature="MCwCFDwjytPnBWurcl5oZEwiErWrgxTEAhQoWVKnzMP2Jn5DPvRBppXCUENiwg=="/>
             <guid isPermaLink="false">0726DBBA-913F-46B1-A794-D559661A59AE</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a9.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a9.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α8</title>
-            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a8c.dmg</link>
+            <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a8c.dmg</link>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Tue, 28 May 2013 14:54:44 +0200</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a8i.dmg" length="24463300" type="application/octet-stream" sparkle:version="0.7.0.1.8" sparkle:shortVersionString="v0.7α8" sparkle:dsaSignature="MCwCFFWiHASNHNO12QNMhUtlf9y/o/BOAhRlLdNwFPRWQnLB7SD0JqIsRzhioQ=="/>
+            <enclosure url="http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a8i.dmg" length="24463300" type="application/octet-stream" sparkle:version="0.7.0.1.8" sparkle:shortVersionString="v0.7α8" sparkle:dsaSignature="MCwCFFWiHASNHNO12QNMhUtlf9y/o/BOAhRlLdNwFPRWQnLB7SD0JqIsRzhioQ=="/>
             <guid isPermaLink="false">CFEF3667-24E0-4A21-B1AC-CD6FEFC7956C</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a8.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a8.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α7</title>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Sun, 31 Mar 2013 23:46:01 +0200</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="21783551" type="application/octet-stream" sparkle:version="0.7.0.1.7" sparkle:shortVersionString="v0.7α7" sparkle:dsaSignature="MC0CFQCAcO59cL+tjoCfJ5jVV7WOnsswJAIUdt1tJBOSdhUzaMECpqJxScbpmWQ="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="21783551" type="application/octet-stream" sparkle:version="0.7.0.1.7" sparkle:shortVersionString="v0.7α7" sparkle:dsaSignature="MC0CFQCAcO59cL+tjoCfJ5jVV7WOnsswJAIUdt1tJBOSdhUzaMECpqJxScbpmWQ="/>
             <guid isPermaLink="false">BDE92F48-9B70-473D-AF3F-CE5169A78E98</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a7.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a7.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α6</title>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Sun, 31 Mar 2013 16:05:20 +0200</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="21786878" type="application/octet-stream" sparkle:version="0.7.0.1.6" sparkle:shortVersionString="v0.7α6" sparkle:dsaSignature="MCwCFEoP0+Ji2FU6vo3+/jMYtm6cH95uAhRyHnO+w3jyn9049hoV5/Y+ZD1LUQ=="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="21786878" type="application/octet-stream" sparkle:version="0.7.0.1.6" sparkle:shortVersionString="v0.7α6" sparkle:dsaSignature="MCwCFEoP0+Ji2FU6vo3+/jMYtm6cH95uAhRyHnO+w3jyn9049hoV5/Y+ZD1LUQ=="/>
             <guid isPermaLink="false">E669B514-0AD8-4946-8A35-216FECE84DC2</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a6.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a6.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α5</title>
             <author>vimediamanager@gmail.com</author>
             <pubDate>Fri, 01 Mar 2013 01:12:34 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="17505652" type="application/octet-stream" sparkle:version="0.7.0.1.5" sparkle:shortVersionString="v0.7α5" sparkle:dsaSignature="MC0CFEmhOCOWPLq6MgVqIFkWy8zyYj/OAhUAlTmwLvxOxH2WRr63CwcqK9GzdT4="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="17505652" type="application/octet-stream" sparkle:version="0.7.0.1.5" sparkle:shortVersionString="v0.7α5" sparkle:dsaSignature="MC0CFEmhOCOWPLq6MgVqIFkWy8zyYj/OAhUAlTmwLvxOxH2WRr63CwcqK9GzdT4="/>
             <guid isPermaLink="false">AC8BD93E-EDEE-44A3-B590-843E404A552D</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a5.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a5.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α4</title>
             <author>vidal.vanbergen@gmail.com</author>
             <pubDate>Thu, 28 Feb 2013 23:45:55 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="17510353" type="application/octet-stream" sparkle:version="0.7.0.1.4" sparkle:shortVersionString="v0.7α4" sparkle:dsaSignature="MC0CFQDMAFM3jYmL6DAXGEhdmCuUb8j6eAIUJHrlJy4tXXm4OaRdTpt43O3QHZc="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="17510353" type="application/octet-stream" sparkle:version="0.7.0.1.4" sparkle:shortVersionString="v0.7α4" sparkle:dsaSignature="MC0CFQDMAFM3jYmL6DAXGEhdmCuUb8j6eAIUJHrlJy4tXXm4OaRdTpt43O3QHZc="/>
             <guid isPermaLink="false">049159E1-49EF-4E4C-9C63-921AA984E4F1</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a4.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a4.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α3</title>
             <author>vidal.vanbergen@gmail.com</author>
             <pubDate>Tue, 19 Feb 2013 17:16:29 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/cocoa_latest.php" length="18210920" type="application/octet-stream" sparkle:version="0.7.0.1.3" sparkle:shortVersionString="v0.7α3" sparkle:dsaSignature="MC0CFQC8csPNXmKPt0NYdSMuhnDypltXFgIUWvHzmY/0xHw2nd18qX2vuJ2Gk8E="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/cocoa_latest.php" length="18210920" type="application/octet-stream" sparkle:version="0.7.0.1.3" sparkle:shortVersionString="v0.7α3" sparkle:dsaSignature="MC0CFQC8csPNXmKPt0NYdSMuhnDypltXFgIUWvHzmY/0xHw2nd18qX2vuJ2Gk8E="/>
             <guid isPermaLink="false">E91A9290-7E3B-4015-B2ED-DDA3316AB076</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a3.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a3.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α2</title>
             <author>vidal.vanbergen@gmail.com</author>
             <pubDate>Tue, 19 Feb 2013 11:36:28 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="17216703" type="application/octet-stream" sparkle:version="0.7.0.1.2" sparkle:shortVersionString="v0.7α2" sparkle:dsaSignature="MC0CFQC1bMYARUAeukTxperLIXjk9AJEbgIUBJ+HRenLLLDqCQf5sVSUKoE2wIU="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="17216703" type="application/octet-stream" sparkle:version="0.7.0.1.2" sparkle:shortVersionString="v0.7α2" sparkle:dsaSignature="MC0CFQC1bMYARUAeukTxperLIXjk9AJEbgIUBJ+HRenLLLDqCQf5sVSUKoE2wIU="/>
             <guid isPermaLink="false">B4690368-C173-4D6A-BCAF-B158EB74D7DC</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a2.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a2.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
         </item>
         <item>
             <title>ViMediaManager-0.7α1</title>
             <pubDate>Tue, 12 Feb 2013 22:52:02 +0100</pubDate>
-            <enclosure url="http://mariusth.channelwood.org/vimediamanager/files/intel_latest.php" length="17064770" type="application/octet-stream" sparkle:version="0.7.0.1.1" sparkle:shortVersionString="v0.7α1" sparkle:dsaSignature="MCwCFC5p/ZkvaMRH56IjTlLaQotpXmJrAhQW8pE9bDtvOIAQAkHeHcyzFrmEIw=="/>
+            <enclosure url="http://vitalis.hostfree.pw/vimediamanager/files/intel_latest.php" length="17064770" type="application/octet-stream" sparkle:version="0.7.0.1.1" sparkle:shortVersionString="v0.7α1" sparkle:dsaSignature="MCwCFC5p/ZkvaMRH56IjTlLaQotpXmJrAhQW8pE9bDtvOIAQAkHeHcyzFrmEIw=="/>
             <guid isPermaLink="false">B56FCDB4-73BB-4BA3-8064-5E9D733950DE</guid>
-            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a1.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>http://vitalis.hostfree.pw/vimediamanager/updates/0.7a1.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>ViMediaManager-0.6α7</title>
