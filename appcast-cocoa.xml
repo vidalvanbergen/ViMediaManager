@@ -4,18 +4,48 @@
         <title>ViMediaManager</title>
         <link>http://mariusth.channelwood.org/vimediamanager/</link>
         <description>ViMediaManager is a media manager for Mac OS X, allowing you to gather, store, and manage information, extra art, trailers and television tunes for your movie, television and anime collections, and can be used on it’s own, or in combination with XBMC, YAMJ or Boxee.</description>
-        <generator>Feeder 2.3.7(1701); Mac OS X Version 10.8.3 (Build 12D78) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 2.3.7(1701); Mac OS X Version 10.9.1 (Build 13B42) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Tue, 28 May 2013 16:48:59 +0200</pubDate>
-        <lastBuildDate>Tue, 28 May 2013 16:48:59 +0200</lastBuildDate>
-        <atom:link href="http://mariusth.channelwood.org/vimediamanager/appcast-cocoa.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 09 Jan 2014 11:49:55 +0100</pubDate>
+        <lastBuildDate>Thu, 09 Jan 2014 11:49:55 +0100</lastBuildDate>
+        <atom:link href="http://mariusth.heliohost.org/vimediamanager/appcast-cocoa.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>ViMediaManager-0.7α12</title>
+            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a12c.dmg</link>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Thu, 09 Jan 2014 11:38:32 +0100</pubDate>
+            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a12c.dmg" length="24742161" type="application/octet-stream" sparkle:version="0.7.0.1.12" sparkle:shortVersionString="v0.7α12" sparkle:dsaSignature="MC0CFB1IsEJvIa5RVPS9zbosbXTNuCzbAhUAgg7+6h5suRQ8BBMouSTZ2tLtzoc="/>
+            <guid isPermaLink="false">1EBF3959-C19E-47B3-81A7-B10CB1BD4ABC</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a12.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>ViMediaManager-0.7α11</title>
+            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a11c.dmg</link>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Wed, 31 Jul 2013 17:37:49 +0200</pubDate>
+            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a11c.dmg" length="24764470" type="application/octet-stream" sparkle:version="0.7.0.1.11" sparkle:shortVersionString="v0.7α11" sparkle:dsaSignature="MC0CFG+vvD4xMk4wKptcL3+PLBZ8kP8qAhUAm+e2sYSb5hQVXveAA4Glfh194Kc="/>
+            <guid isPermaLink="false">BF9BCCDD-AC02-4EC3-BF49-70447BC31FFD</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a11.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>ViMediaManager-0.7α10</title>
+            <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a10c.dmg</link>
+            <author>vimediamanager@gmail.com</author>
+            <pubDate>Thu, 30 May 2013 16:52:45 +0200</pubDate>
+            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a10c.dmg" length="24459875" type="application/octet-stream" sparkle:version="0.7.0.1.10" sparkle:shortVersionString="v0.7α10" sparkle:dsaSignature="MC4CFQDIUck6ZwhENhLLKZdNML4JyCqz/QIVALyCOolZQwES4GQuaF2uzG7kVsA0"/>
+            <guid isPermaLink="false">6B17925B-7474-4B2B-9094-04844E9BD280</guid>
+            <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a10.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>ViMediaManager-0.7α9</title>
             <link>http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a9c.dmg</link>
             <author>vimediamanager@gmail.com</author>
-            <pubDate>Tue, 28 May 2013 16:48:54 +0200</pubDate>
-            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a8c.dmg" length="24463028" type="application/octet-stream" sparkle:version="0.7.0.1.9" sparkle:shortVersionString="v0.7α9" sparkle:dsaSignature="MC0CFAuE/tBPoUxB7r2imxL1hIfoSCsFAhUApuSgBPYhjmcTBioAoQtQMVJRV0w="/>
+            <pubDate>Tue, 28 May 2013 22:53:41 +0200</pubDate>
+            <enclosure url="http://dstats.net/download/http://mariusth.channelwood.org/vimediamanager/files/vimediamanager_v0.7a9c.dmg" length="24463028" type="application/octet-stream" sparkle:version="0.7.0.1.9" sparkle:shortVersionString="v0.7α9" sparkle:dsaSignature="MCwCFGwN6vJQs4YRPaano2mPlWbCTtNCAhRIxCaYelyuiNs7XOzlY6Wrqfymcg=="/>
             <guid isPermaLink="false">0726DBBA-913F-46B1-A794-D559661A59AE</guid>
             <sparkle:releaseNotesLink>http://mariusth.channelwood.org/vimediamanager/updates/0.7a9.html</sparkle:releaseNotesLink>
             <sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
