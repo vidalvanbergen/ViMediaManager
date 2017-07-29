@@ -2,13 +2,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ViMediaManager</title>
-        <link>http://vitalis.hostfree.pw/vimediamanager/</link>
+        <link>http://vitalis.heliohost.org/vimediamanager/</link>
         <description>ViMediaManager is a media manager for Mac OS X, allowing you to gather, store, and manage information, extra art, trailers and television tunes for your movie, television and anime collections, and can be used on it’s own, or in combination with XBMC, YAMJ or Boxee.</description>
-        <generator>Feeder 3 3.3.1(2836); Mac OS X Version 10.12.1 (Build 16B2657) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 3 3.3.1(2836); Mac OS X Version 10.12.6 (Build 16G29) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Fri, 09 Dec 2016 00:20:37 +0100</pubDate>
-        <lastBuildDate>Fri, 09 Dec 2016 00:20:37 +0100</lastBuildDate>
+        <pubDate>Sat, 29 Jul 2017 14:13:56 +0200</pubDate>
+        <lastBuildDate>Sat, 29 Jul 2017 14:13:56 +0200</lastBuildDate>
+        <item>
+            <title>ViMediaManager-0.7α15</title>
+            <link>https://github.com/vidalvanbergen/ViMediaManager/releases/download/v7a15/vimediamanager_v0.7a15i.dmg</link>
+            <pubDate>Sat, 29 Jul 2017 14:03:44 +0200</pubDate>
+            <enclosure url="https://github.com/vidalvanbergen/ViMediaManager/releases/download/v7a15/vimediamanager_v0.7a15i.dmg" length="24109579" type="application/octet-stream" sparkle:version="0.7.0.1.15" sparkle:shortVersionString="v0.7α15"/>
+            <guid isPermaLink="false">8A120E05-7DB6-4714-B02E-9B61367D13D8</guid>
+            <sparkle:releaseNotesLink>http://vitalis.heliohost.org/vimediamanager/updates/0.7a15.html</sparkle:releaseNotesLink>
+        </item>
         <item>
             <title>ViMediaManager-0.7α14</title>
             <link>http://dstats.net/download/http://vitalis.hostfree.pw/vimediamanager/files/vimediamanager_v0.7a14i.dmg</link>
