@@ -4,11 +4,19 @@
         <title>ViMediaManager</title>
         <link>http://vitalis.heliohost.org/vimediamanager/</link>
         <description>ViMediaManager is a media manager for Mac OS X, allowing you to gather, store, and manage information, extra art, trailers and television tunes for your movie, television and anime collections, and can be used on it’s own, or in combination with XBMC, YAMJ or Boxee.</description>
-        <generator>Feeder 3 3.4.6(2954); Mac OS X Version 10.13.4 (Build 17E199) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 3 3.5.10(3072); Mac OS X Version 10.13.6 (Build 17G65) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <pubDate>Fri, 27 Apr 2018 01:17:53 +0200</pubDate>
-        <lastBuildDate>Fri, 27 Apr 2018 01:17:53 +0200</lastBuildDate>
+        <pubDate>Sat, 25 Aug 2018 21:32:42 +0200</pubDate>
+        <lastBuildDate>Sat, 25 Aug 2018 21:32:42 +0200</lastBuildDate>
+        <item>
+            <title>ViMediaManager-0.7α18</title>
+            <link>https://github.com/vidalvanbergen/ViMediaManager/releases/download/v0.7a18/ViMediaManager_v0.7.18c.dmg</link>
+            <pubDate>Sat, 25 Aug 2018 21:32:41 +0200</pubDate>
+            <enclosure url="https://github.com/vidalvanbergen/ViMediaManager/releases/download/v0.7a18/ViMediaManager_v0.7.18c.dmg" length="18209183" type="application/octet-stream" sparkle:version="0.7.0.1.18" sparkle:shortVersionString="v0.7α18"/>
+            <guid isPermaLink="false">2C64C0EF-9A8B-4CF2-8A3C-91F5F0A3F56B</guid>
+            <sparkle:releaseNotesLink>http://vitalis.heliohost.org/vimediamanager/updates/0.7a18.html</sparkle:releaseNotesLink>
+        </item>
         <item>
             <title>ViMediaManager-0.7α17</title>
             <link>https://github.com/vidalvanbergen/ViMediaManager/releases/download/v7a17/ViMediaManager_v0.7.17c.dmg</link>
