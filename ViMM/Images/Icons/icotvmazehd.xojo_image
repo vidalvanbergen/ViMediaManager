@@ -1,0 +1,40 @@
+#tag MultiImage
+Image icotvmazehd
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHWAAAAAAHWAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8RaWNvLXR2bWF6ZS1oZC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAABUljb25zAAACAG4vOlVzZXJzOlZpZGFsOkRvY3VtZW50czpYb2pvIFByb2plY3RzOkBQcm9qZWN0czpWaU1lZGlhTWFuYWdlciAwLjd4IDY0IEJpdDpWaU1NOkltYWdlczpJY29uczppY28tdHZtYXplLWhkLnBuZwAOACQAEQBpAGMAbwAtAHQAdgBtAGEAegBlAC0AaABkAC4AcABuAGcADwAYAAsATQBhAGMAQgBvAG8AawAgAFAAcgBvABIAbFVzZXJzL1ZpZGFsL0RvY3VtZW50cy9Yb2pvIFByb2plY3RzL0BQcm9qZWN0cy9WaU1lZGlhTWFuYWdlciAwLjd4IDY0IEJpdC9WaU1NL0ltYWdlcy9JY29ucy9pY28tdHZtYXplLWhkLnBuZwATAAEvAAAVAAIADP//AAAAAAAAAAA=
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/Icons/ico-tvmaze-hd.png
+		PartialPath = Images\Icons\ico-tvmaze-hd.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 64.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 64.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 64.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 64.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 64.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 64.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

@@ -1,0 +1,43 @@
+#tag MultiImage
+Image template_openbook
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIMAAAAAAIMAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8VdGVtcGxhdGVfb3BlbmJvb2sucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAABQTkdmOEJJTf////8AAAogY3UAAAAAAAAAAAAAAAAAB1Rvb2xiYXIAAAIAhC86VXNlcnM6VmlkYWw6RG9jdW1lbnRzOlhvam8gUHJvamVjdHM6QFByb2plY3RzOlZpTWVkaWFNYW5hZ2VyIDAuN3ggNjQgQml0OlZpTU06SW1hZ2VzOlRlbXBsYXRlX0ltYWdlczpUb29sYmFyOnRlbXBsYXRlX29wZW5ib29rLnBuZwAOACwAFQB0AGUAbQBwAGwAYQB0AGUAXwBvAHAAZQBuAGIAbwBvAGsALgBwAG4AZwAPABgACwBNAGEAYwBCAG8AbwBrACAAUAByAG8AEgCCVXNlcnMvVmlkYWwvRG9jdW1lbnRzL1hvam8gUHJvamVjdHMvQFByb2plY3RzL1ZpTWVkaWFNYW5hZ2VyIDAuN3ggNjQgQml0L1ZpTU0vSW1hZ2VzL1RlbXBsYXRlX0ltYWdlcy9Ub29sYmFyL3RlbXBsYXRlX29wZW5ib29rLnBuZwATAAEvAAAVAAIADP//AAAAAAAAAAA=
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/Template_Images/Toolbar/template_openbook.png
+		PartialPath = Images\Template_Images\Toolbar\template_openbook.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 32.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 32.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIaAAAAAAIaAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8YdGVtcGxhdGVfb3BlbmJvb2tAMngucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAABQTkdmOEJJTf////8AAAogY3UAAAAAAAAAAAAAAAAAB1Rvb2xiYXIAAAIAhy86VXNlcnM6VmlkYWw6RG9jdW1lbnRzOlhvam8gUHJvamVjdHM6QFByb2plY3RzOlZpTWVkaWFNYW5hZ2VyIDAuN3ggNjQgQml0OlZpTU06SW1hZ2VzOlRlbXBsYXRlX0ltYWdlczpUb29sYmFyOnRlbXBsYXRlX29wZW5ib29rQDJ4LnBuZwAADgAyABgAdABlAG0AcABsAGEAdABlAF8AbwBwAGUAbgBiAG8AbwBrAEAAMgB4AC4AcABuAGcADwAYAAsATQBhAGMAQgBvAG8AawAgAFAAcgBvABIAhVVzZXJzL1ZpZGFsL0RvY3VtZW50cy9Yb2pvIFByb2plY3RzL0BQcm9qZWN0cy9WaU1lZGlhTWFuYWdlciAwLjd4IDY0IEJpdC9WaU1NL0ltYWdlcy9UZW1wbGF0ZV9JbWFnZXMvVG9vbGJhci90ZW1wbGF0ZV9vcGVuYm9va0AyeC5wbmcAABMAAS8AABUAAgAM//8AAAAAAAAAAA==
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/Template_Images/Toolbar/template_openbook@2x.png
+		PartialPath = Images\Template_Images\Toolbar\template_openbook@2x.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 32.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 32.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 32.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 32.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

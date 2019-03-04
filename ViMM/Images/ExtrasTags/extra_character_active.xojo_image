@@ -1,0 +1,43 @@
+#tag MultiImage
+Image extra_character_active
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIIAAAAAAIIAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8aZXh0cmFfY2hhcmFjdGVyX2FjdGl2ZS5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAACkV4dHJhc1RhZ3MAAgB8LzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6RXh0cmFzVGFnczpleHRyYV9jaGFyYWN0ZXJfYWN0aXZlLnBuZwAOADYAGgBlAHgAdAByAGEAXwBjAGgAYQByAGEAYwB0AGUAcgBfAGEAYwB0AGkAdgBlAC4AcABuAGcADwAYAAsATQBhAGMAQgBvAG8AawAgAFAAcgBvABIAelVzZXJzL1ZpZGFsL0RvY3VtZW50cy9Yb2pvIFByb2plY3RzL0BQcm9qZWN0cy9WaU1lZGlhTWFuYWdlciAwLjd4IDY0IEJpdC9WaU1NL0ltYWdlcy9FeHRyYXNUYWdzL2V4dHJhX2NoYXJhY3Rlcl9hY3RpdmUucG5nABMAAS8AABUAAgAM//8AAAAAAAAAAA==
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/ExtrasTags/extra_character_active.png
+		PartialPath = Images\ExtrasTags\extra_character_active.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIWAAAAAAIWAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8dZXh0cmFfY2hhcmFjdGVyX2FjdGl2ZUAyeC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAACkV4dHJhc1RhZ3MAAgB/LzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6RXh0cmFzVGFnczpleHRyYV9jaGFyYWN0ZXJfYWN0aXZlQDJ4LnBuZwAADgA8AB0AZQB4AHQAcgBhAF8AYwBoAGEAcgBhAGMAdABlAHIAXwBhAGMAdABpAHYAZQBAADIAeAAuAHAAbgBnAA8AGAALAE0AYQBjAEIAbwBvAGsAIABQAHIAbwASAH1Vc2Vycy9WaWRhbC9Eb2N1bWVudHMvWG9qbyBQcm9qZWN0cy9AUHJvamVjdHMvVmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQvVmlNTS9JbWFnZXMvRXh0cmFzVGFncy9leHRyYV9jaGFyYWN0ZXJfYWN0aXZlQDJ4LnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/ExtrasTags/extra_character_active@2x.png
+		PartialPath = Images\ExtrasTags\extra_character_active@2x.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

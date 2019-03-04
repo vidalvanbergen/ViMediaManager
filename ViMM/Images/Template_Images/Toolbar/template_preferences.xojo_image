@@ -1,0 +1,43 @@
+#tag MultiImage
+Image template_preferences
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAISAAAAAAISAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8YdGVtcGxhdGVfcHJlZmVyZW5jZXMucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAAD1RlbXBsYXRlX0ltYWdlcwAAAgB/LzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6VGVtcGxhdGVfSW1hZ2VzOnRlbXBsYXRlX3ByZWZlcmVuY2VzLnBuZwAADgAyABgAdABlAG0AcABsAGEAdABlAF8AcAByAGUAZgBlAHIAZQBuAGMAZQBzAC4AcABuAGcADwAYAAsATQBhAGMAQgBvAG8AawAgAFAAcgBvABIAfVVzZXJzL1ZpZGFsL0RvY3VtZW50cy9Yb2pvIFByb2plY3RzL0BQcm9qZWN0cy9WaU1lZGlhTWFuYWdlciAwLjd4IDY0IEJpdC9WaU1NL0ltYWdlcy9UZW1wbGF0ZV9JbWFnZXMvdGVtcGxhdGVfcHJlZmVyZW5jZXMucG5nAAATAAEvAAAVAAIADP//AAAAAAAAAAA=
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/Template_Images/template_preferences.png
+		PartialPath = Images\Template_Images\template_preferences.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 130.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 130.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIcAAAAAAIcAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8bdGVtcGxhdGVfcHJlZmVyZW5jZXNAMngucG5nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAABQTkdmOEJJTf////8AAAogY3UAAAAAAAAAAAAAAAAAD1RlbXBsYXRlX0ltYWdlcwAAAgCCLzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6VGVtcGxhdGVfSW1hZ2VzOnRlbXBsYXRlX3ByZWZlcmVuY2VzQDJ4LnBuZwAOADgAGwB0AGUAbQBwAGwAYQB0AGUAXwBwAHIAZQBmAGUAcgBlAG4AYwBlAHMAQAAyAHgALgBwAG4AZwAPABgACwBNAGEAYwBCAG8AbwBrACAAUAByAG8AEgCAVXNlcnMvVmlkYWwvRG9jdW1lbnRzL1hvam8gUHJvamVjdHMvQFByb2plY3RzL1ZpTWVkaWFNYW5hZ2VyIDAuN3ggNjQgQml0L1ZpTU0vSW1hZ2VzL1RlbXBsYXRlX0ltYWdlcy90ZW1wbGF0ZV9wcmVmZXJlbmNlc0AyeC5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/Template_Images/template_preferences@2x.png
+		PartialPath = Images\Template_Images\template_preferences@2x.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 130.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 130.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 130.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 130.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

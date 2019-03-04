@@ -1,0 +1,43 @@
+#tag MultiImage
+Image extra_themesong_inactive
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIWAAAAAAIWAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8dZXh0cmFfdGhlbWVzb25nX2luYWN0aXZlQC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAP////8AAAogY3UAAAAAAAAAAAAAAAAACkV4dHJhc1RhZ3MAAgB/LzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6RXh0cmFzVGFnczpleHRyYV90aGVtZXNvbmdfaW5hY3RpdmVALnBuZwAADgA8AB0AZQB4AHQAcgBhAF8AdABoAGUAbQBlAHMAbwBuAGcAXwBpAG4AYQBjAHQAaQB2AGUAQAAuAHAAbgBnAA8AGAALAE0AYQBjAEIAbwBvAGsAIABQAHIAbwASAH1Vc2Vycy9WaWRhbC9Eb2N1bWVudHMvWG9qbyBQcm9qZWN0cy9AUHJvamVjdHMvVmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQvVmlNTS9JbWFnZXMvRXh0cmFzVGFncy9leHRyYV90aGVtZXNvbmdfaW5hY3RpdmVALnBuZwAAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/ExtrasTags/extra_themesong_inactive@.png
+		PartialPath = Images\ExtrasTags\extra_themesong_inactive@.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIeAAAAAAIeAAIAAAtNYWNCb29rIFBybwAAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fZXh0cmFfdGhlbWVzb25nX2luYWN0aXZlQDJ4LnBuZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAABQTkdmOEJJTf////8AAAogY3UAAAAAAAAAAAAAAAAACkV4dHJhc1RhZ3MAAgCBLzpVc2VyczpWaWRhbDpEb2N1bWVudHM6WG9qbyBQcm9qZWN0czpAUHJvamVjdHM6VmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQ6VmlNTTpJbWFnZXM6RXh0cmFzVGFnczpleHRyYV90aGVtZXNvbmdfaW5hY3RpdmVAMngucG5nAAAOAEAAHwBlAHgAdAByAGEAXwB0AGgAZQBtAGUAcwBvAG4AZwBfAGkAbgBhAGMAdABpAHYAZQBAADIAeAAuAHAAbgBnAA8AGAALAE0AYQBjAEIAbwBvAGsAIABQAHIAbwASAH9Vc2Vycy9WaWRhbC9Eb2N1bWVudHMvWG9qbyBQcm9qZWN0cy9AUHJvamVjdHMvVmlNZWRpYU1hbmFnZXIgMC43eCA2NCBCaXQvVmlNTS9JbWFnZXMvRXh0cmFzVGFncy9leHRyYV90aGVtZXNvbmdfaW5hY3RpdmVAMngucG5nAAATAAEvAAAVAAIADP//AAAAAAAAAAA=
+		FullPath = /Users/Vidal/Documents/Xojo Projects/@Projects/ViMediaManager 0.7x 64 Bit/ViMM/Images/ExtrasTags/extra_themesong_inactive@2x.png
+		PartialPath = Images\ExtrasTags\extra_themesong_inactive@2x.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = 20.00
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = 20.00
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

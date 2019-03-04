@@ -1,1 +1,0 @@
-#tag ClassProtected Class TVMazeInherits HTTPSocket	#tag Event		Sub Error(code as integer)		  SocketError( code, Me )		  		Exception err as NilObjectException		  Me.Close		End Sub	#tag EndEventEnd Class#tag EndClass
