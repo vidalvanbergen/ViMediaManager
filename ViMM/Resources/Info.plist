@@ -4,12 +4,10 @@
 <dict>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.video</string>
-	<key>NSHighResolutionCapable</key>
-	<true/>
-	<key>NSRequiresAquaSystemAppearance</key>
-	<false/>
 	<key>CFBundleAllowMixedLocalizations</key>
 	<true/>
+	<key>NSAccentColorName</key>
+	<string>TheAccentColor</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>NSAppTransportSecurity</key>
